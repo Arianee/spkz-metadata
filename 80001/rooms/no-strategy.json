@@ -1,0 +1,33 @@
+{
+   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
+   "endpoint":"http://localhost:3000/spkz/rpc",
+   "notificationEndpoint":"ws://localhost:3001",
+   "name":"ARIA20 Backroom",
+   "description":"Welcome to the ARIA20 Backroom, a space exclusively reserved for holders of the ARIA20 token.",
+   "external_url":"https://beta.spkz.io/room/8200974",
+   "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
+   "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
+   "strategies":[
+      []
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"VIP Room",
+         "id":"viproom",
+         "strategiesRead":[
+
+         ]
+      },
+      {
+         "title":"Announcement",
+         "id":"annoucement",
+         "strategiesWrite":[
+
+         ]
+      }
+   ]
+}
