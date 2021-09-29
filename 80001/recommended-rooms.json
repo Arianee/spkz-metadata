@@ -43,7 +43,7 @@
    },
    {
       "roomId":1,
-      "membersNb":0,
+      "membersNb":1400,
       "requirements":[
          {
             "icon":"https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0xedf6568618a00c6f0908bf7758a16f76b6e04af9.png",
