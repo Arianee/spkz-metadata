@@ -1,7 +1,7 @@
 [
    {
       "roomId":0,
-      "room":{
+      "roomDetails":{
          "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
          "endpoint":"http://localhost:3000/spkz/rpc",
          "notificationEndpoint":"ws://localhost:3001",
@@ -51,7 +51,7 @@
             "requiredAmount":"10"
          }
       ],
-      "room":{
+      "roomDetails":{
          "rpcEndpoint":"https://node1.speakez.arianee.org/rpc",
          "name":"Arianee",
          "description":"First Arianee Demo Room ! Open to all Aria Holders !",
