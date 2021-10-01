@@ -1,134 +1,16 @@
 [
    {
-      "roomId":0,
+      "roomId":-1,
       "roomDetails":{
-         "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-         "endpoint":"http://localhost:3000/spkz/rpc",
-         "notificationEndpoint":"ws://localhost:3001",
-         "name":"ARIA20 Backroom",
-         "description":"Welcome to the ARIA20 Backroom, a space exclusively reserved for holders of the ARIA20 token.",
-         "external_url":"https://beta.spkz.io/room/8200974",
-         "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
-         "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
-         "strategies":[
-            [
-               
-            ]
-         ],
-         "sections":[
-            {
-               "title":"Chat",
-               "id":"chat"
-            },
-            {
-               "title":"VIP Room",
-               "id":"viproom",
-               "strategiesRead":[
-                  
-               ]
-            },
-            {
-               "title":"Announcement",
-               "id":"annoucement",
-               "strategiesWrite":[
-                  
-               ]
-            }
-         ]
-      },
-      "membersNb":0,
-      "requirements":[
-         
-      ]
+         "name":"Hitchhiker’s Community (fake)",
+         "logo":"https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555442034/shape/mentalfloss/hitch.png"
+      }
    },
    {
-      "roomId":1,
-      "membersNb":1400,
-      "requirements":[
-         {
-            "icon":"https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0xedf6568618a00c6f0908bf7758a16f76b6e04af9.png",
-            "symbol":"aria20",
-            "requiredAmount":"10"
-         }
-      ],
+      "roomId":-1,
       "roomDetails":{
-         "rpcEndpoint":"https://node1.speakez.arianee.org/rpc",
-         "name":"Arianee",
-         "description":"First Arianee Demo Room ! Open to all Aria Holders !",
-         "external_url":"https://spkz.io/",
-         "image":"https://transparianee.herokuapp.com/aria.png",
-         "logo":"https://transparianee.herokuapp.com/arianee-logo.png",
-         "strategies":[
-            {
-               "name":"erc-20-balance-of",
-               "params":{
-                  "minBalance":"1",
-                  "tokens":[
-                     {
-                        "chainId":"1",
-                        "networkId":"1",
-                        "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-                     },
-                     {
-                        "chainId":"137",
-                        "networkId":"1",
-                        "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-                     }
-                  ]
-               }
-            }
-         ],
-         "sections":[
-            {
-               "title":"Welcome",
-               "id":"welcome",
-               "strategiesRead":[
-                  
-               ],
-               "strategiesWrite":[
-                  
-               ]
-            },
-            {
-               "title":"Chat",
-               "id":"chat"
-            },
-            {
-               "title":"VIP Room",
-               "id":"viproom",
-               "strategiesRead":[
-                  {
-                     "name":"erc-20-balance-of",
-                     "params":{
-                        "minBalance":"1000000000000000000000",
-                        "tokens":[
-                           {
-                              "chainId":"1",
-                              "networkId":"1",
-                              "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-                           },
-                           {
-                              "chainId":"137",
-                              "networkId":"1",
-                              "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-                           }
-                        ]
-                     }
-                  }
-               ]
-            },
-            {
-               "title":"Announcement",
-               "id":"annoucement",
-               "strategiesWrite":[
-                  {
-                     "name":"room-owner",
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               ]
-            }
-         ]
+         "name":"SPKZ Team (fake)",
+         "logo":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0748b2ad-5a21-4e9f-a66b-05310553b769/d7lcpkr-cd9e34ed-a265-4dc2-a8e4-bcc533bfbde0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3NDhiMmFkLTVhMjEtNGU5Zi1hNjZiLTA1MzEwNTUzYjc2OVwvZDdsY3Brci1jZDllMzRlZC1hMjY1LTRkYzItYThlNC1iY2M1MzNiZmJkZTAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6_3h8YdGbvNSaTQ7VN7oqdkpM6pZiO4lAjt4xsCV2yI"
       }
    }
 ]
