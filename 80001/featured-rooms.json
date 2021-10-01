@@ -46,11 +46,11 @@
          "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
          "endpoint":"http://localhost:3000/spkz/rpc",
          "notificationEndpoint":"ws://localhost:3001",
-         "name":"ARIA20 Backroom",
-         "description":"Welcome to the ARIA20 Backroom, a space exclusively reserved for holders of the ARIA20 token.",
+         "name":"The localhost room",
+         "description":"This is the tech team room",
          "external_url":"https://beta.spkz.io/room/8200974",
          "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
-         "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
+         "logo":"https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
          "strategies":[
             [
                
