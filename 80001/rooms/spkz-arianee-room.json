@@ -1,5 +1,5 @@
 {
-    "rpcEndpoint":"https://node1.speakez.arianee.org/rpc",
+    "endpoint":"https://node1.speakez.arianee.org/rpc",
     "name":"Arianee",
     "description": "First Arianee Demo Room ! Open to all Aria Holders !",
     "external_url": "https://spkz.io/",
