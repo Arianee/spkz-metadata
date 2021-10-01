@@ -1,5 +1,41 @@
 [
    {
+      "roomId":4,
+      "membersNb":0,
+      "requirements":[
+         
+      ],
+      "roomDetails":{
+         "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
+         "endpoint":"https://node1.speakez.arianee.org/rpc",
+         "name":"The Polygon/Matic Community",
+         "description":"With a first version of the game deployed in February 2021, Cometh rapidly became the most active blockchain game. Cometh innovates by leveraging the unique features of the blockchain to foster entertainment and to propose the best gateway to Decentralized Finance.",
+         "external_url":"https://polygonscan.com/",
+         "strategies":[
+            
+         ],
+         "logo":"https://polygonscan.com/token/images/wMatic_32.png",
+         "sections":[
+            {
+               "title":"Chat",
+               "id":"chat"
+            },
+            {
+               "title":"Validators",
+               "id":"validators"
+            },
+            {
+               "title":"Polygon Developers",
+               "id":"developers"
+            },
+            {
+               "title":"off topic!",
+               "id":"offtopic"
+            }
+         ]
+      }
+   },
+   {
       "rommId":3,
       "membersNb":0,
       "requirements":[
