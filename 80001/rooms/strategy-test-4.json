@@ -1,6 +1,6 @@
 {
-   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-   "endpoint":"https://node1.speakez.arianee.org/spkz/rpc",
+   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+  "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"The Polygon/Matic Community",
    "description":"With a first version of the game deployed in February 2021, Cometh rapidly became the most active blockchain game. Cometh innovates by leveraging the unique features of the blockchain to foster entertainment and to propose the best gateway to Decentralized Finance.",
    "external_url":"https://polygonscan.com/",
