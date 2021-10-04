@@ -6,8 +6,7 @@
          
       ],
       "roomDetails":{
-         "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-         "endpoint":"https://node1.speakez.arianee.org/rpc",
+         "endpoint":"https://node1.speakez.arianee.org/spkz/rpc",
          "name":"The Polygon/Matic Community",
          "description":"With a first version of the game deployed in February 2021, Cometh rapidly became the most active blockchain game. Cometh innovates by leveraging the unique features of the blockchain to foster entertainment and to propose the best gateway to Decentralized Finance.",
          "external_url":"https://polygonscan.com/",
@@ -42,8 +41,7 @@
          
       ],
       "roomDetails":{
-         "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-         "endpoint":"https://node1.speakez.arianee.org/rpc",
+         "endpoint":"https://node1.speakez.arianee.org/spkz/rpc",
          "name":"Cometh: THE CONQUEST OF THE BLOCKCHAIN SPACE",
          "description":"With a first version of the game deployed in February 2021, Cometh rapidly became the most active blockchain game. Cometh innovates by leveraging the unique features of the blockchain to foster entertainment and to propose the best gateway to Decentralized Finance.",
          "external_url":"https://www.cometh.io/about",
@@ -79,7 +77,6 @@
    {
       "roomId":0,
       "roomDetails":{
-         "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
          "endpoint":"http://localhost:3000/spkz/rpc",
          "notificationEndpoint":"ws://localhost:3001",
          "name":"The localhost room",
@@ -129,7 +126,7 @@
          }
       ],
       "roomDetails":{
-         "rpcEndpoint":"https://node1.speakez.arianee.org/rpc",
+         "endpoint":"https://node1.speakez.arianee.org/spkz/rpc",
          "name":"Arianee",
          "description":"First Arianee Demo Room ! Open to all Aria Holders !",
          "external_url":"https://spkz.io/",
