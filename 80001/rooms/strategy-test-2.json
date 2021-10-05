@@ -36,25 +36,81 @@
   ],
   "sections":[
     {
-      "title":"Announcement",
-      "id":"annoucement",
-      "strategiesWrite":[]
+      "title":"Welcome",
+      "id":"welcome",
+      "strategiesWrite":[{
+        "name":"room-owner"
+      }],
+      "strategiesRead":[]      
    },        
     {
        "title":"Announcement",
        "id":"annoucement",
-       "strategiesWrite":[]
+       "strategiesWrite":[{
+        "name":"room-owner"
+      }]
     },    
      {
         "title":"Chat",
         "id":"chat"
      },
      {
-        "title":"VIP Room",
+        "title":"VIP Room (min 1 aria)",
         "id":"viproom",
         "strategiesRead":[
-           
+          [
+             {
+                "name":"erc-20-balance-of",
+                "params":{
+                   "minBalance":"1000000000000000000",
+                   "tokens":[
+                      {
+                         "chainId":"77",
+                         "networkId":"1",
+                         "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                      },
+                      {
+                       "chainId": "1",
+                       "networkId": "1",
+                       "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+                    },
+                    {
+                       "chainId": "137",
+                       "networkId": "1",
+                       "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+                    }                 
+                   ]
+                }
+             }
+          ]
+       ],
+       "strategiesWrite":[
+        [
+           {
+              "name":"erc-20-balance-of",
+              "params":{
+                 "minBalance":"1000000000000000000",
+                 "tokens":[
+                    {
+                       "chainId":"77",
+                       "networkId":"1",
+                       "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                    },
+                    {
+                     "chainId": "1",
+                     "networkId": "1",
+                     "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+                  },
+                  {
+                     "chainId": "137",
+                     "networkId": "1",
+                     "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+                  }                 
+                 ]
+              }
+           }
         ]
+     ]   
      }
   ]
 }
