@@ -1,0 +1,33 @@
+{
+  "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
+  "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+  "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+  "name":"Developpement testnet room",
+  "description":"Room developpement node0 mumbai",
+  "external_url":"https://beta.spkz.io/room/mumbai/1",
+  "image":"",
+  "logo":"",
+  "strategies":[
+    []
+  ],
+  "sections":[
+    {
+      "title":"Chat",
+      "id":"chat"
+    },
+    {
+      "title":"VIP Room",
+      "id":"viproom",
+      "strategiesRead":[
+
+      ]
+    },
+    {
+      "title":"Announcement",
+      "id":"annoucement",
+      "strategiesWrite":[
+
+      ]
+    }
+  ]
+}
