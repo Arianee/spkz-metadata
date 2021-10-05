@@ -27,7 +27,7 @@
       {
          "title":"Sokol Aria Owners",
          "id":"sokolariaowners",
-         "strategiesRead":[
+         "readStrategies":[
             {
                "name":"erc-20-balance-of",
                "params":{
