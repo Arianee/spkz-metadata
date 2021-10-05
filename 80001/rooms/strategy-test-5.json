@@ -26,10 +26,10 @@
     "sections":[     
       {
          "title":"Announcement",
-         "id":"annoucement",
-         "writeStrategies":[{
+         "id":"announcement",
+         "writeStrategies":[[{
           "name":"room-owner"
-        }]
+        }]]
       },    
        {
           "title":"Chat",

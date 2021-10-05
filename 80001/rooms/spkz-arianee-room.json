@@ -35,7 +35,7 @@
       {
          "title":"VIP Room",
          "id":"viproom",
-         "strategiesRead":[{
+         "readStrategies":[{
             "name":"erc-20-balance-of",
             "params":{
                "minBalance":"1000000000000000000000",

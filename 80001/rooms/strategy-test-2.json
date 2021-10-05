@@ -2,7 +2,7 @@
   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-  "name":"ARIA20 (official testnet room)",
+  "name":"ARIA20 (official testnet room !)",
   "description":"Welcome to the ARIA20, a space exclusively reserved for holders of the ARIA20 token.",
   "external_url":"https://dev.spkz.io/app/lounges/2",
   "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
@@ -38,17 +38,21 @@
     {
       "title":"Welcome",
       "id":"welcome",
-      "writeStrategies":[{
-        "name":"room-owner"
-      }],
+      "writeStrategies":[[{
+        "name":"room-owner",
+        "chainId": "80001",
+        "networkId": "1"        
+      }]],
       "readStrategies":[]      
    },        
     {
        "title":"Announcement",
        "id":"annoucement",
-       "writeStrategies":[{
-        "name":"room-owner"
-      }]
+       "writeStrategies":[[{
+        "name":"room-owner",
+        "chainId": "80001",
+        "networkId": "1"        
+      }]]
     },    
      {
         "title":"Chat",
