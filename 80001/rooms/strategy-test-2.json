@@ -38,15 +38,15 @@
     {
       "title":"Welcome",
       "id":"welcome",
-      "strategiesWrite":[{
+      "writeStrategies":[{
         "name":"room-owner"
       }],
-      "strategiesRead":[]      
+      "readStrategies":[]      
    },        
     {
        "title":"Announcement",
        "id":"annoucement",
-       "strategiesWrite":[{
+       "writeStrategies":[{
         "name":"room-owner"
       }]
     },    
@@ -57,7 +57,7 @@
      {
         "title":"VIP Room (min 1 aria)",
         "id":"viproom",
-        "strategiesRead":[
+        "readStrategies":[
           [
              {
                 "name":"erc-20-balance-of",
@@ -84,7 +84,7 @@
              }
           ]
        ],
-       "strategiesWrite":[
+       "writeStrategies":[
         [
            {
               "name":"erc-20-balance-of",
