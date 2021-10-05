@@ -1,1 +1,78 @@
-
+{
+    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+    "name":"MaticPunks",
+    "description":"Welcome to the MaticPunks, a space exclusively reserved for holders of MaticPunks NFTs.",
+    "external_url":"https://dev.spkz.io/app/lounges/2",
+    "image":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+    "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+    "strategies":[
+       [
+          {
+             "name":"erc-721-balance-of",
+             "params":{
+                "minBalance":"1",
+                "tokens":[
+                 {
+                    "chainId": "137",
+                    "networkId": "1",
+                    "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                 }                 
+                ]
+             }
+          }
+       ]
+    ],
+    "sections":[     
+      {
+         "title":"Announcement",
+         "id":"annoucement",
+         "writeStrategies":[{
+          "name":"room-owner"
+        }]
+      },    
+       {
+          "title":"Chat",
+          "id":"chat"
+       },
+       {
+          "title":"VIP Room (min 2 MaticPunks)",
+          "id":"viproom",
+          "readStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "params":{
+                     "minBalance":"2",
+                     "tokens":[
+                        {
+                            "chainId": "137",
+                            "networkId": "1",
+                            "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                         }                      
+                     ]
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "params":{
+                     "minBalance":"2",
+                     "tokens":[
+                        {
+                            "chainId": "137",
+                            "networkId": "1",
+                            "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                         }                      
+                     ]
+                  }
+               }
+            ]
+         ]  
+       }
+    ]
+  }
+  
