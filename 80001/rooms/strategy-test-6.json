@@ -1,1 +1,128 @@
-
+{
+    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+    "name":"World Of Women",
+    "description":"World of Women was created with the aim of bringing more diversity and representativity into the NFT space while at the same time bridging the gap between the collectible world and the 1/1 art world.",
+    "external_url":"https://dev.spkz.io/app/lounges/6",
+    "image":"https://lh3.googleusercontent.com/z3epSkvjUVEgU8BgHHRycko4OebPrFlTeNJtVow1aHtYgYp8hnmE9r9X8pGlQRS2z2_3Zjd9bBz15JRNdHFjhIi7KbOu28OTmFFaIg=h600",
+    "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
+    "strategies":[
+       [
+          {
+             "name":"erc-721-balance-of",
+             "params":{
+                "minBalance":"1",
+                "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
+                "tokens":[
+                 {
+                    "chainId": "1",
+                    "networkId": "1",
+                    "address":"0xe785e82358879f061bc3dcac6f0444462d4b5330"
+                 },
+                 {
+                    "chainId": "137",
+                    "networkId": "1",
+                    "address":"0x2953399124f0cbb46d2cbacd8a89cf0599974963"
+                 }                                                    
+                ]
+             }
+          }
+       ]
+    ],
+    "sections":[     
+      {
+         "title":"Announcements",
+         "id":"announcements",
+         "writeStrategies":[[{
+          "name":"room-owner",
+          "chainId": "80001",
+          "networkId": "1"              
+        }]]
+      },    
+       {
+          "title":"Chat",
+          "id":"chat"
+       },
+       {
+          "title":"VIP Room (original WoW)",
+          "id":"viproom",
+          "readStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "params":{
+                     "minBalance":"1",
+                     "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
+                     "tokens":[
+                        {
+                            "chainId": "1",
+                            "networkId": "1",
+                            "address":"0xe785e82358879f061bc3dcac6f0444462d4b5330"
+                         }                      
+                     ]
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
+                  "params":{
+                     "minBalance":"1",
+                     "tokens":[
+                        {
+                            "chainId": "1",
+                            "networkId": "1",
+                            "address":"0xe785e82358879f061bc3dcac6f0444462d4b5330"
+                         }                      
+                     ]
+                  }
+               }
+            ]
+         ]  
+       },
+       {
+        "title":"Wow Collabs Owner",
+        "id":"wowcollabs",
+        "readStrategies":[
+          [
+             {
+                "name":"erc-721-balance-of",
+                "params":{
+                   "minBalance":"1",
+                   "logo":"https://lh3.googleusercontent.com/-AEaDyoC-bPLHCZi5qrGMbzjT0eNQct_Z19PF39pt_aiBANaWR5NnC3ixplbj5WT7rSECm1FYn1Be-1Gf9clKYPrM1-4ebaWumxcDbY=s130",
+                   "tokens":[
+                      {
+                          "chainId": "137",
+                          "networkId": "1",
+                          "address":"0x2953399124f0cbb46d2cbacd8a89cf0599974963"
+                       }                      
+                   ]
+                }
+             }
+          ]
+       ],
+       "writeStrategies":[
+          [
+             {
+                "name":"erc-721-balance-of",
+                "logo":"https://lh3.googleusercontent.com/-AEaDyoC-bPLHCZi5qrGMbzjT0eNQct_Z19PF39pt_aiBANaWR5NnC3ixplbj5WT7rSECm1FYn1Be-1Gf9clKYPrM1-4ebaWumxcDbY=s130",
+                "params":{
+                   "minBalance":"1",
+                   "tokens":[
+                      {
+                          "chainId": "137",
+                          "networkId": "1",
+                          "address":"0x2953399124f0cbb46d2cbacd8a89cf0599974963"
+                       }                      
+                   ]
+                }
+             }
+          ]
+       ]  
+     }       
+    ]
+  }
+  

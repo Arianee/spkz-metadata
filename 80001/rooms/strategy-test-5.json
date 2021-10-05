@@ -3,7 +3,7 @@
     "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
     "name":"MaticPunks",
     "description":"Welcome to the MaticPunks, a space exclusively reserved for holders of MaticPunks NFTs.",
-    "external_url":"https://dev.spkz.io/app/lounges/2",
+    "external_url":"https://dev.spkz.io/app/lounges/5",
     "image":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
     "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
     "strategies":[
@@ -12,6 +12,7 @@
              "name":"erc-721-balance-of",
              "params":{
                 "minBalance":"1",
+                "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
                 "tokens":[
                  {
                     "chainId": "137",
@@ -28,7 +29,9 @@
          "title":"Announcement",
          "id":"announcement",
          "writeStrategies":[[{
-          "name":"room-owner"
+          "name":"room-owner",
+          "chainId": "80001",
+          "networkId": "1"             
         }]]
       },    
        {
@@ -44,6 +47,7 @@
                   "name":"erc-721-balance-of",
                   "params":{
                      "minBalance":"2",
+                     "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
                      "tokens":[
                         {
                             "chainId": "137",
@@ -59,6 +63,7 @@
             [
                {
                   "name":"erc-721-balance-of",
+                  "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
                   "params":{
                      "minBalance":"2",
                      "tokens":[
