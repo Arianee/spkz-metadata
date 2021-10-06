@@ -8,7 +8,9 @@
    "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
    "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
    "strategies":[
-      []
+      [
+         
+      ]
    ],
    "sections":[
       {
@@ -19,14 +21,54 @@
          "title":"VIP Room",
          "id":"viproom",
          "strategiesRead":[
-
+            
          ]
       },
       {
          "title":"Announcement",
          "id":"annoucement",
          "strategiesWrite":[
-
+            
+         ]
+      },
+      {
+         "title":"VIP Room (min 2 MaticPunks)",
+         "id":"viproom",
+         "readStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "params":{
+                     "minBalance":"2",
+                     "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+                     "tokens":[
+                        {
+                           "chainId":"137",
+                           "networkId":"1",
+                           "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                        }
+                     ]
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"erc-721-balance-of",
+                  "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+                  "params":{
+                     "minBalance":"2",
+                     "tokens":[
+                        {
+                           "chainId":"137",
+                           "networkId":"1",
+                           "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                        }
+                     ]
+                  }
+               }
+            ]
          ]
       }
    ]
