@@ -46,7 +46,7 @@
          "readStrategies":[
             {
                "name":"erc-20-balance-of",
-               "acquireUrls":[
+               "acquireURLs":[
                   {
                      "title":"Buy Aria On Uniswap",
                      "url":"https://app.uniswap.org/#/swap?outputCurrency=0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9&use=V2"
