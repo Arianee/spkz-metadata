@@ -28,33 +28,35 @@
          "title":"Sokol Aria Owners",
          "id":"sokolariaowners",
          "readStrategies":[
-            {
-               "name":"erc-20-balance-of",
-               "acquireURLs":[
-                  {
-                     "title":"Buy Aria On Uniswap",
-                     "url":"https://app.uniswap.org/#/swap?outputCurrency=0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9&use=V2"
-                  },
-                  {
-                     "title":"Buy Aria On Quickswap",
-                     "url":"https://quickswap.exchange/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
-                  },
-                  {
-                     "title":"Buy Aria On Cometh",
-                     "url":"https://swap.cometh.io/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
-                  }
-               ],
-               "params":{
-                  "minBalance":"1",
-                  "tokens":[
+            [
+               {
+                  "name":"erc-20-balance-of",
+                  "acquireURLs":[
                      {
-                        "chainId":"77",
-                        "networkId":"1",
-                        "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                        "title":"Buy Aria On Uniswap",
+                        "url":"https://app.uniswap.org/#/swap?outputCurrency=0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9&use=V2"
+                     },
+                     {
+                        "title":"Buy Aria On Quickswap",
+                        "url":"https://quickswap.exchange/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
+                     },
+                     {
+                        "title":"Buy Aria On Cometh",
+                        "url":"https://swap.cometh.io/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
                      }
-                  ]
+                  ],
+                  "params":{
+                     "minBalance":"1",
+                     "tokens":[
+                        {
+                           "chainId":"77",
+                           "networkId":"1",
+                           "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                        }
+                     ]
+                  }
                }
-            }
+            ]
          ]
       },
       {
