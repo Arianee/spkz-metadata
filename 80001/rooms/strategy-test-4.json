@@ -3,7 +3,7 @@
   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"The Polygon/Matic Community",
    "description":"Polygon lounges",
-   "external_url":"https://polygonscan.com/",
+   "external_url":"https://dev.spkz.io/app/lounges/4",
    "strategies":[
       
    ],

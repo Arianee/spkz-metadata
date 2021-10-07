@@ -1,33 +1,50 @@
 {
   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-  "endpoint":"http://localhost:3000/spkz/rpc",
-  "notificationEndpoint":"ws://localhost:3001",
-  "name":"Test Room on localhost #7",
-  "description":"Test Room on localhost #7",
-  "external_url":"https://beta.spkz.io/room/8200974",
-  "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
-  "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
+  "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+  "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+  "name":"Lounges owners",
+  "description":"The lounge for lounges owners",
+  "external_url":"https://dev.spkz.io/app/lounges/7",
+  "image":"",
+  "logo":"https://png.pngtree.com/png-vector/20190219/ourmid/pngtree-vector-cocktail-icon-png-image_559234.jpg",
   "strategies":[
-    []
-  ],
+    [
+       {
+          "name":"erc-721-balance-of",
+          "params":{
+             "minBalance":"1",
+             "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+             "tokens":[
+                {
+                   "chainId":"80001",
+                   "networkId":"1",
+                   "address":"0x395bE7b1443b6c3Ce5177b2300E5cc20bF22576E"
+                }
+             ]
+          }
+       }
+    ]
+ ],
   "sections":[
-    {
-      "title":"Chat",
-      "id":"chat"
-    },
-    {
-      "title":"VIP Room",
-      "id":"viproom",
-      "strategiesRead":[
-
-      ]
-    },
     {
       "title":"Announcement",
       "id":"annoucement",
-      "strategiesWrite":[
-
-      ]
+      "writeStrategies":[
+        [
+           {
+              "name":"room-owner",
+              "params":{
+                 "chainId":"80001",
+                 "networkId":"1"
+              }
+           }
+        ]
+     ]      
+    },    
+    {
+      "title":"Chat",
+      "id":"chat"
     }
+
   ]
 }

@@ -4,7 +4,7 @@
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"Developpement testnet room",
    "description":"Room developpement node0 mumbai",
-   "external_url":"https://beta.spkz.io/room/mumbai/1",
+   "external_url":"https://dev.spkz.io/app/lounges/1",
    "image":"",
    "logo":"https://cpmr-islands.org/wp-content/uploads/sites/4/2019/07/test.png",
    "strategies":[
