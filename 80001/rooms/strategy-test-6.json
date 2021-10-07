@@ -1,30 +1,30 @@
 {
-   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
-   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"World Of Women",
-   "description":"World of Women was created with the aim of bringing more diversity and representativity into the NFT space while at the same time bridging the gap between the collectible world and the 1/1 art world.",
-   "external_url":"https://dev.spkz.io/app/lounges/6",
-   "image":"https://lh3.googleusercontent.com/z3epSkvjUVEgU8BgHHRycko4OebPrFlTeNJtVow1aHtYgYp8hnmE9r9X8pGlQRS2z2_3Zjd9bBz15JRNdHFjhIi7KbOu28OTmFFaIg=h600",
-   "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
-   "strategies":[
-      [
-         {
-            "name":"erc-721-balance-of",
-            "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0xe785e82358879f061bc3dcac6f0444462d4b5330"
-                  }
-               ]
-            }
-         }
-      ]
-   ],
-   "sections":[
+    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+    "name":"World Of Women",
+    "description":"World of Women was created with the aim of bringing more diversity and representativity into the NFT space while at the same time bridging the gap between the collectible world and the 1/1 art world.",
+    "external_url":"https://dev.spkz.io/app/lounges/6",
+    "image":"https://lh3.googleusercontent.com/z3epSkvjUVEgU8BgHHRycko4OebPrFlTeNJtVow1aHtYgYp8hnmE9r9X8pGlQRS2z2_3Zjd9bBz15JRNdHFjhIi7KbOu28OTmFFaIg=h600",
+    "logo":"https://worldofwomen.art/images/logo.png",
+    "strategies":[
+       [
+          {
+             "name":"erc-721-balance-of",
+             "params":{
+                "minBalance":"1",
+                "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
+                "tokens":[
+                 {
+                    "chainId": "1",
+                    "networkId": "1",
+                    "address":"0xe785e82358879f061bc3dcac6f0444462d4b5330"
+                 }                                          
+                ]
+             }
+          }
+       ]
+    ],
+    "sections":[     
       {
          "title":"Announcements",
          "id":"announcements",
