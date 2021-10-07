@@ -10,7 +10,7 @@
       [
          {
             "name":"erc-721-balance-of",
-            "resolveUrl":[{
+            "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/cometh-spaceships"
@@ -31,7 +31,7 @@
       [
          {
             "name":"erc-20-balance-of",
-            "resolveUrl":[{
+            "acquireURLs":[{
                "title":"ComethSwap",
                "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo80XLn4GYMv4qxy70Skb_YAMINc8hFYdHA&usqp=CAU",
                "url":"https://swap.cometh.io/#/swap?outputCurrency=0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
@@ -59,7 +59,7 @@
          },
          {
             "name":"erc-20-balance-of",
-            "resolveUrl":[
+            "acquireURLs":[
             {
                "title":"Uniswap",
                "logo":"https://cryptonaute.fr/wp-content/uploads/2021/01/uniswap-uni-logo.png",
