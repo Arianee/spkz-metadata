@@ -10,9 +10,14 @@
       [
          {
             "name":"erc-721-balance-of",
+            "resolveUrl":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/cometh-spaceships"
+            }],
+            "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
                "tokens":[
                 {
                   "chainId":"137",
@@ -22,7 +27,72 @@
                ]
             }
          }
-      ]
+      ],
+      [
+         {
+            "name":"erc-20-balance-of",
+            "resolveUrl":[{
+               "title":"ComethSwap",
+               "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo80XLn4GYMv4qxy70Skb_YAMINc8hFYdHA&usqp=CAU",
+               "url":"https://swap.cometh.io/#/swap?outputCurrency=0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+            },
+            {
+               "title":"Uniswap",
+               "logo":"https://cryptonaute.fr/wp-content/uploads/2021/01/uniswap-uni-logo.png",
+               "url":"https://app.uniswap.org/#/swap?outputCurrency=0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+            }],            
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+                  },
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+                  }
+               ]
+            }
+         },
+         {
+            "name":"erc-20-balance-of",
+            "resolveUrl":[
+            {
+               "title":"Uniswap",
+               "logo":"https://cryptonaute.fr/wp-content/uploads/2021/01/uniswap-uni-logo.png",
+               "url":"https://app.uniswap.org/#/swap?outputCurrency=0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+            },
+            {
+               "title":"Quickswap",
+               "logo":"https://s2.coinmarketcap.com/static/img/coins/200x200/8206.png",
+               "url":"https://swap.cometh.io/#/swap?outputCurrency=0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+            }],               
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"77",
+                     "networkId":"1",
+                     "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                  },
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+                  },
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+                  }
+               ]
+            }
+         }         
+      ]      
+
    ],
    "sections":[
       {
