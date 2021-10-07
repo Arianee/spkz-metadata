@@ -83,6 +83,12 @@
                }
             ]
          ]
-      }
+      },
+      {
+        "title":"Buy your MaticPunks",
+        "id":"maticpunkopensea",
+        "url":"https://opensea.io/assets/maticpunks?embed=true",
+        "type":"external_url"        
+     }      
    ]
 }
