@@ -1,120 +1,134 @@
 {
-  "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-  "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
-  "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-  "name":"ARIA20 (official testnet room !)",
-  "description":"Welcome to the ARIA20, a space exclusively reserved for holders of the ARIA20 token.",
-  "external_url":"https://dev.spkz.io/app/lounges/2",
-  "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
-  "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
-  "strategies":[
-     [
-        {
-           "name":"erc-20-balance-of",
-           "params":{
-              "minBalance":"1",
-              "tokens":[
-                 {
-                    "chainId":"77",
-                    "networkId":"1",
-                    "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
-                 },
-                 {
-                  "chainId": "1",
-                  "networkId": "1",
-                  "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-               },
-               {
-                  "chainId": "137",
-                  "networkId": "1",
-                  "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-               }                 
-              ]
-           }
-        }
-     ]
-  ],
-  "sections":[
-    {
-      "title":"Welcome",
-      "id":"welcome",
-      "writeStrategies":[[{
-        "name":"room-owner",
-        "chainId": "80001",
-        "networkId": "1"        
-      }]],
-      "readStrategies":[]      
-   },        
-    {
-       "title":"Announcement",
-       "id":"annoucement",
-       "writeStrategies":[[{
-        "name":"room-owner",
-        "chainId": "80001",
-        "networkId": "1"        
-      }]]
-    },    
-     {
-        "title":"Chat",
-        "id":"chat"
-     },
-     {
-        "title":"VIP Room (min 1 aria)",
-        "id":"viproom",
-        "readStrategies":[
-          [
-             {
-                "name":"erc-20-balance-of",
-                "params":{
-                   "minBalance":"1000000000000000000",
-                   "tokens":[
-                      {
-                         "chainId":"77",
-                         "networkId":"1",
-                         "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
-                      },
-                      {
-                       "chainId": "1",
-                       "networkId": "1",
-                       "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-                    },
-                    {
-                       "chainId": "137",
-                       "networkId": "1",
-                       "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-                    }                 
-                   ]
-                }
-             }
-          ]
-       ],
-       "writeStrategies":[
-        [
-           {
-              "name":"erc-20-balance-of",
-              "params":{
-                 "minBalance":"1000000000000000000",
-                 "tokens":[
-                    {
-                       "chainId":"77",
-                       "networkId":"1",
-                       "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
-                    },
-                    {
-                     "chainId": "1",
-                     "networkId": "1",
+   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
+   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+   "name":"ARIA20 (official testnet room !)",
+   "description":"Welcome to the ARIA20, a space exclusively reserved for holders of the ARIA20 token.",
+   "external_url":"https://dev.spkz.io/app/lounges/2",
+   "image":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/8d26efad-9721-46c5-a4b3-04ba735cac29?alt=media&token=4263d07b-68eb-48e9-b581-23025d470a68",
+   "logo":"https://firebasestorage.googleapis.com/v0/b/speakez-front.appspot.com/o/42925e27-8003-4892-bec8-42f001b6475d?alt=media&token=3cc2d782-4dc1-430a-883a-048cc99ea7dc",
+   "strategies":[
+      [
+         {
+            "name":"erc-20-balance-of",
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"77",
+                     "networkId":"1",
+                     "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                  },
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
                      "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
                   },
                   {
-                     "chainId": "137",
-                     "networkId": "1",
+                     "chainId":"137",
+                     "networkId":"1",
                      "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-                  }                 
-                 ]
-              }
-           }
-        ]
-     ]   
-     }
-  ]
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Welcome",
+         "id":"welcome",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"80001",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ],
+         "readStrategies":[
+            
+         ]
+      },
+      {
+         "title":"Announcement",
+         "id":"annoucement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"80001",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"VIP Room (min 1 aria)",
+         "id":"viproom",
+         "readStrategies":[
+            [
+               {
+                  "name":"erc-20-balance-of",
+                  "params":{
+                     "minBalance":"1000000000000000000",
+                     "tokens":[
+                        {
+                           "chainId":"77",
+                           "networkId":"1",
+                           "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                        },
+                        {
+                           "chainId":"1",
+                           "networkId":"1",
+                           "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+                        },
+                        {
+                           "chainId":"137",
+                           "networkId":"1",
+                           "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+                        }
+                     ]
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"erc-20-balance-of",
+                  "params":{
+                     "minBalance":"1000000000000000000",
+                     "tokens":[
+                        {
+                           "chainId":"77",
+                           "networkId":"1",
+                           "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
+                        },
+                        {
+                           "chainId":"1",
+                           "networkId":"1",
+                           "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+                        },
+                        {
+                           "chainId":"137",
+                           "networkId":"1",
+                           "address":"0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+                        }
+                     ]
+                  }
+               }
+            ]
+         ]
+      }
+   ]
 }
