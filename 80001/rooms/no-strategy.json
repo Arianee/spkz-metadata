@@ -18,13 +18,6 @@
          "id":"chat"
       },
       {
-         "title":"VIP Room",
-         "id":"viproom",
-         "strategiesRead":[
-            
-         ]
-      },
-      {
          "title":"Announcement",
          "id":"annoucement",
          "strategiesWrite":[
