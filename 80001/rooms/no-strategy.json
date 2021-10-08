@@ -20,56 +20,56 @@
       {
          "title":"Announcement",
          "id":"annoucement",
-         "writeStrategies": [
-            [
-              {
-                "name": "room-owner",
-                "params": {
-                  "chainId": "80001",
-                  "networkId": "1"
-                }
-              }
-            ]
-          ]
-      {
-         "title":"VIP Room (min 2 MaticPunks)",
-         "id":"viproom",
-         "readStrategies":[
-            [
-               {
-                  "name":"erc-721-balance-of",
-                  "params":{
-                     "minBalance":"2",
-                     "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
-                     "tokens":[
-                        {
-                           "chainId":"137",
-                           "networkId":"1",
-                           "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
-                        }
-                     ]
-                  }
-               }
-            ]
-         ],
          "writeStrategies":[
             [
                {
-                  "name":"erc-721-balance-of",
-                  "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+                  "name":"room-owner",
                   "params":{
-                     "minBalance":"2",
-                     "tokens":[
-                        {
-                           "chainId":"137",
-                           "networkId":"1",
-                           "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
-                        }
-                     ]
+                     "chainId":"80001",
+                     "networkId":"1"
                   }
                }
             ]
-         ]
-      }
-   ]
-}
+         ]},
+         {
+            "title":"VIP Room (min 2 MaticPunks)",
+            "id":"viproom",
+            "readStrategies":[
+               [
+                  {
+                     "name":"erc-721-balance-of",
+                     "params":{
+                        "minBalance":"2",
+                        "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+                        "tokens":[
+                           {
+                              "chainId":"137",
+                              "networkId":"1",
+                              "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            ],
+            "writeStrategies":[
+               [
+                  {
+                     "name":"erc-721-balance-of",
+                     "logo":"https://lh3.googleusercontent.com/6FualWHu5EplmvGViY2U0qhQqZDqKe1fun8NOxgIpthLmD2dJ_y0EpS1IGg-lxMZbqdeozsH80rAD0uRrC3kjgkDCZcfZyu_kyaWnA=s130",
+                     "params":{
+                        "minBalance":"2",
+                        "tokens":[
+                           {
+                              "chainId":"137",
+                              "networkId":"1",
+                              "address":"0x76c52b2c4b2d2666663ce3318a5f35f912bd25c3"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            ]
+         }
+      ]
+   }
