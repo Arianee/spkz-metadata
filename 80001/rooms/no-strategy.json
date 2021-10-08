@@ -20,10 +20,17 @@
       {
          "title":"Announcement",
          "id":"annoucement",
-         "strategiesWrite":[
-            
-         ]
-      },
+         "writeStrategies": [
+            [
+              {
+                "name": "room-owner",
+                "params": {
+                  "chainId": "80001",
+                  "networkId": "1"
+                }
+              }
+            ]
+          ]
       {
          "title":"VIP Room (min 2 MaticPunks)",
          "id":"viproom",
