@@ -1,1 +1,74 @@
-
+{
+  "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
+  "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+  "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+  "name":"SPKZ Bar",
+  "description":"Test Room UAT",
+  "external_url":"https://spkz.io/lounges/10",
+  "image":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
+  "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
+  "strategies":[
+    []
+  ],
+  "sections":[
+    {
+      "title":"Bar",
+      "id":"bar",
+      "writeStrategies":[
+        [
+          {
+            "name":"room-owner",
+            "params":{
+              "chainId":"80001",
+              "networkId":"1"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "title":"Public Room",
+      "id":"publicroom"
+    },
+    {
+      "title":"Back Room",
+      "id":"backroom",
+      "readStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "params":{
+              "minBalance":"1",
+              "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaBF8Db9edeC1014Fb7dd81Ef71f19761A35CA132"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "params":{
+              "minBalance":"1",
+              "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaBF8Db9edeC1014Fb7dd81Ef71f19761A35CA132"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  ]
+}
