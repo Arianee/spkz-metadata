@@ -27,12 +27,12 @@
       ]
     },
     {
-      "title":"Public Room",
-      "id":"publicroom"
+      "title":"Public Lounge",
+      "id":"publiclounge"
     },
     {
-      "title":"Back Room",
-      "id":"backroom",
+      "title":"Private Lounge",
+      "id":"privatelounge",
       "readStrategies":[
         [
           {
