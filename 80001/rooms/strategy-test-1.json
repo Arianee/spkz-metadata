@@ -65,6 +65,7 @@
       },
       {
         "title":"Buy your MaticPunks",
+        "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
         "id":"maticpunkopensea",
         "url":"https://opensea.io/assets/maticpunks?embed=true",
         "type":"external_url"        
