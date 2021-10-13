@@ -1,0 +1,58 @@
+{
+    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+    "name":"Arianee x Kitten DCL Hoodie",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "external_url":"https://dev.spkz.io/app/lounges/11",
+    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/logo_hoodie.png",
+    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/hoodie.png",
+    "strategies":[
+       [
+          {
+             "name":"erc-721-balance-of",
+             "params":{
+                "minBalance":"1",
+                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/hoodie.png",
+                "tokens":[
+                 {
+                    "chainId": "137",
+                    "networkId": "1",
+                    "address":"0xdf2bd1f38d1f35afaff4daf372fb354d04242c87"
+                 }                                          
+                ]
+             }
+          }
+       ]
+    ],
+    "sections":[     
+      {
+         "title":"Welcome",
+         "id":"welcome",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"80001",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ],
+         "readStrategies":[[
+
+         ]]
+      },
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+        "title":"Buy your Hoodie",
+        "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+        "id":"hoodieopensea",
+        "url":"https://opensea.io/assets/decentraland-polygon-wearables?embed=true&search[query]=Kitten%20x%20Arianee%20Hoodie",
+        "type":"external_url"        
+     }   
+   ]
+}
