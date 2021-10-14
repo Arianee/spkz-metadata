@@ -1,0 +1,8 @@
+{
+  "name": "SPKZ.io Lounges",
+  "description": "Welcome to SPKZ, a community suited for a web3 world. This collection depicts the officially represented projects that are speaking easy within SPKZ.io. But our doors are open to all. Mint a lounge and your unique NFT will be found here as well.",
+  "image": "https://github.com/Arianee/spkz-metadata/raw/main/assets/spkz-logo.jpeg",
+  "external_link": "https://spkz.io",
+  "seller_fee_basis_points": 750,
+  "fee_recipient": "0x9e4B8F14591fafecc1f5113298E88dde419d3274"
+}
