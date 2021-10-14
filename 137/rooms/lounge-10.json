@@ -12,7 +12,7 @@
   "sections":[
     {
       "title":"Bar",
-      "id":"bar",
+      "id":"thebar",
       "writeStrategies":[
         [
           {
