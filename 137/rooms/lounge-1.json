@@ -29,11 +29,11 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
-                        "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
+                        "0x2bc0b60c58ac96cff37e9a168d0963157bdb6efb",
+                        "0xefea1123d4ed5d342f429049aa014bf628d10108",
                         "0x267b65c46b61dbd7702e969683490659cbb65280",
-                        "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
-                        "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
+                        "0x9ad3f949c1d57c25f77749152e4c77f5e00d4b49",
+                        "0xb94ce7868f17c64aa8d3f19c506c9181b3c0095d"
                      ]
                   }
                }
@@ -45,11 +45,11 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
-                        "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
+                        "0x2bc0b60c58ac96cff37e9a168d0963157bdb6efb",
+                        "0xefea1123d4ed5d342f429049aa014bf628d10108",
                         "0x267b65c46b61dbd7702e969683490659cbb65280",
-                        "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
-                        "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
+                        "0x9ad3f949c1d57c25f77749152e4c77f5e00d4b49",
+                        "0xb94ce7868f17c64aa8d3f19c506c9181b3c0095d"
                      ]
                   }
                }
