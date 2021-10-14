@@ -1,11 +1,11 @@
 {
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"The Mothership",
-   "description":"Welcome home boy! Please take a seat inside the mothership",
-   "external_url":"https://dev.spkz.io/app/lounges/12",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AlienBoy_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AlienBoy_Logo.jpg",
+   "name":"The School Yard",
+   "description":"A space for bubble gum of all flavors and colors",
+   "external_url":"https://dev.spkz.io/app/lounges/13",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/BubbleGumKids_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/BubbleGumKids_Logo.png",
    "strategies":[
       [
          {
@@ -14,16 +14,17 @@
                {
                   "title":"OpenSea",
                   "logo":"https://opensea.io/static/images/logos/opensea.svg",
-                  "url":"https://opensea.io/collection/thealienboy"
+                  "url":"https://opensea.io/collection/bubblegumkids"
                }
             ],
             "params":{
                "minBalance":"1",
+               "logo":"https://lh3.googleusercontent.com/HYHYrxA3Wm9KvfIUcrp4zRBYeDK1KNZwXmzNYECRrB-e47khw5UNSqCkZTeROi9af8PiAEIVScQRKnpiY5mQVn4GjfWtIBKEHlRI=s130",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0x4581649af66bccaee81eebae3ddc0511fe4c5312"
+                     "address":"0xa5ae87B40076745895BB7387011ca8DE5fde37E0"
                   }
                ]
             }
@@ -66,10 +67,10 @@
          ]
       },
       {
-         "title":"Embedded page",
+         "title":"OpenSea",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/assets/thealienboy/?embed=true",
+         "url":"https://opensea.io/assets/bubblegumkids/?embed=true",
          "type":"external_url"
       }
    ]
