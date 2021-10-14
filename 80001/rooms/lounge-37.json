@@ -3,7 +3,7 @@
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"The Surreals",
    "description":"Only for Surreals",
-   "external_url":"https://dev.spkz.io/app/lounges/35",
+   "external_url":"https://dev.spkz.io/app/lounges/37",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/thesurreals_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/thesurreals_logo.png",
    "strategies":[
