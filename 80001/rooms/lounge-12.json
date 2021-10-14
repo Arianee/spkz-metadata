@@ -15,7 +15,7 @@
                "logo":"https://lh3.googleusercontent.com/mnNWlPXlDTp8N1JP2kiCrTy-w0lGU0S1AX5sMm0ZhWjSTpIh4RTwXERNjz83aKI1uKjyqf8yZJlsId6TeUgvJRhwaWScJPdWZSlISJc=s130",
                "tokens":[
                   {
-                     "chainId":"137",
+                     "chainId":"1",
                      "networkId":"1",
                      "address":"0x4581649af66bccaee81eebae3ddc0511fe4c5312"
                   }
