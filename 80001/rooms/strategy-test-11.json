@@ -39,9 +39,14 @@
                }
             ]
          ],
+<<<<<<< HEAD
+         "readStrategies":[
+         ],
+=======
          "readStrategies":[[
 
          ]]
+>>>>>>> 7e2620e970aeda88a095710f1934ce617a886adc
       },
       {
          "title":"Chat",
@@ -53,6 +58,10 @@
         "id":"hoodieopensea",
         "url":"https://opensea.io/assets/decentraland-polygon-wearables?embed=true&search[query]=Kitten%20x%20Arianee%20Hoodie",
         "type":"external_url"        
+<<<<<<< HEAD
+     },   
+=======
      }   
+>>>>>>> 7e2620e970aeda88a095710f1934ce617a886adc
    ]
 }
