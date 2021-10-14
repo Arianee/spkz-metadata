@@ -24,32 +24,36 @@
          "title":"Devs only!",
          "id":"devsonly",
          "readStrategies":[
-            {
-               "name":"is-exact-address",
-               "params":{
-                  "addresses":[
-                     "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
-                     "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
-                     "0x267b65c46b61dbd7702e969683490659cbb65280",
-                     "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
-                     "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
-                  ]
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
+                        "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
+                        "0x267b65c46b61dbd7702e969683490659cbb65280",
+                        "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
+                        "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
+                     ]
+                  }
                }
-            }
+            ]
          ],
          "writeStrategies":[
-            {
-               "name":"is-exact-address",
-               "params":{
-                  "addresses":[
-                     "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
-                     "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
-                     "0x267b65c46b61dbd7702e969683490659cbb65280",
-                     "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
-                     "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
-                  ]
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x2bc0b60C58AC96CfF37E9A168d0963157bdb6efB",
+                        "0xeFeA1123d4Ed5d342f429049Aa014bF628d10108",
+                        "0x267b65c46b61dbd7702e969683490659cbb65280",
+                        "0x9ad3f949c1d57c25F77749152E4C77F5E00d4B49",
+                        "0xb94Ce7868f17C64aA8d3f19c506C9181B3c0095D"
+                     ]
+                  }
                }
-            }
+            ]
          ]
       }
    ]
