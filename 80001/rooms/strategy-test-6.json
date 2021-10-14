@@ -10,9 +10,9 @@
        [
           {
              "name":"erc-721-balance-of",
+             "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
              "params":{
                 "minBalance":"1",
-                "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
                 "tokens":[
                  {
                     "chainId": "1",
