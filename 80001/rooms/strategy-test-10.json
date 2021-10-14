@@ -3,10 +3,10 @@
   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
   "name":"SPKZ Bar",
-  "description":"Test Room UAT",
+  "description":"Welcome to SPKZ, a community suited for a web3 world. This collection depicts the officially represented projects that are speaking easy within SPKZ.io. But our doors are open to all. Mint a lounge and your unique NFT will be found here as well.",
   "external_url":"https://spkz.io/lounges/10",
-  "image":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
-  "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
+  "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz-logo.jpeg",
+  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz-logo.jpeg",
   "strategies":[
     []
   ],
@@ -27,24 +27,20 @@
       ]
     },
     {
-      "title":"Public Lounge",
-      "id":"publiclounge"
-    },
-    {
       "title":"Private Lounge",
       "id":"privatelounge",
       "readStrategies":[
         [
           {
             "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
             "params":{
               "minBalance":"1",
-              "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
               "tokens":[
                 {
                   "chainId":"80001",
                   "networkId":"80001",
-                  "address":"0xaBF8Db9edeC1014Fb7dd81Ef71f19761A35CA132"
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
                 }
               ]
             }
@@ -55,14 +51,94 @@
         [
           {
             "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
             "params":{
               "minBalance":"1",
-              "logo":"https://images.prismic.io/spkz/05828929-9e26-4515-956a-4e19e2c3bfd0_roomsCreation_ticket.png?auto=compress,format&q=100",
               "tokens":[
                 {
                   "chainId":"80001",
                   "networkId":"80001",
-                  "address":"0xaBF8Db9edeC1014Fb7dd81Ef71f19761A35CA132"
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "title":"GM",
+      "id":"gm",
+      "readStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "title":"Features/Bugs",
+      "id":"featuresbugs",
+      "readStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"80001",
+                  "networkId":"80001",
+                  "address":"0xaA9475F83F6FDb1416270447364f9bd70e41fB21"
                 }
               ]
             }

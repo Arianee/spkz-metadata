@@ -1,0 +1,8 @@
+{
+  "name": "SPKZ: Limited 1920's Collection",
+  "description": "There are always those who will be trailblazers, leaders, a few steps ahead of the pack. This collection represents the first 1920 individuals who are already communicating on-chain on SPKZ.io, your first token gated community platform. Web3 has arrived. Welcome!",
+  "image": "https://github.com/Arianee/spkz-metadata/raw/main/assets/spkz-logo.jpeg",
+  "external_link": "https://spkz.io",
+  "seller_fee_basis_points": 100,
+  "fee_recipient": "0x9e4B8F14591fafecc1f5113298E88dde419d3274"
+}
