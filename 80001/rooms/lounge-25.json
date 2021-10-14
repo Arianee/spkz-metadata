@@ -1,11 +1,11 @@
 {
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"The Bamboo Forest",
-   "description":"The web3 bamboo forest.",
-   "external_url":"https://dev.spkz.io/app/lounges/20",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_Logo.png",
+   "name":"Crypto Chicks ",
+   "description":"In this lounge, the only additional requirement, other than a Crypto Chick NFT, is that you show love and support to all the creators and passersby. Eh, do that IRL too! ",
+   "external_url":"https://dev.spkz.io/app/lounges/25",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptochicks_image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptochicks_logo.png",
    "strategies":[
       [
          {
@@ -13,16 +13,16 @@
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/pandadynasty"
+               "url":"https://opensea.io/collection/the-crypto-chicks"
             }],
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/tCGre0nfnke7RHovQC48uqrrTx624pYlRGQJ9QJnLPMu5pv1sfhSb7S2tFMHCP3WzPtf1Zjhgr5NZPPC1SbdjpXugRmg51KjwR9-pg=s130",
+               "logo":"https://lh3.googleusercontent.com/4Cvoke4noIRasGWubMZYdaA8FwwEtxfQyNDzlskiLi76j1Rr9ouR5ZWSqR5O6qsV8F4bFWInwa_3MZcJNB0xn7LR36CtjCOYp1-cEQ=s130",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0x8e0543Eacd5078ba9Db88F34e2cBc24b7c2Eb790"
+                     "address":"0x1981CC36b59cffdd24B01CC5d698daa75e367e04"
                   }
                ]
             }
@@ -68,7 +68,7 @@
          "title":"opensea",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/assets/pandadynasty/?embed=true",
+         "url":"https://opensea.io/assets/the-crypto-chicks/?embed=true",
          "type":"external_url"
       }
    ]
