@@ -1,0 +1,23 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Production room",
+   "description":"Room Production node0 Polygon",
+   "external_url":"https://dev.spkz.io/app/lounges/1",
+   "image":"",
+   "logo":"https://cpmr-islands.org/wp-content/uploads/sites/4/2019/07/test.png",
+   "strategies":[
+      [         
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"VIP Room",
+         "id":"viproom"
+      }
+   ]
+}
