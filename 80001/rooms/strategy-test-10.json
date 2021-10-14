@@ -33,6 +33,7 @@
         [
           {
             "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
             "params":{
               "minBalance":"1",
               "tokens":[
@@ -72,6 +73,7 @@
         [
           {
             "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
             "params":{
               "minBalance":"1",
               "tokens":[
@@ -111,6 +113,7 @@
         [
           {
             "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
             "params":{
               "minBalance":"1",
               "tokens":[
