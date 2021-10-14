@@ -1,0 +1,97 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"The Orbital Bar",
+   "description":"Before you fly off into the galaxy again, stop in here and share a story or two.",
+   "external_url":"https://spkz.io/app/lounges/21",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Cometh_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Cometh_Logo.png",
+   "strategies":[
+     
+
+      
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/cometh-spaceships"
+            }],
+            "logo":"",
+            "params":{
+               "minBalance":"1",
+               "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
+               "tokens":[
+                {
+                  "chainId":"137",
+                  "networkId":"1",
+                  "address":"0xbcd4F1EcFf4318e7A0c791C7728f3830Db506C71"
+                }                                          
+               ]
+            }
+         },
+         {
+            "name":"erc-20-balance-of",
+            "acquireURLs":[{
+               "title":"ComethSwap",
+               "logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo80XLn4GYMv4qxy70Skb_YAMINc8hFYdHA&usqp=CAU",
+               "url":"https://swap.cometh.io/#/swap?outputCurrency=0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+            }],            
+            "params":{
+               "minBalance":"100000000000000000000",
+               "tokens":[
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x9c78ee466d6cb57a4d01fd887d2b5dfb2d46288f"
+                  }
+               ]
+            }
+         }
+                 
+      ],
+
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"About",
+         "id":"about",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"Announcement",
+         "id":"annoucement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"opensea",
+         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+         "id":"embeddedpage",
+         "url":"https://opensea.io/assets/cometh-spaceships/?embed=true",
+         "type":"external_url"
+      }
+   ]
+}
