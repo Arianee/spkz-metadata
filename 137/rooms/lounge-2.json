@@ -1,5 +1,6 @@
 {
-   "endpoint":"https://node1.speakez.arianee.org/rpc",
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Arianee",
    "description":"Arianee lounge for Aria20 holders",
    "external_url":"https://spkz.io/app/lounges/2",
