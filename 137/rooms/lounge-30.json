@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Lukso",
-   "description":"The most dapper place in all of web3. Welcome.s",
+   "description":"The most dapper place in all of web3. Welcome.",
    "external_url":"https://spkz.io/app/lounges/30",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
@@ -60,7 +60,7 @@
          ]
       },
       {
-         "title":"Lukso hwebsite",
+         "title":"Lukso website",
          "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
          "id":"embeddedpage",
          "url":"https://www.lukso.network/?embed=true",
