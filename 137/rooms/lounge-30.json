@@ -58,6 +58,13 @@
                }
             ]
          ]
+      },
+      {
+         "title":"Lukso hwebsite",
+         "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
+         "id":"embeddedpage",
+         "url":"https://www.lukso.network/?embed=true",
+         "type":"external_url"
       }
    ]
 }
