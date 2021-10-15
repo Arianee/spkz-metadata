@@ -4,15 +4,20 @@
    "name":"Degen Tavern ",
    "description":"A tavern for all you degenerate gamblers.",
    "external_url":"https://spkz.io/app/lounges/35",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/knightsofDEGEN_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/knightsofDEGEN_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/knightsofDEGEN_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/knightsofDEGEN_Logo.jpg",
    "strategies":[
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/knights-of-degen-official"
+            }],
+            "logo":"https://lh3.googleusercontent.com/tUKSu3LPZ1Im3juD55XaUOBy_eXJA24tdQm4x1yoOoM7Ow73ilNFaTrXZwcIDIYvBoRgjCZ8m98_vf46jza8finJ9B0B_lxHMPGX=s130",
             "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/tUKSu3LPZ1Im3juD55XaUOBy_eXJA24tdQm4x1yoOoM7Ow73ilNFaTrXZwcIDIYvBoRgjCZ8m98_vf46jza8finJ9B0B_lxHMPGX=s130",
+               "minBalance":"1",               
                "tokens":[
                   {
                      "chainId":"1",
@@ -60,7 +65,7 @@
          ]
       },
       {
-         "title":"Embedded page",
+         "title":"Acquire NFT",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
          "url":"https://opensea.io/collection/knights-of-degen-official/?embed=true",

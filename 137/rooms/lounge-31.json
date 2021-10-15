@@ -1,28 +1,35 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"The Surreals",
-   "description":"Only for Surreals",
-   "external_url":"https://spkz.io/app/lounges/37",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Logo.jpg",
+   "name":"Aave",
+   "description":"Let's keep raaving. This is the place for you.",
+   "external_url":"https://spkz.io/app/lounges/31",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo.jpg",
    "strategies":[
       [
          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/official-surreals"
-            }],
-            "logo":"https://lh3.googleusercontent.com/5TNn5wVTyXOPVbC_BaCdHGYahiptP84lpb3F_nTdeXL8hFx5rdxwlj-cOPjZ3pq_WLbLxHErSyu0uDV8ybgQFZJMLOgRPUdkNUX-Aw=s130",
+            "name":"erc-20-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"Aave",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
+                  "url":"https://paraswap.io/#/?network=ethereum"
+               }
+            ],
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
             "params":{
-               "minBalance":"1",
+               "minBalance":"1000000000000000000",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0xa406489360A47Af2C74fc1004316A64e469646A5"
+                     "address":"0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+                  },
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xd6df932a45c0f255f85145f286ea0b292b21c90b"
                   }
                ]
             }
@@ -65,10 +72,10 @@
          ]
       },
       {
-         "title":"Acquire NFT",
+         "title":"Embedded page",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/collection/official-surreals/?embed=true",
+         "url":"https://opensea.io/assets/thealienboy/?embed=true",
          "type":"external_url"
       }
    ]

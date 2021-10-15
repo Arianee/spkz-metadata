@@ -1,28 +1,30 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"The Surreals",
-   "description":"Only for Surreals",
-   "external_url":"https://spkz.io/app/lounges/37",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Logo.jpg",
+   "name":"MakerDAO",
+   "description":"Only for Makers",
+   "external_url":"https://spkz.io/app/lounges/32",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
    "strategies":[
       [
          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/official-surreals"
-            }],
-            "logo":"https://lh3.googleusercontent.com/5TNn5wVTyXOPVbC_BaCdHGYahiptP84lpb3F_nTdeXL8hFx5rdxwlj-cOPjZ3pq_WLbLxHErSyu0uDV8ybgQFZJMLOgRPUdkNUX-Aw=s130",
+            "name":"erc-20-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"Paraswap",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
+                  "url":"https://paraswap.io/#/?network=ethereum"
+               }
+            ],
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
             "params":{
-               "minBalance":"1",
+               "minBalance":"100000000000000000",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0xa406489360A47Af2C74fc1004316A64e469646A5"
+                     "address":"0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
                   }
                ]
             }
@@ -65,10 +67,10 @@
          ]
       },
       {
-         "title":"Acquire NFT",
-         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+         "title":"Maker Vault",
+         "icon":"https://oasis.app/static/img/logo.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/collection/official-surreals/?embed=true",
+         "url":"https://oasis.app//?embed=true",
          "type":"external_url"
       }
    ]

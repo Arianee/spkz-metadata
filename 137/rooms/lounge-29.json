@@ -4,15 +4,20 @@
    "name":"Galactic Shipyard",
    "description":"Only for Galactic Apes",
    "external_url":"https://spkz.io/app/lounges/29",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_Logo.jpg",
    "strategies":[
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/galacticapes"
+            }],
+            "logo":"https://lh3.googleusercontent.com/fy46-MlNjZMR1NCTNAgmh9e97SNffpSBkwd0HpL9XTBfRt6-GvjTytWHoN9Pzmbw83TbRzo8nGgZ32QbVVMYnrmBb2vM6_6_3yXv=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/fy46-MlNjZMR1NCTNAgmh9e97SNffpSBkwd0HpL9XTBfRt6-GvjTytWHoN9Pzmbw83TbRzo8nGgZ32QbVVMYnrmBb2vM6_6_3yXv=s130",
                "tokens":[
                   {
                      "chainId":"1",
@@ -60,7 +65,7 @@
          ]
       },
       {
-         "title":"Embedded page",
+         "title":"Acquire NFT",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
          "url":"https://opensea.io/collection/galacticapes/?embed=true",
