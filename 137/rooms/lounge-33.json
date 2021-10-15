@@ -4,15 +4,20 @@
    "name":"World of Women",
    "description":"Only for World of Women Holders",
    "external_url":"https://spkz.io/app/lounges/33",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_Logo.jpg",
    "strategies":[
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/world-of-women-nft"
+            }],
+            "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
                "tokens":[
                   {
                      "chainId":"1",
@@ -60,7 +65,7 @@
          ]
       },
       {
-         "title":"Embedded page",
+         "title":"Acquire NFT",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
          "url":"https://opensea.io/collection/world-of-women-nft/?embed=true",
