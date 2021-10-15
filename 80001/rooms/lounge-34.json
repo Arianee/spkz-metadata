@@ -2,7 +2,7 @@
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"The Vogu / Tars Collective",
-   "description":"Only for Tars",
+   "description":"Tars, Tars, and more Tars.",
    "external_url":"https://dev.spkz.io/app/lounges/34",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_logo.png",
@@ -10,6 +10,11 @@
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/vogu"
+            }],
             "params":{
                "minBalance":"1",
                "logo":"https://lh3.googleusercontent.com/4kPtQ8iep2Sw8MEV8TLfGuDsX0ql5pfniHZZGpwx3jp9D2ZRCE0coFxagGrhFH0sfVUezN1O-aRy9SZDong-N0RNsHgCg2rvX7LSJw=s130",

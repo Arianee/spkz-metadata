@@ -10,6 +10,11 @@
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/knights-of-degen-official"
+            }],
             "params":{
                "minBalance":"1",
                "logo":"https://lh3.googleusercontent.com/tUKSu3LPZ1Im3juD55XaUOBy_eXJA24tdQm4x1yoOoM7Ow73ilNFaTrXZwcIDIYvBoRgjCZ8m98_vf46jza8finJ9B0B_lxHMPGX=s130",

@@ -2,7 +2,7 @@
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"Galactic Shipyard",
-   "description":"Only for Galactic Apes",
+   "description":"Crews prepped? Ships assembled? You may enter.",
    "external_url":"https://dev.spkz.io/app/lounges/29",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_logo.png",
@@ -10,6 +10,11 @@
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/galacticapes"
+            }],
             "params":{
                "minBalance":"1",
                "logo":"https://lh3.googleusercontent.com/fy46-MlNjZMR1NCTNAgmh9e97SNffpSBkwd0HpL9XTBfRt6-GvjTytWHoN9Pzmbw83TbRzo8nGgZ32QbVVMYnrmBb2vM6_6_3yXv=s130",
