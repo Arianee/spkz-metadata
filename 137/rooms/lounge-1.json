@@ -1,0 +1,60 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Production room",
+   "description":"Room Production node0 Polygon",
+   "external_url":"https://dev.spkz.io/app/lounges/1",
+   "image":"",
+   "logo":"https://cpmr-islands.org/wp-content/uploads/sites/4/2019/07/test.png",
+   "strategies":[
+      [
+         
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"VIP Room",
+         "id":"viproom"
+      },
+      {
+         "title":"Devs only!",
+         "id":"devsonly",
+         "readStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x2bc0b60c58ac96cff37e9a168d0963157bdb6efb",
+                        "0xefea1123d4ed5d342f429049aa014bf628d10108",
+                        "0x267b65c46b61dbd7702e969683490659cbb65280",
+                        "0x9ad3f949c1d57c25f77749152e4c77f5e00d4b49",
+                        "0xb94ce7868f17c64aa8d3f19c506c9181b3c0095d"
+                     ]
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x2bc0b60c58ac96cff37e9a168d0963157bdb6efb",
+                        "0xefea1123d4ed5d342f429049aa014bf628d10108",
+                        "0x267b65c46b61dbd7702e969683490659cbb65280",
+                        "0x9ad3f949c1d57c25f77749152e4c77f5e00d4b49",
+                        "0xb94ce7868f17c64aa8d3f19c506c9181b3c0095d"
+                     ]
+                  }
+               }
+            ]
+         ]
+      }
+   ]
+}
