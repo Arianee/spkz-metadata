@@ -11,7 +11,7 @@
          {
             "name":"erc-20-balance-of",
             "params":{
-               "minBalance":"100",
+               "minBalance":"100000000000000000000",
                "tokens":[
                   {
                      "chainId":"1",
@@ -60,7 +60,7 @@
                {
                   "name":"erc-20-balance-of",
                   "params":{
-                     "minBalance":"3",
+                     "minBalance":"3000000000000000000",
                      "tokens":[
                         {
                            "chainId":"1",
@@ -86,7 +86,7 @@
                {
                   "name":"erc-20-balance-of",
                   "params":{
-                     "minBalance":"10000",
+                     "minBalance":"10000000000000000000000",
                      "tokens":[
                         {
                            "chainId":"1",
@@ -106,7 +106,7 @@
                {
                   "name":"erc-20-balance-of",
                   "params":{
-                     "minBalance":"68",
+                     "minBalance":"68000000000000000000",
                      "tokens":[
                         {
                            "chainId":"1",
