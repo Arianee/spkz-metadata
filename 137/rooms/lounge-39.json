@@ -1,28 +1,23 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Dr. Ashe Kurov's Lab",
-   "description":"If you abide by 'Androids Never Kill Androids', you may enter.",
+   "name":"Arianee team",
+   "description":"If you are part of the Team, time to drink your own Champagne!",
    "external_url":"https://spkz.io/app/lounges/38",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/2545_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/2545_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/ArianeeTeam_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/ArianeeTeam_Logo.jpg",
    "strategies":[
       [
          {
             "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/2545bygr4y"
-            }],
-            "logo":"https://lh3.googleusercontent.com/6mU0Aia9gFFkw1wUo5PBbK29MpfG5j1lVjmzpZp-FG_ygHuHQYa-La6EGnbwXu7gcgqNNnVoxUb7FzH6CeBgERx6WKHcNsLLJootPg=s130",
+            "logo":"",
             "params":{
                "minBalance":"1",
                "tokens":[
                   {
-                     "chainId":"1",
+                     "chainId":"137",
                      "networkId":"1",
-                     "address":"0xaF316251082Fee7dFF8412cA896601796674e0A6"
+                     "address":"0x7221d4e74fed002684200cd915b8a277600e60a8"
                   }
                ]
             }
@@ -63,13 +58,6 @@
                }
             ]
          ]
-      },
-      {
-         "title":"Acquire NFT",
-         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
-         "id":"embeddedpage",
-         "url":"https://opensea.io/collection/2545bygr4y/?embed=true",
-         "type":"external_url"
       }
    ]
 }
