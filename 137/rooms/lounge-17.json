@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Sushi Swap",
-   "description":"You bring the tokens, we bring the soy sauce. Welcome",
+   "description":"You bring the tokens, we bring the soy sauce. Welcome.",
    "external_url":"https://spkz.io/app/lounges/17",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Sushi_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sushi_logo.png",
