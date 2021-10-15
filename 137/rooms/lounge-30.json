@@ -5,12 +5,12 @@
    "description":"The most dapper place in all of web3. Welcome.",
    "external_url":"https://spkz.io/app/lounges/30",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/lukso_token_logo.png",
    "strategies":[
       [
          {
             "name":"erc-20-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/lukso_token_logo.png",
             "params":{
                "minBalance":"10000000000000000000",
                "tokens":[
@@ -61,7 +61,7 @@
       },
       {
          "title":"Lukso website",
-         "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
+         "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/lukso_token_logo.png",
          "id":"embeddedpage",
          "url":"https://www.lukso.network/?embed=true",
          "type":"external_url"
