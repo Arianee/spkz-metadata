@@ -2,7 +2,7 @@
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"The Surreals",
-   "description":"Only for Surreals",
+   "description":"We think this would be Dali's favorite room. Welcome.",
    "external_url":"https://dev.spkz.io/app/lounges/37",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_logo.png",
@@ -10,6 +10,11 @@
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/official-surreals"
+            }],
             "params":{
                "minBalance":"1",
                "logo":"https://lh3.googleusercontent.com/5TNn5wVTyXOPVbC_BaCdHGYahiptP84lpb3F_nTdeXL8hFx5rdxwlj-cOPjZ3pq_WLbLxHErSyu0uDV8ybgQFZJMLOgRPUdkNUX-Aw=s130",
