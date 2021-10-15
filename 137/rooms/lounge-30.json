@@ -2,17 +2,17 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Lukso",
-   "description":"Only for Lukso Holders",
+   "description":"The most dapper place in all of web3. Welcome.s",
    "external_url":"https://spkz.io/app/lounges/30",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
    "strategies":[
       [
          {
             "name":"erc-20-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Lukso_Logo.png",
             "params":{
-               "minBalance":"10",
-               "logo":"https://www.lukso.network/images/lukso_logo_white.png",
+               "minBalance":"10000000000000000000",
                "tokens":[
                   {
                      "chainId":"1",
