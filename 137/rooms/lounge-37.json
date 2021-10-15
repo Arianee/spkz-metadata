@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"The Surreals",
-   "description":"Only for Surreals",
+   "description":"We think this would be Dali's favorite room. Welcome.",
    "external_url":"https://spkz.io/app/lounges/37",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/TheSurreals_Logo.jpg",

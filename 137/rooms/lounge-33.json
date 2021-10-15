@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"World of Women",
-   "description":"Only for World of Women Holders",
+   "description":"Lounge of Women, or LoW, as we like to call it.",
    "external_url":"https://spkz.io/app/lounges/33",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_Logo.jpg",

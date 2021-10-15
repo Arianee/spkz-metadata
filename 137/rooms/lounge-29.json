@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Galactic Shipyard",
-   "description":"Only for Galactic Apes",
+   "description":"Crews prepped? Ships assembled? You may enter.",
    "external_url":"https://spkz.io/app/lounges/29",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/GalacticApes_Logo.jpg",

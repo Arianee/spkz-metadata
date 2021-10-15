@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"The Vogu / Tars Collective",
-   "description":"Only for Tars",
+   "description":"Tars, Tars, and more Tars.",
    "external_url":"https://spkz.io/app/lounges/34",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_Logo.jpg",
