@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Dr. Ashe Kurov's Lab",
-   "description":"Only for Androids",
+   "description":"If you abide by 'Androids Never Kill Androids', you may enter.",
    "external_url":"https://spkz.io/app/lounges/38",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/2545_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/2545_logo.png",
