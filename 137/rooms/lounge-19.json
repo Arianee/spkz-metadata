@@ -13,11 +13,11 @@
             "acquireURLs":[
                {
                   "title":"OpenSea",
-                  "logo":"https://lh3.googleusercontent.com/0CJDQH-HOpRunHwWrZCqvpLUToMXMvn-0JuKqUIlL5lRtngsqH2Uyc-LDyk_KYovQPWctNpEEgateW__c_vgmN_SZJODeEVvq7Rn=s130",
+                  "logo":"https://opensea.io/static/images/logos/opensea.svg",
                   "url":"https://opensea.io/collection/rekt-news-hacks-hopium"
                }
             ],
-            "logo":"XXXXXXXX",
+            "logo":"https://lh3.googleusercontent.com/0CJDQH-HOpRunHwWrZCqvpLUToMXMvn-0JuKqUIlL5lRtngsqH2Uyc-LDyk_KYovQPWctNpEEgateW__c_vgmN_SZJODeEVvq7Rn=s130",
             "params":{
                "minBalance":"1",
                "tokens":[
