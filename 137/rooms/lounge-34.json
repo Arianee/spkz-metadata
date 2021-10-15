@@ -4,15 +4,20 @@
    "name":"The Vogu / Tars Collective",
    "description":"Only for Tars",
    "external_url":"https://spkz.io/app/lounges/34",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Vogu_Logo.jpg",
    "strategies":[
       [
          {
             "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/vogu"
+            }],
+            "logo":"https://lh3.googleusercontent.com/4kPtQ8iep2Sw8MEV8TLfGuDsX0ql5pfniHZZGpwx3jp9D2ZRCE0coFxagGrhFH0sfVUezN1O-aRy9SZDong-N0RNsHgCg2rvX7LSJw=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/4kPtQ8iep2Sw8MEV8TLfGuDsX0ql5pfniHZZGpwx3jp9D2ZRCE0coFxagGrhFH0sfVUezN1O-aRy9SZDong-N0RNsHgCg2rvX7LSJw=s130",
                "tokens":[
                   {
                      "chainId":"1",
@@ -60,7 +65,7 @@
          ]
       },
       {
-         "title":"Embedded page",
+         "title":"Acquire NFT",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
          "url":"https://opensea.io/collection/vogu/?embed=true",
