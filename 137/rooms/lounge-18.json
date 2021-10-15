@@ -17,9 +17,9 @@
                   "url":"https://opensea.io/collection/pudgypenguins"
                }
             ],
+            "logo":"https://lh3.googleusercontent.com/bcCd1TfusKK6wWjmshwmizmY9j7An3pp9kxopMxfIt-_I8WFnSIK-5gevOduoYK4Qpq2e3DyXgROKNfkP396W5ViEYXhxoyAZG3s_vY=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/bcCd1TfusKK6wWjmshwmizmY9j7An3pp9kxopMxfIt-_I8WFnSIK-5gevOduoYK4Qpq2e3DyXgROKNfkP396W5ViEYXhxoyAZG3s_vY=s130",
                "tokens":[
                   {
                      "chainId":"1",
