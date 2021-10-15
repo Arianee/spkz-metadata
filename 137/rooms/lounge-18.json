@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"The Huddle",
-   "description":"Hey you pudgy, cute, goofy little fellows. You've come to the right place",
+   "description":"Hey you pudgy, cute, goofy little fellows. You've come to the right place.",
    "external_url":"https://spkz.io/app/lounges/18",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pudgy_pingouin_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Pudgy_Pingouin_Logo.jpg",
