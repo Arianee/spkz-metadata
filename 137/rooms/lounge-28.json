@@ -1,11 +1,11 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"The Bamboo Forest",
-   "description":"The web3 bamboo forest.",
-   "external_url":"https://spkz.io/app/lounges/20",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_Logo.svg",
+   "name":"The Superlative Lounge",
+   "description":"Looking to get a little metaphysical with it? This is the space for you.",
+   "external_url":"https://spkz.io/app/lounges/28",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SuperlativeSecretSociety_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SuperlativeSecretSociety_Logo.png",
    "strategies":[
       [
          {
@@ -13,17 +13,16 @@
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/pandadynasty"
+               "url":"https://opensea.io/collection/superlativesecretsociety"
             }],
-            "logo":"https://lh3.googleusercontent.com/tCGre0nfnke7RHovQC48uqrrTx624pYlRGQJ9QJnLPMu5pv1sfhSb7S2tFMHCP3WzPtf1Zjhgr5NZPPC1SbdjpXugRmg51KjwR9-pg=s130",
+            "logo":"https://lh3.googleusercontent.com/KXiwhGlX-mGtcqDt1OYoWoZWa7kPvaKNx3g_ZJGa34SGz2H1FmH7NWqJTGWVftAECvz2H89QiNpmlQ6gzqN_vMjgkp6FzU6pRNfg8g=s130",
             "params":{
                "minBalance":"1",
-               
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0x8e0543Eacd5078ba9Db88F34e2cBc24b7c2Eb790"
+                     "address":"0xa7eE407497b2Aeb43580cabe2B04026b5419D1dc"
                   }
                ]
             }
@@ -69,7 +68,7 @@
          "title":"opensea",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/assets/pandadynasty/?embed=true",
+         "url":"https://opensea.io/assets/superlativesecretsociety/?embed=true",
          "type":"external_url"
       }
    ]

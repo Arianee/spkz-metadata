@@ -2,10 +2,10 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Creature World",
-   "description":"Only for Creatures",
+   "description":"Looking for love, divine intervention, and possibility? This is the place for you.",
    "external_url":"https://spkz.io/app/lounges/24",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/CreatureWorld_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/CreatureWorld_logo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/CreatureWorld_logo.jpg",
    "strategies":[
       [
          {
@@ -15,9 +15,9 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/creature-world-collection"
             }],
+            "logo":"https://lh3.googleusercontent.com/PkMdNUr4UsEq5RLvAm721Ja5QGAijunAVDMz0hfRuyHQn853TRQzKL4aTFBgWPoy-nWlYA3hXzAm7flCmKn7Z9p2HN0GJxAtAixB4g=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/PkMdNUr4UsEq5RLvAm721Ja5QGAijunAVDMz0hfRuyHQn853TRQzKL4aTFBgWPoy-nWlYA3hXzAm7flCmKn7Z9p2HN0GJxAtAixB4g=s130",
                "tokens":[
                   {
                      "chainId":"1",

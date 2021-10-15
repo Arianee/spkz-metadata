@@ -1,11 +1,11 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"The Bamboo Forest",
-   "description":"The web3 bamboo forest.",
-   "external_url":"https://spkz.io/app/lounges/20",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pandadynasty_Logo.svg",
+   "name":"The DeadFellaz Horde",
+   "description":"Only the undead allowed.",
+   "external_url":"https://spkz.io/app/lounges/27",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/DeadFellaz_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/DeadFellaz_Logo.png",
    "strategies":[
       [
          {
@@ -13,17 +13,16 @@
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/pandadynasty"
+               "url":"https://opensea.io/collection/deadfellaz"
             }],
-            "logo":"https://lh3.googleusercontent.com/tCGre0nfnke7RHovQC48uqrrTx624pYlRGQJ9QJnLPMu5pv1sfhSb7S2tFMHCP3WzPtf1Zjhgr5NZPPC1SbdjpXugRmg51KjwR9-pg=s130",
+            "logo":"https://lh3.googleusercontent.com/5PO4I0APxP3xVDiOlSWewhb7iVf5Hnp5trQ22EVCAiKkSAnBTu0u1W6UgELpQtxr0LQz4rfNaScadZ4279naNCd6rXzewLIRrfEa=s130",
             "params":{
                "minBalance":"1",
-               
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0x8e0543Eacd5078ba9Db88F34e2cBc24b7c2Eb790"
+                     "address":"0x2acab3dea77832c09420663b0e1cb386031ba17b"
                   }
                ]
             }
@@ -69,7 +68,7 @@
          "title":"opensea",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
-         "url":"https://opensea.io/assets/pandadynasty/?embed=true",
+         "url":"https://opensea.io/assets/deadfellaz/?embed=true",
          "type":"external_url"
       }
    ]

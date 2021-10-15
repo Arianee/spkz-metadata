@@ -1,12 +1,12 @@
 {
-   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
-   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"The Orbital Bar",
    "description":"Before you fly off into the galaxy again, stop in here and share a story or two.",
-   "external_url":"https://dev.spkz.io/app/lounges/21",
+   "external_url":"https://spkz.io/app/lounges/21",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Cometh_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Cometh_Logo.png",
-   "strategies":[
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Cometh_Logo.svg",
+   "strategies":[[
      
 
       
@@ -17,20 +17,21 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/cometh-spaceships"
             }],
-            "logo":"",
+            "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
                "tokens":[
                 {
-                  "chainId":"137",
+                  "chainId":"1",
                   "networkId":"1",
                   "address":"0xbcd4F1EcFf4318e7A0c791C7728f3830Db506C71"
                 }                                          
                ]
             }
-         },
-         {
+         }
+      ],
+         [
+            {
             "name":"erc-20-balance-of",
             "acquireURLs":[{
                "title":"ComethSwap",
@@ -48,6 +49,7 @@
                ]
             }
          }
+      ]
                  
       ],
 
@@ -64,7 +66,7 @@
                {
                   "name":"room-owner",
                   "params":{
-                     "chainId":"80001",
+                     "chainId":"137",
                      "networkId":"1"
                   }
                }
@@ -79,7 +81,7 @@
                {
                   "name":"room-owner",
                   "params":{
-                     "chainId":"80001",
+                     "chainId":"137",
                      "networkId":"1"
                   }
                }

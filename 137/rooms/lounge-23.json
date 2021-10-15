@@ -10,17 +10,17 @@
   
 
       
-         {
+         [{
             "name":"erc-721-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/cryptopunks"
             }],
-            
+            "logo":"https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s130",
+               
                "tokens":[
                 {
                   "chainId":"1",
@@ -29,17 +29,18 @@
                 }                                          
                ]
             }
-         },
-         {
+         }],
+         [{
             "name":"erc-721-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/autoglyphs"
-            }],            
+            }],
+            "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",            
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",
+               
                "tokens":[
                   {
                      "chainId":"1",
@@ -48,17 +49,18 @@
                   }
                ]
             }
-         },
-          {
+         }],
+          [{
             "name":"erc-721-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/meebits"
-            }],            
+            }],  
+            "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",          
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",
+               
                "tokens":[
                   {
                      "chainId":"1",
@@ -67,7 +69,7 @@
                   }
                ]
             }
-         }
+         }]
                  
       ],
 
