@@ -27,11 +27,12 @@
             }
          }
       ],
-    
+
             [
                {
                   "name":"erc-20-balance-of",
                   "params":{
+                     "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                      "minBalance":"3000000000000000000",
                      "tokens":[
                         {
@@ -47,8 +48,8 @@
                      ]
                   }
                }
-            ]            
-        
+            ]
+
    ],
    "sections":[
       {
@@ -73,7 +74,7 @@
       {
          "title":"Tech",
          "id":"tech"
-      },      
+      },
       {
          "title":"LP Providers",
          "id":"lpprovider",
@@ -97,9 +98,9 @@
                      ]
                   }
                }
-            ]            
+            ]
          ]
-      },      
+      },
       {
          "title":"Whales",
          "id":"whales",
@@ -123,7 +124,7 @@
                      ]
                   }
                }
-            ],            
+            ],
             [
                {
                   "name":"erc-20-balance-of",
@@ -142,8 +143,8 @@
                         }
                      ]
                   }
-               }               
-            ]            
+               }
+            ]
          ]
       }
    ]
