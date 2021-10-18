@@ -61,7 +61,7 @@
       },
       {
          "title":"Lukso website",
-         "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/lukso_token_logo.png",
+         "icon":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/lukso_logo_white_60x60.png",
          "id":"embeddedpage",
          "url":"https://www.lukso.network/?embed=true",
          "type":"external_url"
