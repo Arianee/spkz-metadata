@@ -26,7 +26,29 @@
                ]
             }
          }
-      ]
+      ],
+      [
+            [
+               {
+                  "name":"erc-20-balance-of",
+                  "params":{
+                     "minBalance":"3000000000000000000",
+                     "tokens":[
+                        {
+                           "chainId":"1",
+                           "networkId":"1",
+                           "address":"0xc5202e3f5f60423d7106a68278c627fd091b5c7d"
+                        },
+                        {
+                           "chainId":"137",
+                           "networkId":"1",
+                           "address":"0xd88810f3fe698862669448dce29808b242b9a1bc"
+                        }
+                     ]
+                  }
+               }
+            ]            
+         ]
    ],
    "sections":[
       {
