@@ -7,68 +7,70 @@
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/larvalabs_image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/larvalabs_logo.png",
    "strategies":[
-  
 
-      
-         {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/cryptopunks"
-            }],
-            
-            "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s130",
-               "tokens":[
-                {
-                  "chainId":"1",
-                  "networkId":"1",
-                  "address":"0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB"
-                }                                          
-               ]
+[
+
+
+   {
+      "name":"erc-721-balance-of",
+      "acquireURLs":[{
+         "title":"OpenSea",
+         "logo":"https://opensea.io/static/images/logos/opensea.svg",
+         "url":"https://opensea.io/collection/cryptopunks"
+      }],
+
+      "params":{
+         "minBalance":"1",
+         "logo":"https://lh3.googleusercontent.com/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE=s130",
+         "tokens":[
+            {
+               "chainId":"1",
+               "networkId":"1",
+               "address":"0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB"
             }
-         },
-         {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/autoglyphs"
-            }],            
-            "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0xd4e4078ca3495DE5B1d4dB434BEbc5a986197782"
-                  }
-               ]
+         ]
+      }
+   },
+   {
+      "name":"erc-721-balance-of",
+      "acquireURLs":[{
+         "title":"OpenSea",
+         "logo":"https://opensea.io/static/images/logos/opensea.svg",
+         "url":"https://opensea.io/collection/autoglyphs"
+      }],
+      "params":{
+         "minBalance":"1",
+         "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",
+         "tokens":[
+            {
+               "chainId":"1",
+               "networkId":"1",
+               "address":"0xd4e4078ca3495DE5B1d4dB434BEbc5a986197782"
             }
-         },
-          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/meebits"
-            }],            
-            "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7"
-                  }
-               ]
+         ]
+      }
+   },
+   {
+      "name":"erc-721-balance-of",
+      "acquireURLs":[{
+         "title":"OpenSea",
+         "logo":"https://opensea.io/static/images/logos/opensea.svg",
+         "url":"https://opensea.io/collection/meebits"
+      }],
+      "params":{
+         "minBalance":"1",
+         "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",
+         "tokens":[
+            {
+               "chainId":"1",
+               "networkId":"1",
+               "address":"0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7"
             }
-         }
-                 
+         ]
+      }
+   }
+]
+
       ],
 
    "sections":[
