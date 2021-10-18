@@ -15,6 +15,7 @@
       {
          "title":"Chat",
          "id":"chat"
+         "readStrategies":[]
       },
       {
          "title":"VIP Room",
