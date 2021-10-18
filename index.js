@@ -34,6 +34,8 @@ const walkInDir = (roomDir) => {
 };
 
 (async function(){
+  try{
+
   const roomsDir = ['./80001/rooms', './137/rooms',];
 
   for(var roomDir of roomsDir){
@@ -46,6 +48,12 @@ const walkInDir = (roomDir) => {
     }
   }
   console.log('SUCCESS! all working fine');
+    process.exit()
+  }catch(e){
+    console.log("error")
+    console.log(e);
+    process.exit(1);
+  }
 
 })()
 
