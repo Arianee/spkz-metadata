@@ -31,8 +31,8 @@
             [
                {
                   "name":"erc-20-balance-of",
+                  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                   "params":{
-                     "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                      "minBalance":"3000000000000000000",
                      "tokens":[
                         {
@@ -82,6 +82,7 @@
             [
                {
                   "name":"erc-20-balance-of",
+                  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                   "params":{
                      "minBalance":"3000000000000000000",
                      "tokens":[
@@ -128,6 +129,7 @@
             [
                {
                   "name":"erc-20-balance-of",
+                  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                   "params":{
                      "minBalance":"68000000000000000000",
                      "tokens":[
