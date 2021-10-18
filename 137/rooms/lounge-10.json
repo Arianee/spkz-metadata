@@ -3,7 +3,7 @@
   "notificationEndpoint":"wss://node0-ws.spkz.io",
   "name":"SPKZ Bar",
   "description":"Welcome to SPKZ, a community suited for a web3 world. This collection depicts the officially represented projects that are speaking easy within SPKZ.io. But our doors are open to all. Mint a lounge and your unique NFT will be found here as well.",
-  "external_url":"https://spkz.io/lounges/10",
+  "external_url":"https://spkz.io/app/lounges/10",
   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz-logo.jpeg",
   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz-logo.jpeg",
   "strategies":[

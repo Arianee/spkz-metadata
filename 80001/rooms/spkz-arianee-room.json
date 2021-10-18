@@ -6,7 +6,7 @@
    "image":"https://transparianee.herokuapp.com/aria.png",
    "logo":"https://transparianee.herokuapp.com/arianee-logo.png",
    "strategies":[
-      {
+     [ {
          "name":"erc-20-balance-of",
          "params":{
             "minBalance":"1",
@@ -23,17 +23,17 @@
                }
             ]
          }
-      }
+      }]
    ],
    "sections":[
       {
          "title":"Welcome",
          "id":"welcome",
          "strategiesRead":[
-            
+[]
          ],
          "strategiesWrite":[
-            
+[]
          ]
       },
       {
@@ -44,7 +44,7 @@
          "title":"VIP Room",
          "id":"viproom",
          "readStrategies":[
-            {
+          [  {
                "name":"erc-20-balance-of",
                "acquireURLs":[
                   {
@@ -75,18 +75,18 @@
                      }
                   ]
                }
-            }
+            }]
          ]
       },
       {
          "title":"Announcement",
          "id":"annoucement",
          "strategiesWrite":[
-            {
+          [  {
                "name":"room-owner",
                "chainId":"137",
                "networkId":"1"
-            }
+            }]
          ]
       }
    ]

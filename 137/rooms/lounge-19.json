@@ -13,76 +13,76 @@
             "acquireURLs":[
                {
                   "title":"OpenSea",
-                  "logo":"https://lh3.googleusercontent.com/0CJDQH-HOpRunHwWrZCqvpLUToMXMvn-0JuKqUIlL5lRtngsqH2Uyc-LDyk_KYovQPWctNpEEgateW__c_vgmN_SZJODeEVvq7Rn=s130",
+                  "logo":"https://opensea.io/static/images/logos/opensea.svg",
                   "url":"https://opensea.io/collection/rekt-news-hacks-hopium"
                }
             ],
-            "logo":"XXXXXXXX",
+            "logo":"https://lh3.googleusercontent.com/0CJDQH-HOpRunHwWrZCqvpLUToMXMvn-0JuKqUIlL5lRtngsqH2Uyc-LDyk_KYovQPWctNpEEgateW__c_vgmN_SZJODeEVvq7Rn=s130",
             "params":{
                "minBalance":"1",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0xA32Ba4034F9AF9d558665c6a0C9ED9c1472f0752"
+                     "address":"0xa32ba4034f9af9d558665c6a0c9ed9c1472f0752"
+                  }
+               ]
+            }
+         }
+      ],
+      [   
+         {
+            "name":"erc-20-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"SDT",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stakedao_logo.png",
+                  "url":"https://stakedao.org/login"
+               }
+            ],
+            "params":{
+               "minBalance":"10000000000000000000",
+               "tokens":[
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f"
+                  },
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x361a5a4993493ce00f61c32d4ecca5512b82ce90"
                   }
                ]
             }
          }
       ],
       [
-         [
-            {
-               "name":"erc-20-balance-of",
-               "acquireURLs":[
-                  {
-                     "title":"SDT",
-                     "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stakedao_logo.png",
-                     "url":"https://stakedao.org/login"
-                  }
-               ],
-               "params":{
-                  "minBalance":"10000000000000000000",
-                  "tokens":[
-                     {
-                        "chainId":"1",
-                        "networkId":"1",
-                        "address":"0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f"
-                     },
-                     {
-                        "chainId":"137",
-                        "networkId":"1",
-                        "address":"0x361a5a4993493ce00f61c32d4ecca5512b82ce90"
-                     }
-                  ]
+         {
+            "name":"erc-20-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"BPT",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/blackpool_logo.png",
+                  "url":"https://blackpool.finance/token"
                }
-            },
-            {
-               "name":"erc-20-balance-of",
-               "acquireURLs":[
+            ],
+            "params":{
+               "minBalance":"10000000000000000000",
+               "tokens":[
                   {
-                     "title":"BPT",
-                     "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/blackpool_logo.png",
-                     "url":"https://blackpool.finance/token"
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x0ec9f76202a7061eb9b3a7d6b59d36215a7e37da"
+                  },
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x6863BD30C9e313B264657B107352bA246F8Af8e0"
                   }
-               ],
-               "params":{
-                  "minBalance":"10000000000000000000",
-                  "tokens":[
-                     {
-                        "chainId":"1",
-                        "networkId":"1",
-                        "address":"0x0ec9f76202a7061eb9b3a7d6b59d36215a7e37da"
-                     },
-                     {
-                        "chainId":"137",
-                        "networkId":"1",
-                        "address":"0x6863BD30C9e313B264657B107352bA246F8Af8e0"
-                     }
-                  ]
-               }
+               ]
             }
-         ]
+         }         
       ]
    ],
    "sections":[

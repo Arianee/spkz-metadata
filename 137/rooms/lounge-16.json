@@ -17,9 +17,9 @@
                   "url":"https://opensea.io/collection/luchadores-io"
                }
             ],
+            "logo":"https://lh3.googleusercontent.com/1O1QI7IrnsiZNY4xIibiyQkyNJHsbxspPiX520SuIRH1sBpi47q8_KXAKi9R1hrEqlsCz3GRUqa4AsoF__k9lPG15rvnmZy8x7PK7ls=s130",
             "params":{
                "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/1O1QI7IrnsiZNY4xIibiyQkyNJHsbxspPiX520SuIRH1sBpi47q8_KXAKi9R1hrEqlsCz3GRUqa4AsoF__k9lPG15rvnmZy8x7PK7ls=s130",
                "tokens":[
                   {
                      "chainId":"1",
