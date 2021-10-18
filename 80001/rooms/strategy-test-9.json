@@ -1,5 +1,8 @@
-
 {
- "propr":"broken json",
- "
+ "endpoint":"https://uat.node0.spkz.io/spkz/rpc",
+ "notificationEndpoint":"wss://uat.node0-ws.spkz.io",
+ "name":"NOT IMPLEMENTED",
+ "strategies":[
+  []
+ ]
 }

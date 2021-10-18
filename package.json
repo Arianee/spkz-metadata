@@ -1,0 +1,22 @@
+{
+  "name": "spkz-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arianee/spkz-metadata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arianee/spkz-metadata/issues"
+  },
+  "homepage": "https://github.com/Arianee/spkz-metadata#readme",
+  "dependencies": {
+    "@arianee/spkz-sdk": "^1.1.0-SNAPSHOT.1634544365"
+  }
+}
