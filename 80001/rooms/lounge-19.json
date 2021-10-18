@@ -19,6 +19,7 @@
                }
             ],
             "params":{
+               "name":"erc-20-balance-of",
                "minBalance":"1",
                "tokens":[
                   {
@@ -31,7 +32,6 @@
          }
       ],
       [
-         [
             {
                "name":"erc-20-balance-of",
                "acquireURLs":[
@@ -83,7 +83,6 @@
                }
             }
          ]
-      ]
    ],
    "sections":[
       {
