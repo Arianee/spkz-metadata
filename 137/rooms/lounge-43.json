@@ -1,30 +1,31 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Sismo DAO",
-   "description":"The Sismo DAO is restricted to Zikies",
-   "external_url":"https://spkz.io/app/lounges/41",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
+   "name":"AZ Factory",
+   "description":"A place where the AZ factory community can talk, innovate, experiment and try new things in the fashion world.",
+   "external_url":"https://spkz.io/app/lounges/43",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Logo.jpg",
    "strategies":[
       [
          {
-            "name":"erc-721-balance-of",
+            "name":"erc-721-balance-of-issued-by",
             "acquireURLs":[
                {
-                  "title":"OpenSea",
-                  "logo":"https://twitter.com/Sismo_eth/photo",
-                  "url":"https://opensea.io/collection/sismo-eth-dao"
-               }
-            ],
-            "logo":"",
+                  "title":"Az Factory",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Buy_Section_Logo.jpg",
+                  "url":"https://www.azfactory.com/"
+               }],
             "params":{
+               "symbol":"AZ",
+               "name":"AZ Factory",
                "minBalance":"1",
+               "issuer":"0x1f387F90534b6E09224c880798E01e5f0e865598",
                "tokens":[
                   {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0x10A9D6417f5289d2e5ccDE29AD5A35CfC5C543F1"
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
                   }
                ]
             }
@@ -33,26 +34,43 @@
    ],
    "sections":[
       {
-         "title":"Proposals",
-         "id":"proposals"
+         "title":"Chat",
+         "id":"chat"
       },
       {
-         "title":"Zikies",
-         "id":"zikies"
+         "title":"About",
+         "id":"about",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
       },
       {
-         "title":"Q&A",
-         "id":"qa"
+         "title":"Announcement",
+         "id":"annoucement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
       },
       {
-         "title":"Tech",
-         "id":"tech"
-      },
-      {
-         "title":"Acquire NFT",
-         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+         "title":"AZ Factory",
          "id":"embeddedpage",
-         "url":"https://opensea.io/collection/sismo-eth-dao/?embed=true",
+         "url":"https://www.azfactory.com/?embed=true",
          "type":"external_url"
       }
    ]
