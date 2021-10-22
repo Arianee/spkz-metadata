@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Arianee/spkz-metadata#readme",
   "dependencies": {
-    "@arianee/spkz-sdk": "1.3.0-SNAPSHOT.1634565357"
+    "@arianee/spkz-sdk": "1.5.0-SNAPSHOT.1634906248"
   }
 }
