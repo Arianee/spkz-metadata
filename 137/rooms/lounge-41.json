@@ -10,11 +10,13 @@
       [
          {
             "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://twitter.com/Sismo_eth/photo",
-               "url":"https://opensea.io/collection/sismo-eth-dao"
-            }],
+            "acquireURLs":[
+               {
+                  "title":"OpenSea",
+                  "logo":"https://twitter.com/Sismo_eth/photo",
+                  "url":"https://opensea.io/collection/sismo-eth-dao"
+               }
+            ],
             "logo":"",
             "params":{
                "minBalance":"1",
@@ -36,15 +38,15 @@
       },
       {
          "title":"Zikies",
-         "id":"zikies",
+         "id":"zikies"
       },
       {
          "title":"Q&A",
-         "id":"qa",
+         "id":"qa"
       },
       {
          "title":"Tech",
-         "id":"tech",
+         "id":"tech"
       },
       {
          "title":"Acquire NFT",
