@@ -17,7 +17,7 @@
                   "url":"https://opensea.io/collection/sismo-eth-dao"
                }
             ],
-            "logo":"",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
             "params":{
                "minBalance":"1",
                "tokens":[
@@ -47,13 +47,6 @@
       {
          "title":"Tech",
          "id":"tech"
-      },
-      {
-         "title":"Acquire NFT",
-         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
-         "id":"embeddedpage",
-         "url":"https://opensea.io/collection/sismo-eth-dao/?embed=true",
-         "type":"external_url"
       }
    ]
 }
