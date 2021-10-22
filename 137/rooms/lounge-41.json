@@ -17,7 +17,7 @@
                   "url":"https://opensea.io/collection/sismo-eth-dao"
                }
             ],
-            "logo":"",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
             "params":{
                "minBalance":"1",
                "tokens":[
