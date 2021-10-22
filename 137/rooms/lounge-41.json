@@ -47,13 +47,6 @@
       {
          "title":"Tech",
          "id":"tech"
-      },
-      {
-         "title":"Acquire NFT",
-         "icon":"https://twitter.com/Sismo_eth/photo",
-         "id":"embeddedpage",
-         "url":"https://opensea.io/collection/sismo-eth-dao/?embed=true",
-         "type":"external_url"
       }
    ]
 }
