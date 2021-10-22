@@ -50,7 +50,7 @@
       },
       {
          "title":"Acquire NFT",
-         "icon":"https://twitter.com/Sismo_eth/photo",
+         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"embeddedpage",
          "url":"https://opensea.io/collection/sismo-eth-dao/?embed=true",
          "type":"external_url"
