@@ -1,0 +1,59 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Sismo DAO",
+   "description":"The Sismo DAO is restricted to Zikies",
+   "external_url":"https://spkz.io/app/lounges/41",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"OpenSea",
+                  "logo":"https://twitter.com/Sismo_eth/photo",
+                  "url":"https://opensea.io/collection/sismo-eth-dao"
+               }
+            ],
+            "logo":"",
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x10A9D6417f5289d2e5ccDE29AD5A35CfC5C543F1"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Proposals",
+         "id":"proposals"
+      },
+      {
+         "title":"Zikies",
+         "id":"zikies"
+      },
+      {
+         "title":"Q&A",
+         "id":"qa"
+      },
+      {
+         "title":"Tech",
+         "id":"tech"
+      },
+      {
+         "title":"Acquire NFT",
+         "icon":"https://twitter.com/Sismo_eth/photo",
+         "id":"embeddedpage",
+         "url":"https://opensea.io/collection/sismo-eth-dao/?embed=true",
+         "type":"external_url"
+      }
+   ]
+}
