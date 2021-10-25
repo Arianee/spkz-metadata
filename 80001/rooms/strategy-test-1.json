@@ -1,15 +1,35 @@
 {
-   "$schema":"https://cert.arianee.org/version1/ArianeeAsset.json",
-   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
-   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"Developpement testnet room",
-   "description":"Room developpement node0 mumbai",
-   "external_url":"https://dev.spkz.io/app/lounges/1",
-   "image":"",
-   "logo":"https://cpmr-islands.org/wp-content/uploads/sites/4/2019/07/test.png",
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"AZ Factory",
+   "description":"A place where the AZ factory community can talk, innovate, experiment and try new things in the fashion world.",
+   "external_url":"https://spkz.io/app/lounges/43",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Logo.jpg",
    "strategies":[
       [
-         
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "acquireURLs":[
+               {
+                  "title":"Az Factory",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Buy_Section_Logo.jpg",
+                  "url":"https://www.azfactory.com/"
+               }],
+            "params":{
+               "symbol":"AZ",
+               "name":"AZ Factory",
+               "minBalance":"1",
+               "issuer":"0x1f387F90534b6E09224c880798E01e5f0e865598",
+               "tokens":[
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
       ]
    ],
    "sections":[
@@ -18,42 +38,15 @@
          "id":"chat"
       },
       {
-         "title":"VIP Room",
-         "id":"viproom",
-         "strategiesRead":[
-            
-         ]
-      },
-      {
-         "title":"Sokol Aria Owners",
-         "id":"sokolariaowners",
-         "readStrategies":[
+         "title":"About",
+         "id":"about",
+         "writeStrategies":[
             [
                {
-                  "name":"erc-20-balance-of",
-                  "acquireURLs":[
-                     {
-                        "title":"Buy Aria On Uniswap",
-                        "url":"https://app.uniswap.org/#/swap?outputCurrency=0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9&use=V2"
-                     },
-                     {
-                        "title":"Buy Aria On Quickswap",
-                        "url":"https://quickswap.exchange/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
-                     },
-                     {
-                        "title":"Buy Aria On Cometh",
-                        "url":"https://swap.cometh.io/#/swap?outputCurrency=0x46F48FbdedAa6F5500993BEDE9539ef85F4BeE8e"
-                     }
-                  ],
+                  "name":"room-owner",
                   "params":{
-                     "minBalance":"1",
-                     "tokens":[
-                        {
-                           "chainId":"77",
-                           "networkId":"1",
-                           "address":"0xB81AFe27c103bcd42f4026CF719AF6D802928765"
-                        }
-                     ]
+                     "chainId":"99",
+                     "networkId":"1"
                   }
                }
             ]
@@ -61,14 +54,24 @@
       },
       {
          "title":"Announcement",
-         "id":"annoucement"
+         "id":"annoucement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
       },
       {
-        "title":"Buy your MaticPunks",
-        "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
-        "id":"maticpunkopensea",
-        "url":"https://opensea.io/assets/maticpunks?embed=true",
-        "type":"external_url"        
-     }   
+         "title":"AZ Factory",
+         "id":"embeddedpage",
+         "url":"https://www.azfactory.com/?embed=true",
+         "type":"external_url"
+      }
    ]
 }
