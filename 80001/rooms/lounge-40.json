@@ -1,9 +1,9 @@
 {
-   "endpoint":"https://node0.spkz.io/spkz/rpc",
-   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"AZ Factory",
    "description":"A place where the AZ factory community can talk, innovate, experiment and try new things in the fashion world.",
-   "external_url":"https://spkz.io/app/lounges/43",
+   "external_url":"https://dev.spkz.io/app/lounges/43",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Image.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Logo.jpg",
    "strategies":[
@@ -20,11 +20,11 @@
                "symbol":"AZ",
                "name":"AZ Factory",
                "minBalance":"1",
-               "issuer":"0x1f387F90534b6E09224c880798E01e5f0e865598",
+               "issuer":"0x5D40D9a50E855fD622790D657Ef7198d6A75E022",
                "tokens":[
                   {
                      "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
-                     "chainId":"99",
+                     "chainId":"77",
                      "networkId":"1"
                   }
                ]
@@ -45,7 +45,7 @@
                {
                   "name":"room-owner",
                   "params":{
-                     "chainId":"137",
+                     "chainId":"80001",
                      "networkId":"1"
                   }
                }
@@ -60,7 +60,7 @@
                {
                   "name":"room-owner",
                   "params":{
-                     "chainId":"137",
+                     "chainId":"80001",
                      "networkId":"1"
                   }
                }
