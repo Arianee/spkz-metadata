@@ -1,0 +1,24 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"NFT.NYC",
+   "description":"Event Calendar and Group Chat for all attending NFT.NYC",
+   "external_url":"https://spkz.io/app/lounges/47",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/NYC_image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/NYC_logo.png",
+   "strategies":[
+      
+   ],
+   "sections":[
+      {
+         "title":"Calendar",
+         "id":"calendar",
+         "url":"https://tockify.com/nft.nyc/monthly?startms=1635739200000/?embed=true",
+         "type":"external_url"
+      },
+      {
+         "title":"Chat",
+         "id":"chat"
+      }
+   ]
+}
