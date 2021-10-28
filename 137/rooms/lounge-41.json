@@ -13,13 +13,13 @@
             "acquireURLs":[
                {
                   "title":"OpenSea",
-                  "logo":"https://twitter.com/Sismo_eth/photo",
+                  "logo":"https://opensea.io/static/images/logos/opensea.svg",
                   "url":"https://opensea.io/collection/sismo-eth-dao"
                }
             ],
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
             "params":{
                "minBalance":"1",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sismodao_logo.png",
                "tokens":[
                   {
                      "chainId":"1",
