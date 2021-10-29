@@ -17,8 +17,8 @@
                   "url":"https://opensea.io/collection/visitors-of-imma-degen"
                }
             ],
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/VoidImmaVerse_Logo.jpg",
             "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/VoidImmaVerse_Logo.jpg",
                "minBalance":"1",
                "tokens":[
                   {

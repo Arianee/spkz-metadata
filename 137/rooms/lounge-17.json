@@ -17,8 +17,8 @@
                   "url":"https://app.sushi.com/swap"
                }
             ],
-             "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sushiswap_logo.png",
             "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sushiswap_logo.png",
                "minBalance":"10000000000000000000",
                "tokens":[
                   {
