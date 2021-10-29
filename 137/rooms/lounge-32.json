@@ -17,12 +17,12 @@
                   "url":"https://paraswap.io/#/?network=ethereum"
                }
             ],
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
+            
             "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
                "minBalance":"100000000000000000",
                "name":"MakerDAO",
                "symbol":"MKR",
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Maker_Logo.jpg",
                "tokens":[
                   {
                      "chainId":"1",
