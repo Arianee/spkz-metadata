@@ -17,8 +17,8 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/cometh-spaceships"
             }],
-            "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
             "params":{
+               "logo":"https://lh3.googleusercontent.com/J0Z4_cs_Ap2f8Q0USIQ40gnO1ovuhIIKa9qoNjX10_WK0d-w-25ykX9go0riOgF86XGvbcEVtjyCtyv0WDyrIn-cwoZip6vBEC7agBc=s130",
                "minBalance":"1",
                "tokens":[
                 {

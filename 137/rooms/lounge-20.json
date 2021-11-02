@@ -15,8 +15,9 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/pandadynasty"
             }],
-            "logo":"https://lh3.googleusercontent.com/tCGre0nfnke7RHovQC48uqrrTx624pYlRGQJ9QJnLPMu5pv1sfhSb7S2tFMHCP3WzPtf1Zjhgr5NZPPC1SbdjpXugRmg51KjwR9-pg=s130",
+            
             "params":{
+               "logo":"https://lh3.googleusercontent.com/tCGre0nfnke7RHovQC48uqrrTx624pYlRGQJ9QJnLPMu5pv1sfhSb7S2tFMHCP3WzPtf1Zjhgr5NZPPC1SbdjpXugRmg51KjwR9-pg=s130",
                "minBalance":"1",
                
                "tokens":[
