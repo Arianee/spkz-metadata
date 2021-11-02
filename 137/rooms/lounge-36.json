@@ -15,8 +15,8 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/art-blocks"
             }],
-            "logo":"https://lh3.googleusercontent.com/GwnosrkaneKGEkWySxvTSzZ5bEUjWkRuQzLSNfrpgy2-gxYjoR3m5PohLT9Fzy0p1tohajZ1g-LFfF_ZLnS1GqlPNHPUaKUbDhbf=s130",
             "params":{
+               "logo":"https://lh3.googleusercontent.com/GwnosrkaneKGEkWySxvTSzZ5bEUjWkRuQzLSNfrpgy2-gxYjoR3m5PohLT9Fzy0p1tohajZ1g-LFfF_ZLnS1GqlPNHPUaKUbDhbf=s130",
                "minBalance":"1",
                "tokens":[
                   {

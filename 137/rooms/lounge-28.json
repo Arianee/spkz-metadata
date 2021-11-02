@@ -14,9 +14,9 @@
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/superlativesecretsociety"
-            }],
-            "logo":"https://lh3.googleusercontent.com/KXiwhGlX-mGtcqDt1OYoWoZWa7kPvaKNx3g_ZJGa34SGz2H1FmH7NWqJTGWVftAECvz2H89QiNpmlQ6gzqN_vMjgkp6FzU6pRNfg8g=s130",
+            }],         
             "params":{
+               "logo":"https://lh3.googleusercontent.com/KXiwhGlX-mGtcqDt1OYoWoZWa7kPvaKNx3g_ZJGa34SGz2H1FmH7NWqJTGWVftAECvz2H89QiNpmlQ6gzqN_vMjgkp6FzU6pRNfg8g=s130",
                "minBalance":"1",
                "tokens":[
                   {

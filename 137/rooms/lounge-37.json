@@ -15,8 +15,8 @@
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/official-surreals"
             }],
-            "logo":"https://lh3.googleusercontent.com/5TNn5wVTyXOPVbC_BaCdHGYahiptP84lpb3F_nTdeXL8hFx5rdxwlj-cOPjZ3pq_WLbLxHErSyu0uDV8ybgQFZJMLOgRPUdkNUX-Aw=s130",
             "params":{
+               "logo":"https://lh3.googleusercontent.com/5TNn5wVTyXOPVbC_BaCdHGYahiptP84lpb3F_nTdeXL8hFx5rdxwlj-cOPjZ3pq_WLbLxHErSyu0uDV8ybgQFZJMLOgRPUdkNUX-Aw=s130",
                "minBalance":"1",
                "tokens":[
                   {
