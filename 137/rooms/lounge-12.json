@@ -17,8 +17,8 @@
                   "url":"https://opensea.io/collection/thealienboy"
                }
             ],
-            "logo":"https://lh3.googleusercontent.com/mnNWlPXlDTp8N1JP2kiCrTy-w0lGU0S1AX5sMm0ZhWjSTpIh4RTwXERNjz83aKI1uKjyqf8yZJlsId6TeUgvJRhwaWScJPdWZSlISJc=s130",
-            "params":{
+               "params":{
+               "logo":"https://lh3.googleusercontent.com/mnNWlPXlDTp8N1JP2kiCrTy-w0lGU0S1AX5sMm0ZhWjSTpIh4RTwXERNjz83aKI1uKjyqf8yZJlsId6TeUgvJRhwaWScJPdWZSlISJc=s130",
                "minBalance":"1",
                "tokens":[
                   {
