@@ -13,10 +13,10 @@
             "acquireURLs":[
                {
                   "title":"Az Factory",
-                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Buy_Section_Logo.jpg",
                   "url":"https://www.azfactory.com/"
                }],
             "params":{
+            	"logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Buy_Section_Logo.jpg",
                "symbol":"AZ",
                "name":"AZ Factory",
                "minBalance":"1",
