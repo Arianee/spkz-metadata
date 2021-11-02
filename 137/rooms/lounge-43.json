@@ -13,7 +13,7 @@
             "acquireURLs":[
                {
                   "title":"Az Factory",
-                  "url":"https://www.azfactory.com/"
+                  "url":"https://www.azfactory.com/search?q=nft"
                }],
             "params":{
             	"logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AZFactory_Buy_Section_Logo.jpg",
@@ -66,12 +66,6 @@
                }
             ]
          ]
-      },
-      {
-         "title":"AZ Factory",
-         "id":"embeddedpage",
-         "url":"https://www.azfactory.com/?embed=true",
-         "type":"external_url"
       }
    ]
 }
