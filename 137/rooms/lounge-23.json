@@ -36,9 +36,9 @@
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/autoglyphs"
-            }],
-            "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",            
+            }],                        
             "params":{
+               "logo":"https://lh3.googleusercontent.com/BX7cWHwWFzo6FVh-Ql_qzFbXtADQgLLlpLOl3l9tS6hUPlgtGHgHn_E1FxiHXmzNlvig00ZEAk9uZU-tMPT2Fg=s130",
                "minBalance":"1",
                
                "tokens":[
@@ -56,9 +56,9 @@
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
                "url":"https://opensea.io/collection/meebits"
-            }],  
-            "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",          
+            }],                        
             "params":{
+               "logo":"https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s130",
                "minBalance":"1",
                
                "tokens":[
