@@ -1,0 +1,72 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Kitten x Arianee",
+   "description":"In collaboration with some of the finest production houses in France -- Neyret, ISRA, and Wiltee -- Kitten Production and Arianee created a series of hoodies that are unique in design, sustainable in production, and immersive in digital experience.",
+   "external_url":"https://spkz.io/app/lounges/46",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/kitten_image.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/kitten_logo.jpg",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+            	"logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/kitten_logo.png",
+               "symbol":"NFT",
+               "name":"Kitten x Arianee",
+               "minBalance":"1",
+               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
+               "tokens":[
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"About",
+         "id":"about",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"Announcement",
+         "id":"annoucement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"White Paper",
+         "id":"embeddedpage",
+         "url":"https://f.hubspotusercontent10.net/hubfs/9335516/Arianee_September_2021_White_Paper_From_Street_To_Metaverse.pdf?embed=true",
+         "type":"external_url"
+      }
+   ]
+}
