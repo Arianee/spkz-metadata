@@ -1,0 +1,109 @@
+{
+   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+   "name":"The Outpost: AR Explorers Club",
+   "description":"«If you could paint on anywhere in the world, what would you do?» ~ Lester Free NFT drops, private sales, behind the scenes, AR/VR tips & tutorials, exclusive event access, and a space for the Lesterpaintstheworld community.",
+   "external_url":"https://spkz.io/app/lounges/42",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/the_outpost.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/the_outpost400.jpg",
+   "strategies":[
+      [   
+         {
+            "name":"erc-1155-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/metaverse-avatars"
+            }],
+            
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
+               "minBalance":"1",
+               
+               "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x495f947276749ce646f68ac8c248420045cb7b5e"
+                }                                          
+               ]
+            }
+         }],
+         [{
+            "name":"erc-1155-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/transsiberian"
+            }],        
+            "logo":"https://lh3.googleusercontent.com/SuT7Abtpg6LIu5Pnrhwf4E92OIXTvkw9SCZ-AII_YawBBlyxxB07R-8mbVHBp8RK56Ews9eSMh08owxRfB-jAZx70pmibLvxFmylEQ=s130",    
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0x2953399124f0cbb46d2cbacd8a89cf0599974963"
+                  }
+               ]
+            }
+         }],
+          [{
+            "name":"erc-1155-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/lester-art-genesis"
+            }],            
+            "logo":"https://lh3.googleusercontent.com/Vw0XE-FlD8C9GQuac6cmzKR98942omqZNW59G88hwZuWwT7MIzwunG6JbcjyDi4vAsPHeOE0qJ68O00Vs5BR_FLiSWevkPqVxvzDujs=s130",
+            "params":{
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x495f947276749ce646f68ac8c248420045cb7b5e"
+                  }
+               ]
+            }
+         }
+         ]        
+      ],
+
+   "sections":[
+      {
+         "title":"General Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Announcement",
+         "id":"announcement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"Ideas & Requests",
+         "id":"ideasrequests"
+      },
+      {
+         "title":"Chill Room",
+         "id":"chillroom"
+      },
+      {
+         "title":"Lester paints the world",
+         "id":"embeddedpage",
+         "url":"https://lesterpaintstheworld.com/",
+         "type":"external_url"
+      }
+   ]
+
+}
