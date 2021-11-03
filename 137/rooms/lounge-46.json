@@ -25,7 +25,17 @@
                ]
             }
          }
-      ]
+      ],
+      [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                     ]
+                  }
+               }
+            ]
    ],
    "sections":[
       {
@@ -38,10 +48,11 @@
          "writeStrategies":[
             [
                {
-                  "name":"room-owner",
+                  "name":"is-exact-address",
                   "params":{
-                     "chainId":"137",
-                     "networkId":"1"
+                     "addresses":[
+                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                     ]
                   }
                }
             ]
@@ -53,10 +64,11 @@
          "writeStrategies":[
             [
                {
-                  "name":"room-owner",
+                  "name":"is-exact-address",
                   "params":{
-                     "chainId":"137",
-                     "networkId":"1"
+                     "addresses":[
+                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                     ]
                   }
                }
             ]
