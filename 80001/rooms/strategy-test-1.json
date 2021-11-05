@@ -25,6 +25,19 @@
          ]
       },
       {
+         "title":"Opensea afficionados",
+         "id":"openseaafficionados",
+         "strategiesRead":[
+      [{
+        name: 'opensea-collection-balance-of',
+        params: {
+          minBalance: '1',
+          collection: 'metaverse-avatars'
+        }
+      }]
+    ],
+      },
+      {
          "title":"Sokol Aria Owners",
          "id":"sokolariaowners",
          "readStrategies":[
