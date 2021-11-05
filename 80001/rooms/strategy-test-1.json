@@ -25,6 +25,21 @@
          ]
       },
       {
+         "title":"Opensea afficionados",
+         "id":"openseaafficionados",
+         "strategiesRead":[
+            [
+               {
+                  "name":"opensea-collection-balance-of",
+                  "params":{
+                     "minBalance":"1",
+                     "collection":"metaverse-avatars"
+                  }
+               }
+            ]
+         ]
+      },
+      {
          "title":"Sokol Aria Owners",
          "id":"sokolariaowners",
          "readStrategies":[
@@ -64,11 +79,11 @@
          "id":"annoucement"
       },
       {
-        "title":"Buy your MaticPunks",
-        "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
-        "id":"maticpunkopensea",
-        "url":"https://opensea.io/assets/maticpunks?embed=true",
-        "type":"external_url"        
-     }   
+         "title":"Buy your MaticPunks",
+         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+         "id":"maticpunkopensea",
+         "url":"https://opensea.io/assets/maticpunks?embed=true",
+         "type":"external_url"
+      }
    ]
 }
