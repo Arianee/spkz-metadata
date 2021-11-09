@@ -1,4 +1,4 @@
-const b={
+{
   "endpoint":"https://node0.spkz.io/spkz/rpc",
   "notificationEndpoint":"wss://node0-ws.spkz.io",
   "name":"Ethereum Name Service",
