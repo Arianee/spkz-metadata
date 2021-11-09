@@ -10,16 +10,18 @@
       [
          {
             "name":"erc-20-balance-of",
-            "acquireURLs":[{
-               "title":"Uniswap",
-               "logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
-               "url":"https://app.uniswap.org/#/swap?outputCurrency=0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-            },
-            {
-               "title":"Quickswap",
-               "logo":"https://storage.googleapis.com/zapper-fi-assets/tokens/polygon/0x831753dd7087cac61ab5644b308642cc1c33dc13.png",
-               "url":"https://quickswap.exchange/#/swap?outputCurrency=0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
-            }],
+            "acquireURLs":[
+               {
+                  "title":"Uniswap",
+                  "logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
+                  "url":"https://app.uniswap.org/#/swap?outputCurrency=0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
+               },
+               {
+                  "title":"Quickswap",
+                  "logo":"https://storage.googleapis.com/zapper-fi-assets/tokens/polygon/0x831753dd7087cac61ab5644b308642cc1c33dc13.png",
+                  "url":"https://quickswap.exchange/#/swap?outputCurrency=0x46f48fbdedaa6f5500993bede9539ef85f4bee8e"
+               }
+            ],
             "params":{
                "minBalance":"100000000000000000000",
                "tokens":[
@@ -40,8 +42,8 @@
       [
          {
             "name":"erc-20-balance-of",
-            "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
             "params":{
+               "logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                "minBalance":"3000000000000000000",
                "tokens":[
                   {
@@ -61,8 +63,8 @@
       [
          {
             "name":"erc-20-balance-of",
-            "logo": "https://storage.googleapis.com/zapper-fi-assets/tokens/polygon/0x831753dd7087cac61ab5644b308642cc1c33dc13.png",
             "params":{
+               "logo":"https://storage.googleapis.com/zapper-fi-assets/tokens/polygon/0x831753dd7087cac61ab5644b308642cc1c33dc13.png",
                "minBalance":"3000000000000000000",
                "tokens":[
                   {
@@ -78,8 +80,7 @@
                ]
             }
          }
-      ] 
-
+      ]
    ],
    "sections":[
       {
@@ -87,15 +88,15 @@
          "id":"announcement",
          "writeStrategies":[
             [
-              {
-                "name":"room-owner",
-                "params":{
-                  "chainId":"137",
-                  "networkId":"1"
-                }
-              }
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
             ]
-          ]
+         ]
       },
       {
          "title":"General",
@@ -112,8 +113,8 @@
             [
                {
                   "name":"erc-20-balance-of",
-                  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                   "params":{
+                     "logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                      "minBalance":"3000000000000000000",
                      "tokens":[
                         {
@@ -159,8 +160,8 @@
             [
                {
                   "name":"erc-20-balance-of",
-                  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                   "params":{
+                     "logo":"https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
                      "minBalance":"68000000000000000000",
                      "tokens":[
                         {
