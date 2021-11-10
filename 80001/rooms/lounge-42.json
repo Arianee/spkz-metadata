@@ -11,9 +11,7 @@
          {
             "name":"opensea-collection-balance-of",
             "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/metaverse-avatars"
+               
             }],
             
             "params":{
