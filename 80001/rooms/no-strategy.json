@@ -18,6 +18,18 @@
          "id":"chat"
       },
       {
+         "title":"Chat2",
+         "id":"chat2"
+      },
+        {
+         "title":"Chat3",
+         "id":"chat3"
+      },
+           {
+         "title":"Chat4",
+         "id":"chat4"
+      },
+      {
          "title":"Announcement",
          "id":"annoucement",
          "writeStrategies":[
