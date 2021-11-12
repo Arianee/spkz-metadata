@@ -6,38 +6,29 @@
    "external_url":"https://dev.spkz.io/app/lounges/42",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/the_outpost.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/the_outpost400.jpg",
-   "strategies":[
+   "strategies":
+   [
       [   
          {
             "name":"opensea-collection-balance-of",
-               "params":{
+             "params":{
                "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
                "minBalance":"1",
                "collection":"metaverse-avatars"
             }
          }],
          [{
-            "name":"opensea-collection-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/transsiberian"
-            }],        
-            "logo":"https://lh3.googleusercontent.com/SuT7Abtpg6LIu5Pnrhwf4E92OIXTvkw9SCZ-AII_YawBBlyxxB07R-8mbVHBp8RK56Ews9eSMh08owxRfB-jAZx70pmibLvxFmylEQ=s130",    
-            "params":{
+            "name":"opensea-collection-balance-of",    
+             "params":{
+               "logo":"https://lh3.googleusercontent.com/SuT7Abtpg6LIu5Pnrhwf4E92OIXTvkw9SCZ-AII_YawBBlyxxB07R-8mbVHBp8RK56Ews9eSMh08owxRfB-jAZx70pmibLvxFmylEQ=s130",
                "minBalance":"1",
-               "collection":"transsiberian"
+              "collection":"transsiberian"
             }
          }],
           [{
-            "name":"opensea-collection-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/lester-art-genesis"
-            }],            
-            "logo":"https://lh3.googleusercontent.com/Vw0XE-FlD8C9GQuac6cmzKR98942omqZNW59G88hwZuWwT7MIzwunG6JbcjyDi4vAsPHeOE0qJ68O00Vs5BR_FLiSWevkPqVxvzDujs=s130",
+            "name":"opensea-collection-balance-of",      
             "params":{
+               "logo":"https://lh3.googleusercontent.com/Vw0XE-FlD8C9GQuac6cmzKR98942omqZNW59G88hwZuWwT7MIzwunG6JbcjyDi4vAsPHeOE0qJ68O00Vs5BR_FLiSWevkPqVxvzDujs=s130",
                "minBalance":"1",
                "collection":"lester-art-genesis"
             }
