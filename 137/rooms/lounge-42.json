@@ -8,7 +8,7 @@
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/the_outpost400.jpg",
    "strategies":
    [
-      [   
+      [
          {
             "name":"opensea-collection-balance-of",
              "params":{
@@ -18,7 +18,7 @@
             }
          }],
          [{
-            "name":"opensea-collection-balance-of",    
+            "name":"opensea-collection-balance-of",
              "params":{
                "logo":"https://lh3.googleusercontent.com/SuT7Abtpg6LIu5Pnrhwf4E92OIXTvkw9SCZ-AII_YawBBlyxxB07R-8mbVHBp8RK56Ews9eSMh08owxRfB-jAZx70pmibLvxFmylEQ=s130",
                "minBalance":"1",
@@ -26,14 +26,14 @@
             }
          }],
           [{
-            "name":"opensea-collection-balance-of",      
+            "name":"opensea-collection-balance-of",
             "params":{
                "logo":"https://lh3.googleusercontent.com/Vw0XE-FlD8C9GQuac6cmzKR98942omqZNW59G88hwZuWwT7MIzwunG6JbcjyDi4vAsPHeOE0qJ68O00Vs5BR_FLiSWevkPqVxvzDujs=s130",
                "minBalance":"1",
                "collection":"lester-art-genesis"
             }
          }
-         ]        
+         ]
       ],
 
    "sections":[
@@ -51,6 +51,14 @@
                   "params":{
                      "chainId":"137",
                      "networkId":"1"
+                  }
+               },
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0xbd5Fb60cD7ef9F2203E79A9401B3605C151b993E"
+                     ]
                   }
                }
             ]
