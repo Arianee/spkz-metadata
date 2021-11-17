@@ -52,8 +52,8 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               },
-               {
+               }],
+               [{
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
