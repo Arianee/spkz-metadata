@@ -62,6 +62,42 @@
     {
       "title":"AMA - All Hands",
       "id":"ama"
+    },
+    {
+      "title":"Founders",
+      "id":"founders",
+      "readStrategies":[
+        [
+           {
+              "name":"is-exact-address",
+              "params":{
+                 "addresses":[
+                    "0x14210914D6A65Fa2C7747579A7aa287B027fD092",
+                    "0x20b323e973ED96165113487af9deD3E1E1683a06",
+                    "0xf91d4cf33A08ABc1227CFD69FC92C2b1Df9fD23c",
+                    "0x5BC8da7dE68c1af47D329B14ADdBf1d7547A1747",
+                    "0xa8cbf4200595efcd94b7526d04deafe0f284af2d"
+                 ]
+              }
+           }
+        ]
+     ],
+     "writeStrategies":[
+        [
+           {
+              "name":"is-exact-address",
+              "params":{
+                 "addresses":[
+                  "0x14210914D6A65Fa2C7747579A7aa287B027fD092",
+                  "0x20b323e973ED96165113487af9deD3E1E1683a06",
+                  "0xf91d4cf33A08ABc1227CFD69FC92C2b1Df9fD23c",
+                  "0x5BC8da7dE68c1af47D329B14ADdBf1d7547A1747",
+                  "0xa8cbf4200595efcd94b7526d04deafe0f284af2d"
+                 ]
+              }
+           }
+        ]
+     ]
     }
   ]
 }
