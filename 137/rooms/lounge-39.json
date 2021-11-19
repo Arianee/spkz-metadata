@@ -59,29 +59,10 @@
         ]
       ]
     },
-     {
-         "title":"HR News",
-         "id":"hrnews",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }],
-               [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x231E317910d1c487c57a583Eec9915741c34F7Da"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
+    {
+      "title":"HR News",
+      "id":"hrnews"
+    },
     {
       "title":"AMA - All Hands",
       "id":"ama"
