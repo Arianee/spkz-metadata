@@ -145,6 +145,50 @@
           }
         ]
       ]
-    }
+    },
+    {
+      "title":"Native crypto trest",
+      "id":"nativecrypto",
+      "readStrategies":[
+        [
+          {
+            "name":"native-balance-of",
+            "params":{
+              "minBalance":"1000000000000000000",
+              "chainId":"1",
+              "networkId":"1"             
+            }
+          },
+          {
+            "name":"native-balance-of",
+            "params":{
+              "minBalance":"4000000000000000000000",
+              "chainId":"137",
+              "networkId":"1"             
+            }
+          }          
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"native-balance-of",
+            "params":{
+              "minBalance":"1000000000000000000",
+              "chainId":"1",
+              "networkId":"1"              
+            }
+          },
+          {
+            "name":"native-balance-of",
+            "params":{
+              "minBalance":"4000000000000000000000",
+              "chainId":"137",
+              "networkId":"1"             
+            }
+          }          
+        ]
+      ]
+    }    
   ]
 }
