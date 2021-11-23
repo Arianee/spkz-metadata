@@ -16,8 +16,8 @@
                "url":"https://opensea.io/collection/cryptonimals-collection"
             }],
             "params":{
-               "minBalance":"1",
                "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
+               "minBalance":"1",
                "tokens":[
                   {
                      "chainId":"137",
