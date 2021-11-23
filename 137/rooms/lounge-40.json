@@ -1,35 +1,35 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Age of Rust",
-   "description":"Only for Age of Rust NFT owners",
+   "name":"Cryptonimals DAO",
+   "description":"A place for Cryptonimals DAO members",
    "external_url":"https://spkz.io/app/lounges/40",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AgeOfRust_Image.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/AgeOfRust_Logo.jpg",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
    "strategies":[
-      [
+    [
          {
             "name":"erc-721-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/age-of-rust"
+               "url":"https://opensea.io/collection/cryptonimals-collection"
             }],
-            "logo":"",
             "params":{
+               "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
                "minBalance":"1",
                "tokens":[
                   {
-                     "chainId":"1",
+                     "chainId":"137",
                      "networkId":"1",
-                     "address":"0xfaaFDc07907ff5120a76b34b731b278c38d6043C"
+                     "address":"0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
                   }
                ]
             }
          }
       ]
    ],
-   "sections":[
+  "sections":[
       {
          "title":"Chat",
          "id":"chat"
@@ -45,13 +45,21 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
+               }],
+               [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
+                     ]
+                  }
                }
             ]
          ]
       },
-      {
+       {
          "title":"Announcement",
-         "id":"annoucement",
+         "id":"announcement",
          "writeStrategies":[
             [
                {
@@ -60,15 +68,22 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
+               }],
+               [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
+                     ]
+                  }
                }
             ]
          ]
       },
       {
-         "title":"Acquire NFT",
-         "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
+         "title":"CryptonimalsDAO",
          "id":"embeddedpage",
-         "url":"https://opensea.io/collection/age-of-rus/?embed=true",
+         "url":"https://www.cryptonimals.com/",
          "type":"external_url"
       }
    ]
