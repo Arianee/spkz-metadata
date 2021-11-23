@@ -7,29 +7,18 @@
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
    "strategies":[
-    [
+      [
          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/cryptonimals-collection"
-            }],
+            "name":"opensea-collection-balance-of",
             "params":{
-               "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
+               "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
                "minBalance":"1",
-               "tokens":[
-                  {
-                     "chainId":"137",
-                     "networkId":"1",
-                     "address":"0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
-                  }
-               ]
+               "collection":"cryptonimals-collection"
             }
          }
       ]
    ],
-  "sections":[
+   "sections":[
       {
          "title":"Chat",
          "id":"chat"
@@ -45,8 +34,10 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
@@ -57,7 +48,7 @@
             ]
          ]
       },
-       {
+      {
          "title":"Announcement",
          "id":"announcement",
          "writeStrategies":[
@@ -68,8 +59,10 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
