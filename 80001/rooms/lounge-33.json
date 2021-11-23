@@ -8,25 +8,6 @@
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/WOW_logo.png",
    "strategies":[
       [
-         {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/world-of-women-nft"
-            }],
-            "params":{
-               "minBalance":"1",
-               "logo":"https://lh3.googleusercontent.com/I68L-_MThK4yUXXnUGnNJQBuAtu5w66mg-57ZzKOYDDVI6Y4-XbdMt3SbuVaEymUkoIgv9BdrNa1cbQPPaJKRgaEM9JqpywS-rW4KQ=s130",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0xe785E82358879F061BC3dcAC6f0444462D4b5330"
-                  }
-               ]
-            }
-         }
       ]
    ],
    "sections":[
