@@ -11,7 +11,7 @@
          {
             "name":"opensea-collection-balance-of",
             "params":{
-               "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
+               "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
                "minBalance":"1",
                "collection":"cryptonimals-collection"
             }
