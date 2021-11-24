@@ -1,9 +1,9 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Ouvre-Boite",
-   "description":"Lounge for Ouvre-Boite members",
-   "external_url":"https://spkz.io/app/lounges/48",
+   "name":"Sequoia X SPKZ",
+   "description":"Lounge for Sequoia",
+   "external_url":"https://spkz.io/app/lounges/45",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
    "strategies":[
@@ -23,7 +23,7 @@
                   {
                      "chainId":"137",
                      "networkId":"1",
-                     "address":"0xa43c0530a80f2134ad2e4af6f5ba9e833407fb2f"
+                     "address":"0xf7f51C71f6b91A840E77Ec776aD3F23377494f7B"
                   }
                ]
             }
@@ -38,7 +38,7 @@
       {
          "title":"Unlock Protocol",
          "id":"embeddedpage",
-         "url":"https://unlock-protocol.com/blog/?embed=true",
+         "url":"https://www.ouvre-boite.com/",
          "type":"external_url"
       }
    ]
