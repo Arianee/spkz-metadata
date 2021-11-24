@@ -4,8 +4,8 @@
    "name":"Ouvre-Boite",
    "description":"Lounge for Ouvre-Boite members",
    "external_url":"https://spkz.io/app/lounges/48",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
    "strategies":[
       [
          {
@@ -13,12 +13,11 @@
             "acquireURLs":[
                {
                   "title":"Unlock",
-                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
                   "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2F&paywallConfig=%7B%22locks%22%3A%7B%220xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%2Ficon%22%7D"
                }
             ],
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
                "minBalance":"1",
                "tokens":[
                   {
@@ -37,9 +36,9 @@
          "id":"chat"
       },
       {
-         "title":"CryptonimalsDAO",
+         "title":"Unlock Protocol",
          "id":"embeddedpage",
-         "url":"https://www.cryptonimals.com/",
+         "url":"hhttps://unlock-protocol.com/blog",
          "type":"external_url"
       }
    ]
