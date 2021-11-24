@@ -1,11 +1,11 @@
 {
-   "endpoint":"https://node0.spkz.io/spkz/rpc",
-   "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Unlock X SPKZ",
-   "description":"Lounge for Unlock X SPKZ",
-   "external_url":"https://spkz.io/app/lounges/48",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/unlock.png",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/unlock_logo.png",
+   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
+   "name":"Ouvre-Boite",
+   "description":"Lounge for Ouvre-Boite members",
+   "external_url":"https://dev.spkz.io/app/lounges/48",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
    "strategies":[
       [
          {
@@ -17,13 +17,13 @@
                }
             ],
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/unlock_logo.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
                "minBalance":"1",
                "tokens":[
                   {
-                     "chainId":"100",
+                     "chainId":"137",
                      "networkId":"1",
-                     "address":"0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f"
+                     "address":"0xa43c0530a80f2134ad2e4af6f5ba9e833407fb2f"
                   }
                ]
             }
@@ -36,9 +36,9 @@
          "id":"chat"
       },
       {
-         "title":"Unlock",
+         "title":"Unlock Protocol",
          "id":"embeddedpage",
-         "url":"https://app.unlock-protocol.com/dashboard?_ga=2.66492270.1350467459.1637682615-1813236804.1637682615",
+         "url":"https://www.ouvre-boite.com/?embed=true",
          "type":"external_url"
       }
    ]
