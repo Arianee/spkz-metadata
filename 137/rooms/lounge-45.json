@@ -13,7 +13,7 @@
             "acquireURLs":[
                {
                   "title":"Sequo",
-                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2F&paywallConfig=%7B%22locks%22%3A%7B%220xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%2Ficon%22%7D"
+                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2Fapp%2Flounges%2F45&paywallConfig=%7B%22locks%22%3A%7B%220xf7f51C71f6b91A840E77Ec776aD3F23377494f7B%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xf7f51C71f6b91A840E77Ec776aD3F23377494f7B%2Ficon%22%7D"
                }
             ],
             "params":{
