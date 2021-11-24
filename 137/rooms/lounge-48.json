@@ -36,7 +36,7 @@
          "id":"chat"
       },
       {
-         "title":"Unlock Protocol",
+         "title":"Ouvre-Boite",
          "id":"embeddedpage",
          "url":"https://www.ouvre-boite.com/?embed=true",
          "type":"external_url"
