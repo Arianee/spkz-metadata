@@ -21,7 +21,7 @@
                "minBalance":"1",
                "tokens":[
                   {
-                     "chainId":"100",
+                     "chainId":"137",
                      "networkId":"1",
                      "address":"0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f"
                   }
