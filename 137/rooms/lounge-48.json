@@ -1,0 +1,46 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Ouvre-Boite",
+   "description":"Lounge for Ouvre-Boite members",
+   "external_url":"https://spkz.io/app/lounges/48",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
+   "strategies":[
+      [
+         {
+            "name":"erc-20-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"Unlock",
+                  "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
+                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2F&paywallConfig=%7B%22locks%22%3A%7B%220xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%2Ficon%22%7D"
+               }
+            ],
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Aave_logo2.jpg",
+               "minBalance":"1000000000000000000",
+               "tokens":[
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xa43c0530a80f2134ad2e4af6f5ba9e833407fb2f"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"CryptonimalsDAO",
+         "id":"embeddedpage",
+         "url":"https://www.cryptonimals.com/",
+         "type":"external_url"
+      }
+   ]
+}
