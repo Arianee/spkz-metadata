@@ -167,7 +167,16 @@
               "networkId":"1"             
             }
           }          
-        ]
+        ],
+        [
+          {
+            "name":"room-owner",
+            "params":{
+              "chainId":"137",
+              "networkId":"1"
+            }
+          }
+        ]        
       ],
       "writeStrategies":[
         [
@@ -187,7 +196,16 @@
               "networkId":"1"             
             }
           }          
-        ]
+        ],
+        [
+          {
+            "name":"room-owner",
+            "params":{
+              "chainId":"137",
+              "networkId":"1"
+            }
+          }
+        ]        
       ]
     }    
   ]
