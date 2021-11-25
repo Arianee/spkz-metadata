@@ -13,7 +13,7 @@
             "acquireURLs":[
                {
                   "title":"Brut",
-                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2Fapp%2Flounges%2F49&paywallConfig=%7B%22locks%22%3A%7B%220x49385240A648DCC7D60EA4a56b44b4587FcA5ea5%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0x49385240A648DCC7D60EA4a56b44b4587FcA5ea5%2Ficon%22%7D"
+                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2Fapp%2Flounges%2F49%2Fchat&paywallConfig=%7B%22locks%22%3A%7B%220x87FA8f3E33Fa90bc670ff7f1C58Bbc2Fa56A1EeD%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0x87FA8f3E33Fa90bc670ff7f1C58Bbc2Fa56A1EeD%2Ficon%22%7D"
                }
             ],
             "params":{
@@ -23,7 +23,7 @@
                   {
                      "chainId":"137",
                      "networkId":"1",
-                     "address":"0x49385240A648DCC7D60EA4a56b44b4587FcA5ea5"
+                     "address":"0x87FA8f3E33Fa90bc670ff7f1C58Bbc2Fa56A1EeD"
                   }
                ]
             }
