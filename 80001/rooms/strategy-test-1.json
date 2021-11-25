@@ -79,6 +79,20 @@
          "id":"annoucement"
       },
       {
+         "title":"Do you have your POAP?",
+         "id":"poap",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"14629"
+                  }
+               }
+            ]
+         ]
+      },
+      {
          "title":"Buy your MaticPunks",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"maticpunkopensea",
