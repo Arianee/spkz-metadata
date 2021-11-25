@@ -3,7 +3,7 @@
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Brut",
    "description":"Lounge for Brut",
-   "external_url":"https://spkz.io/app/lounges/49",
+   "external_url":"https://spkz.io/app/lounges/52",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/brut_logo.png",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/brut_logo.png",
    "strategies":[
