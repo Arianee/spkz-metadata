@@ -1,0 +1,45 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Andreessen Horowitz X SPKZ",
+   "description":"Lounge for Andreessen Horowitz Capital",
+   "external_url":"https://spkz.io/app/lounges/55",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/a16_logo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/a16_logo.png",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"Andreessen Horowitz",
+                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2Fapp%2Flounges%2F45&paywallConfig=%7B%22locks%22%3A%7B%220xf7f51C71f6b91A840E77Ec776aD3F23377494f7B%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xf7f51C71f6b91A840E77Ec776aD3F23377494f7B%2Ficon%22%7D"
+               }
+            ],
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/a16_logo.png",
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xf7f51C71f6b91A840E77Ec776aD3F23377494f7B"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Andreessen Horowitz",
+         "id":"embeddedpage",
+         "url":"https://a16z.com/",
+         "type":"external_url"
+      }
+   ]
+}
