@@ -1,11 +1,11 @@
 {
   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"Benchmark",
-   "description":"Lounge for Benchmark members",
+   "name":"Test Nicolas",
+   "description":"Lounge for Test",
    "external_url":"https://dev.spkz.io/app/lounges/32",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
+   "image":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
+   "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
    "strategies":[
     []
   ],
@@ -41,8 +41,15 @@
         [
           {
             "name":"erc-721-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",            
+            "acquireURLs":[
+               {
+                  "title":"OpenSea",
+                  "logo":"https://opensea.io/static/images/logos/opensea.svg",
+                  "url":"https://dev.spkz.io/app/lounges/32/embeddedpage"
+               }  
+               ],       
             "params":{
+               "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
               "minBalance":"1",
               "tokens":[
                 {
@@ -59,7 +66,7 @@
         [
           {
             "name":"erc-721-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",            
+            "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",            
             "params":{
               "minBalance":"1",
               "tokens":[
