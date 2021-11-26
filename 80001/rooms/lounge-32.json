@@ -41,8 +41,15 @@
         [
           {
             "name":"erc-721-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",            
+            "acquireURLs":[
+               {
+                  "title":"OpenSea",
+                  "logo":"https://opensea.io/static/images/logos/opensea.svg",
+                  "url":"https://dev.spkz.io/app/lounges/32/embeddedpage"
+               }  
+               ],       
             "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
               "minBalance":"1",
               "tokens":[
                 {
