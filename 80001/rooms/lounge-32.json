@@ -13,7 +13,7 @@
             "acquireURLs":[
                {
                   "title":"Unlock",
-                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fspkz.io%2F&paywallConfig=%7B%22locks%22%3A%7B%220xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xa43C0530a80f2134aD2E4Af6F5ba9e833407FB2f%2Ficon%22%7D"
+                  
                }
             ],
             "params":{
@@ -23,7 +23,7 @@
                   {
                      "chainId":"137",
                      "networkId":"1",
-                     "address":"0xa43c0530a80f2134ad2e4af6f5ba9e833407fb2f"
+                     "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
                   }
                ]
             }
