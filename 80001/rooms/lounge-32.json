@@ -1,5 +1,5 @@
 {
-   "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
+  "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"Benchmark",
    "description":"Lounge for Benchmark members",
@@ -7,25 +7,10 @@
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
    "strategies":[
-      [
-         {
-            "name":"erc-721-balance-of",
-            "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
-               "minBalance":"1",
-               "tokens":[
-                  {
-                     "chainId":"137",
-                     "networkId":"1",
-                     "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
-                  }
-               ]
-            }
-         }
-      ]
-   ],
-   "sections":[
-      {
+    []
+  ],
+  "sections":[
+    {
       "title":"Welcome",
       "id":"welcome",
       "writeStrategies":[
@@ -49,34 +34,51 @@
             ]
       ]
     },
-      {
-         "title":"Chat",
-         "id":"chat"
-      },
-      
-      {
-         "title":"",
-         "id":"embeddedpage",
-         "url":"",
-         "type":"external_url"
-      },
-      {
-         "title":"",
-         "id":"embeddedpage",
-         "url":"",
-         "type":"external_url"
-      },
-      {
-         "title":"",
-         "id":"embeddedpage",
-         "url":"",
-         "type":"external_url"
-      },
-      {
+    {
+      "title":"Chat",
+      "id":"chat",
+      "readStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
+                  }
+              ]
+            }
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",            
+            "params":{
+              "minBalance":"1",
+              "tokens":[
+                {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
+                  }
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
          "title":"",
          "id":"embeddedpage",
          "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fdev.spkz.io%2Fapp%2Flounges%2F32%2Fchat&paywallConfig=%7B%22locks%22%3A%7B%220xaF63e741713C5e7d9E30349c12b486B989d26fdD%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xaF63e741713C5e7d9E30349c12b486B989d26fdD%2Ficon%22%7D",
          "type":"external_url"
       }
-   ]
+  ]
 }
