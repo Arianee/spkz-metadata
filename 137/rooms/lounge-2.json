@@ -84,19 +84,10 @@
    ],
    "sections":[
       {
-         "title":"Announcement",
-         "id":"announcement",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ]
-         ]
+         "title":"Public AMA",
+         "id":"publicama",
+         "readStrategies":[[]],
+         "writeStrategies":[[]]
       },
       {
          "title":"General",
