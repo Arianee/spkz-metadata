@@ -22,21 +22,9 @@
          "id":"chat"
       },
       {
-         "title":"Catch-up meeting",
+         "title":"Links",
          "id":"embeddedpage",
-         "url":"https://calendly.com/pnh/30?month=2021-11",
-         "type":"external_url"
-      },
-      {
-         "title":"Twitter",
-         "id":"embeddedpage1",
-         "url":"https://publish.twitter.com/?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3ATwitterDev%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3NwYWNlX2NhcmQiOnsiYnVja2V0Ijoib2ZmIiwidmVyc2lvbiI6bnVsbH19&ref_url=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fdocs%2Ftwitter-for-websites%2Ftimelines%2Fguides%2Fprofile-timeline",
-         "type":"external_url"
-      },
-      {
-         "title":"Arianee website",
-         "id":"embeddedpage2",
-         "url":"https://www.arianee.org/",
+         "url":"https://linktr.ee/arianeexvoices",
          "type":"external_url"
       }
    ]
