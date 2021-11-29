@@ -29,13 +29,13 @@
       },
       {
          "title":"Twitter",
-         "id":"embeddedpage",
+         "id":"embeddedpage1",
          "url":"https://twitter.com/mr_pnh",
          "type":"external_url"
       },
       {
          "title":"Arianee website",
-         "id":"embeddedpage",
+         "id":"embeddedpage2",
          "url":"https://www.arianee.org/",
          "type":"external_url"
       }
