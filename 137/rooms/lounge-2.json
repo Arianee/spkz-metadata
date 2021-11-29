@@ -88,6 +88,21 @@
          "id":"publicama",
          "readStrategies":[[]],
          "writeStrategies":[[]]
+      },      
+      {
+         "title":"Announcement",
+         "id":"announcement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ]
+         ]
       },
       {
          "title":"General",
