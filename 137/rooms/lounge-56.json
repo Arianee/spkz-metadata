@@ -1,0 +1,31 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Benchmark X SPKZ",
+   "description":"Lounge for Benchmark Capital",
+   "external_url":"https://spkz.io/app/lounges/56",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Benchmark_logo.jpg",
+   "strategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15745"
+                  }
+               }
+            ]
+         ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      }
+      {
+         "title":"Benchmark",
+         "id":"embeddedpage",
+         "url":"http://www.benchmark.com/",
+         "type":"external_url"
+      }
+   ]
+}
