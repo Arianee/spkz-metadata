@@ -9,11 +9,22 @@
    "strategies":[
       [
          {
-            "name":"opensea-collection-balance-of",
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/cryptonimals-collection"
+            }],
             "params":{
                "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
                "minBalance":"1",
-               "collection":"cryptonimals-collection"
+               "tokens":[
+                  {
+                     "chainId":"137",
+                     "networkId":"1",
+                     "address":"0xF2FbFE4770554C327214A32d6Cc8ba69BA4d315b"
+                  }
+               ]
             }
          }
       ]
