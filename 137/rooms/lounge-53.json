@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"POAP meets SPKZ",
-   "description":"The room where POAP meets SPKZ",
+   "description":"The lounge where POAP meets SPKZ",
    "external_url":"https://spkz.io/app/lounges/53",
    "image":"",
    "logo":"https://cdn.stateofthedapps.com/dapps/poap/logo_poap_2e95b0adb2b95625bcd5240c61c74b8d1037c29aed9d3f2b6e4d9c1fb6cebdc3_opti.png",
