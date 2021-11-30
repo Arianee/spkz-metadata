@@ -6,28 +6,64 @@
    "external_url":"https://spkz.io/app/lounges/59",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
-"strategies":[
+   "strategies":[
       [
-         {
-            "name":"poap-holder-of",
-            "acquireURLs":[{
-               "title":"POAP Sriram Krishnan",
-               "logo":"",
-               "url":"https://poap.website/benchmark-arianee"
-            }],
+         
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
                   "params":{
                      "eventId":"15763"
                   }
                }
             ]
          ],
-   "sections":[
-      {
-         "title":"Chat",
-         "id":"chat"
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ]
+      },
+       {
+         "title":"Lightpaper SPKZ",
+         "id":"embeddedpage",
+          "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ],
+         "url":"https://lightpaperspkz.arianee.org/",
+         "type":"external_url"
       },
       {
-         "title":"Lightpaper SPKZ",
+         "title":"",
          "id":"embeddedpage",
          "url":"https://poap.website/benchmark-arianee",
          "type":"external_url"
