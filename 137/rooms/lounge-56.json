@@ -10,6 +10,12 @@
             [
                {
                   "name":"poap-holder-of",
+                  "acquireURLs":[
+               {
+                  "title":"POAP Benchmark",
+                  "url":"https://poap.website/benchmark-arianee"
+               }
+            ],
                   "params":{
                      "eventId":"15763"
                   }
