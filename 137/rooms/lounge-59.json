@@ -19,7 +19,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"15763"
+                     "eventId":"15895"
                   }
                }
             ]
@@ -29,7 +29,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"15763"
+                     "eventId":"15895"
                   }
                }
             ]
@@ -43,8 +43,8 @@
       },
       {
          "title":"",
-         "id":"embeddedpage1",
-         "url":"https://poap.website/benchmark-arianee",
+         "id":"welcome",
+         "url":"https://app.poap.xyz/claim-websites/sriramkrishnanxarianee",
          "type":"external_url"
       }
    ]

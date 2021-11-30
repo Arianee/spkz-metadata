@@ -6,31 +6,45 @@
    "external_url":"https://spkz.io/app/lounges/56",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Benchmark_logo.jpg",
-   "strategies":[
+    "strategies":[
+      [       
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat",
+         "readStrategies":[
             [
                {
                   "name":"poap-holder-of",
-                  "acquireURLs":[
-               {
-                  "title":"POAP Benchmark",
-                  "url":"https://poap.website/benchmark-arianee"
-               }
-            ],
                   "params":{
                      "eventId":"15763"
                   }
                }
             ]
          ],
-   "sections":[
-      {
-         "title":"Chat",
-         "id":"chat"
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ]
       },
-      {
+       {
          "title":"Lightpaper SPKZ",
          "id":"embeddedpage",
          "url":"https://lightpaperspkz.arianee.org/",
+         "type":"external_url"
+      },
+      {
+         "title":"",
+         "id":"welcome",
+         "url":"https://poap.website/benchmark-arianee",
          "type":"external_url"
       }
    ]

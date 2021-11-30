@@ -6,31 +6,45 @@
    "external_url":"https://spkz.io/app/lounges/58",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/volt_logo.png",
-   "strategies":[
+    "strategies":[
+      [       
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat",
+         "readStrategies":[
             [
                {
                   "name":"poap-holder-of",
-                  "acquireURLs":[
-               {
-                  "title":"POAP Volt",
-                  "url":"https://poap.website/benchmark-arianee"
-               }
-            ],
                   "params":{
-                     "eventId":"15763"
+                     "eventId":"15894"
                   }
                }
             ]
          ],
-   "sections":[
-      {
-         "title":"Chat",
-         "id":"chat"
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15894"
+                  }
+               }
+            ]
+         ]
       },
-      {
+       {
          "title":"Lightpaper SPKZ",
          "id":"embeddedpage",
          "url":"https://lightpaperspkz.arianee.org/",
+         "type":"external_url"
+      },
+      {
+         "title":"",
+         "id":"welcome",
+         "url":"https://app.poap.xyz/admin/events/volt-capital-x-arianee-21-2021",
          "type":"external_url"
       }
    ]
