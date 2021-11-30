@@ -7,8 +7,7 @@
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
    "strategies":[
-      [
-         
+      [       
       ]
    ],
    "sections":[
@@ -64,7 +63,7 @@
       },
       {
          "title":"",
-         "id":"embeddedpage",
+         "id":"embeddedpage1",
          "url":"https://poap.website/benchmark-arianee",
          "type":"external_url"
       }
