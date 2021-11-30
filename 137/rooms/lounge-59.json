@@ -1,0 +1,37 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Sriram Krishnan X SPKZ",
+   "description":"Lounge for Sriram Krishnan",
+   "external_url":"https://spkz.io/app/lounges/59",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
+   "strategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "acquireURLs":[
+               {
+                  "title":"POAP Sriram Krishnan",
+                  "url":"https://poap.website/benchmark-arianee"
+               }
+            ],
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Lightpaper SPKZ",
+         "id":"embeddedpage",
+         "url":"https://lightpaperspkz.arianee.org/",
+         "type":"external_url"
+      }
+   ]
+}

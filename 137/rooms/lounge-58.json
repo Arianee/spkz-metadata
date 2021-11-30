@@ -1,0 +1,37 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Volt Capital X SPKZ",
+   "description":"Lounge for Volt Capital",
+   "external_url":"https://spkz.io/app/lounges/58",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/volt_logo.png",
+   "strategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "acquireURLs":[
+               {
+                  "title":"POAP Volt",
+                  "url":"https://poap.website/benchmark-arianee"
+               }
+            ],
+                  "params":{
+                     "eventId":"15763"
+                  }
+               }
+            ]
+         ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Lightpaper SPKZ",
+         "id":"embeddedpage",
+         "url":"https://lightpaperspkz.arianee.org/",
+         "type":"external_url"
+      }
+   ]
+}
