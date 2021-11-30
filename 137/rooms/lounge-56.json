@@ -11,7 +11,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"15746"
+                     "eventId":"15763"
                   }
                }
             ]
@@ -22,9 +22,9 @@
          "id":"chat"
       },
       {
-         "title":"Benchmark",
+         "title":"Lightpaper SPKZ",
          "id":"embeddedpage",
-         "url":"http://www.benchmark.com/",
+         "url":"https://lightpaperspkz.arianee.org/",
          "type":"external_url"
       }
    ]
