@@ -6,16 +6,15 @@
    "external_url":"https://spkz.io/app/lounges/59",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
-   "strategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "acquireURLs":[
-               {
-                  "title":"POAP Sriram Krishnan",
-                  "url":"https://poap.website/benchmark-arianee"
-               }
-            ],
+"strategies":[
+      [
+         {
+            "name":"poap-holder-of",
+            "acquireURLs":[{
+               "title":"POAP Sriram Krishnan",
+               "logo":"",
+               "url":"https://poap.website/benchmark-arianee"
+            }],
                   "params":{
                      "eventId":"15763"
                   }
