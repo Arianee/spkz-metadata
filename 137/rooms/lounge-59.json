@@ -38,26 +38,6 @@
        {
          "title":"Lightpaper SPKZ",
          "id":"embeddedpage",
-          "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"15763"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"15763"
-                  }
-               }
-            ]
-         ],
          "url":"https://lightpaperspkz.arianee.org/",
          "type":"external_url"
       },
