@@ -26,6 +26,12 @@
          "id":"embeddedpage",
          "url":"https://arianeexvoices.contactin.bio/",
          "type":"external_url"
+      },
+      {
+         "title":"SPKZ Bar",
+         "id":"embeddedpage1",
+         "url":"https://spkz.io/app/lounges/10/thebar#getFreeDrink",
+         "type":"external_url"
       }
    ]
 }
