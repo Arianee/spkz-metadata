@@ -7,16 +7,32 @@
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/voices.png",
    "strategies":[
+      [
+         {
+            "name":"poap-holder-of",
+            "params":{
+               "eventId":"15759"
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Welcome",
+         "id":"welcome",
+         "writeStrategies":[
             [
                {
-                  "name":"poap-holder-of",
+                  "name":"is-exact-address",
                   "params":{
-                     "eventId":"15759"
+                     "addresses":[
+                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                     ]
                   }
                }
             ]
-         ],
-   "sections":[
+         ]
+      },
       {
          "title":"Chat",
          "id":"chat"
