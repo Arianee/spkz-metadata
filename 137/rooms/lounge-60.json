@@ -1,11 +1,11 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Volt Capital X Arianee",
-   "description":"Lounge for Volt Capital",
-   "external_url":"https://spkz.io/app/lounges/58",
+   "name":"Rockaway Blockchain Fund X Arianee",
+   "description":"Lounge for Rockaway Blockchain Fund",
+   "external_url":"https://spkz.io/app/lounges/60",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/volt_logo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/rockaway_logo.png",
     "strategies":[
       [       
       ]
@@ -19,7 +19,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"15894"
+                     "eventId":"16135"
                   }
                }
             ]
@@ -29,7 +29,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"15894"
+                     "eventId":"16135"
                   }
                }
             ]
@@ -44,7 +44,7 @@
       {
          "title":"Token Access",
          "id":"welcome",
-         "url":"https://app.poap.xyz/claim-websites/voltcapitalxarianee",
+         "url":"https://app.poap.xyz/claim-websites/rbfcapitalxarianee",
          "type":"external_url"
       }
    ]
