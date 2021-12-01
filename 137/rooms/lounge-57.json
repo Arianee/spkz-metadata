@@ -20,28 +20,12 @@
       {
          "title":"Welcome",
          "id":"welcome",
-         "writeStrategies":[
-            [
-               {
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
-                     ]
-                  }
-               }
-            ]
-         ]
+         "url":"https://arianeeconnect.arianee.org/joinme",
+         "type":"external_url"
       },
       {
          "title":"Chat",
          "id":"chat"
-      },
-      {
-         "title":"Links",
-         "id":"embeddedpage",
-         "url":"https://arianeexvoices.contactin.bio/",
-         "type":"external_url"
       }
    ]
 }
