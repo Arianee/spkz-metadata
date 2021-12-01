@@ -35,10 +35,16 @@
          "title":"Chat",
          "id":"chat"
       },
-     {
+      {
          "title":"ENS Matching Table",
          "id":"embeddedpage",
          "url":"https://arianeeconnect.arianee.org/",
+         "type":"external_url"
+      },
+      {
+         "title":"Welcome",
+         "id":"welcome",
+         "url":"https://arianeeconnect.arianee.org/joinme",
          "type":"external_url"
       }
    ]
