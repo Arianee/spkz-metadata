@@ -7,7 +7,7 @@
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/killaz.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/killaz_logo.jpg",
       "strategies":[
-         
+         [
          {
             "name":"erc-721-balance-of",
             "acquireURLs":[{
@@ -46,8 +46,9 @@
                   }
                ]
             }
-         }
-         ],       
+        }
+     ]
+   ],       
       
    "sections":[
       {
