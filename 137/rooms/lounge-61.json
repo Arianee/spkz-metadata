@@ -1,11 +1,11 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Sriram Krishnan X SPKZ",
-   "description":"Lounge for Sriram Krishnan",
-   "external_url":"https://spkz.io/app/lounges/59",
-   "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
+   "name":"Stage11",
+   "description":"Lounge for Stage11",
+   "external_url":"https://spkz.io/app/lounges/61",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stage11.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stage11_logo.jpeg",
    "strategies":[
       [       
       ]
