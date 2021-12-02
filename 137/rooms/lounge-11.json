@@ -103,7 +103,13 @@
       {
          "title":"The Killaz",
          "id":"embeddedpage",
-         "url":"https://crashcitykillaz.com/",
+         "url":"https://opensea.io/collection/thekillaz",
+         "type":"external_url"
+      },
+      {
+         "title":"The Lady Killaz",
+         "id":"embeddedpage1",
+         "url":"https://opensea.io/collection/lady-killaz/",
          "type":"external_url"
       }
    ]
