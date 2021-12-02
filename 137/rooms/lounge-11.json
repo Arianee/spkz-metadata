@@ -5,30 +5,50 @@
    "description":"Discussing all crypto projects",
    "external_url":"https://spkz.io/app/lounges/11",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/killaz.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/killaz_logo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/killaz_logo.jpg",
    "strategies":[
-      [
+      [   
          {
             "name":"erc-721-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/cryptonimals-collection"
+               "url":"https://opensea.io/collection/thekillaz"
             }],
             "params":{
-               "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
+               "logo":"https://lh3.googleusercontent.com/Y7kPiyRI39EkZz8Bhp1_-QAVyjcih5jz7x-2VBwOHnHnmoEk5DeVju_o9001FbF2sBkMwiwVUfZTLwkBosPiguNl9FZlF_XDYmTe=s130",
+               "minBalance":"1",
+               
+               "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x21850dCFe24874382B12d05c5B189F5A2ACF0E5b"
+                }                                          
+               ]
+            }
+         }],
+          [{
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/lady-killaz"
+            }],                        
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/KSYkPhDqUeiNfVEQqtW0bB9rx3PlVAYHUVPHG-tuhdh2AImIf99Prt130VnhVfwgco52lVM2nJOdyXKXWe03ytqWbEj_IHWMa63lZg=s130",
                "minBalance":"1",
                "tokens":[
                   {
                      "chainId":"1",
                      "networkId":"1",
-                     "address":"0xF2FbFE4770554C327214A32d6Cc8ba69BA4d315b"
+                     "address":"0xE4D0E33021476Ca05aB22C8BF992D3b013752B80"
                   }
                ]
             }
          }
-      ]
-   ],
+         ]        
+      ],
    "sections":[
       {
          "title":"Chat",
@@ -50,7 +70,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
+                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
                      ]
                   }
                }
@@ -73,7 +93,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x7864F36CDc4aC74085a82cA098d3FA06ed4D7AF7"
+                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
                      ]
                   }
                }
@@ -81,9 +101,9 @@
          ]
       },
       {
-         "title":"CryptonimalsDAO",
+         "title":"The Killaz",
          "id":"embeddedpage",
-         "url":"https://www.cryptonimals.com/",
+         "url":"https://crashcitykillaz.com/",
          "type":"external_url"
       }
    ]
