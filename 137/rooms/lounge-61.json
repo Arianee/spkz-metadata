@@ -1,7 +1,7 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Stage11",
+   "name":"Stage11 X Arianee",
    "description":"Lounge for Stage11",
    "external_url":"https://spkz.io/app/lounges/61",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stage11.png",
