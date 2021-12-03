@@ -11,6 +11,29 @@
    ],
    "sections":[
       {
+         "title":"Announcement",
+         "id":"announcement",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }],
+               [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0xce7e15acf3da916a4df4842c3350248ad74ffc79"
+                     ]
+                  }
+               }
+            ]
+         ]
+      },
+      {
          "title":"Chat",
          "id":"chat"
       },
@@ -28,7 +51,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"2880226"
+                     "eventId":"15955"
                   }
                }
             ]
@@ -38,7 +61,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"2880226"
+                     "eventId":"15955"
                   }
                }
             ]
