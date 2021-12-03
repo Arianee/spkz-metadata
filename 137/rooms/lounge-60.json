@@ -1,0 +1,50 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"NFT Crypto Paris",
+   "description":"Events Calendar and Group Chat for all NFT & Crypto Dreamers in Paris",
+   "external_url":"https://spkz.io/app/lounges/60",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz_paris_logo.jpg",
+   "strategies":[
+      []
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Calendar",
+         "id":"calendar",
+         "url":"https://tockify.com/nft.nyc/monthly?startms=1635739200000/?embed=true",
+         "type":"external_url"
+      },
+      {
+         "title":"POAPéro - Carreau du Temple",
+         "id":"chat",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"2880226"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"2880226"
+                  }
+               }
+            ]
+         ]
+      }
+
+      
+   ]
+}
