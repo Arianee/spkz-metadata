@@ -1,8 +1,8 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"NFT Crypto Paris",
-   "description":"Events Calendar and Group Chat for all NFT & Crypto Dreamers in Paris",
+   "name":"NFT Crypto Paris Events",
+   "description":"Events Calendar and Group Chat for all NFT & Crypto Dreamers and Doers in Paris",
    "external_url":"https://spkz.io/app/lounges/60",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/spkz_paris_logo.jpg",
@@ -62,6 +62,30 @@
                   "name":"poap-holder-of",
                   "params":{
                      "eventId":"15280"
+                  }
+               }
+            ]
+         ]
+      },
+        {
+         "title":"POAP -Into the Metaverse",
+         "id":"poapintothemetaverse",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15955"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"15955"
                   }
                }
             ]
