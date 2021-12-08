@@ -50,7 +50,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
+                        "0x918dd8c127d4580D267055af5f214584730a9848"
                      ]
                   }
                }
@@ -73,7 +73,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
+                        "0x918dd8c127d4580D267055af5f214584730a9848"
                      ]
                   }
                }
@@ -81,15 +81,9 @@
          ]
       },
       {
-         "title":"The Killaz",
+         "title":"Polycat Finance",
          "id":"embeddedpage",
-         "url":"https://opensea.io/collection/thekillaz",
-         "type":"external_url"
-      },
-      {
-         "title":"The Lady Killaz",
-         "id":"embeddedpage1",
-         "url":"https://opensea.io/collection/lady-killaz/",
+         "url":"https://polycat.finance/",
          "type":"external_url"
       }
    ]
