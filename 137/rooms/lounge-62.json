@@ -9,7 +9,7 @@
    "strategies":[
       [   
          {
-            "name":"erc-721-balance-of",
+            "name":"erc-20-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/n2nu0mqwe23v2gfxwpoo",
