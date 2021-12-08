@@ -93,11 +93,6 @@
                         {
                            "chainId":"1",
                            "networkId":"1",
-                           "address":"0xedf6568618a00c6f0908bf7758a16f76b6e04af9"
-                        },
-                        {
-                           "chainId":"137",
-                           "networkId":"1",
                            "address":"0x3a3Df212b7AA91Aa0402B9035b098891d276572B"
                         }
                      ]
