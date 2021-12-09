@@ -91,7 +91,7 @@
                      "minBalance":"10000000000000000000000",
                      "tokens":[
                         {
-                           "chainId":"1",
+                           "chainId":"137",
                            "networkId":"1",
                            "address":"0x3a3Df212b7AA91Aa0402B9035b098891d276572B"
                         }
