@@ -47,7 +47,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2577825927Fe753fd3fB97BC2eF7aa3a7754E9c3"
+                        "0x2577825927Fe753fd3fB97BC2eF7aa3a7754E9c3",
                         "0x3527fCdb80CE3E061ce6F50068C4C4F92b67BA0D"
                      ]
                   }
@@ -75,7 +75,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2577825927Fe753fd3fB97BC2eF7aa3a7754E9c3"
+                        "0x2577825927Fe753fd3fB97BC2eF7aa3a7754E9c3",
                         "0x3527fCdb80CE3E061ce6F50068C4C4F92b67BA0D"
                      ]
                   }
