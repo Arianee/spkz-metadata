@@ -95,7 +95,7 @@
       {
          "title":"Mono section",
          "id":"monosection",
-         "type":"mono"
+         "type":"monoMessage"
       },      
       {
          "title":"Buy your MaticPunks",
