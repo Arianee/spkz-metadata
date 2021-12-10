@@ -93,6 +93,11 @@
          ]
       },
       {
+         "title":"Mono section",
+         "id":"monosection",
+         "type":"mono"
+      },      
+      {
          "title":"Buy your MaticPunks",
          "icon":"http://dev.spkz.io/app/assets/imgs/opensea-icon.svg",
          "id":"maticpunkopensea",
