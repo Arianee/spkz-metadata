@@ -1,8 +1,8 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Arianee Project",
-   "description":"Lounge dedicated to members of Arianee Project",
+   "name":"Arianee Monthly Meetups",
+   "description":"Hello members, Welcome to web3. This is a special lounge exclusively created for the attendees of our Monthly Meetup. Any questions, feedback or NFT news you want to talk about - we'd love to hear them all.Tchin tchin",
    "external_url":"https://spkz.io/app/lounges/64",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/arianee_logo.jpg",
