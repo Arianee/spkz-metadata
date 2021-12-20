@@ -4,8 +4,8 @@
    "name":"WorldNamesNFT",
    "description":"Lounge for owners of WorldNamesNFT in order to push the limits of this project",
    "external_url":"https://spkz.io/app/lounges/66",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname_logo.jpg",
    "strategies":
 
    [
@@ -43,8 +43,8 @@
             [
                {
                   "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
+                  "paworrams":{
+                     wor"chainId":"137",
                      "networkId":"1"
                   }
                }],
