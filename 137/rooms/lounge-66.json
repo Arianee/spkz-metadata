@@ -11,26 +11,20 @@
    [
       [
          {
-            "name":"erc-1155-balance-of",
+            "name":"opensea-collection-balance-of",
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/cryptonimals-collection"
+               "url":"https://opensea.io/WorldNamesNFT"
             }],
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/M7ALNK7CsgMJR9gqe4siykpHQWz9qc0XZwTHaI6Z1PoxNdxfIpeig_VQLDgYuHDrGYZt7oYMS7NFLxECroT6srVr3LjWZ7xn2sveji0=s130",
+             "params":{
+               "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
                "minBalance":"1",
-               "tokens":[
-                  {
-                     "chainId":"137",
-                     "networkId":"1",
-                     "address":"0x9bee12AE73aD4d1DeBd5545D73653cd2ED118D5d"
-                  }
-               ]
-            }
+               "collection":"WorldNamesNFT"
+        }
          }
-      ]
-   ],
+         ]
+      ],
    "sections":[
       {
          "title":"Chat",
