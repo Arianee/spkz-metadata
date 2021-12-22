@@ -6,25 +6,25 @@
    "external_url":"https://spkz.io/app/lounges/66",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname_logo.jpg",
-   "strategies":
-
-   [
+   "strategies":[
       [
          {
             "name":"opensea-collection-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/WorldNamesNFT"
-            }],
-             "params":{
+            "params":{
                "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
                "minBalance":"1",
-               "collection":"WorldNamesNFT"
-        }
+               "collection":"WorldNamesNFT",
+               "acquireURLs":[
+                  {
+                     "title":"OpenSea",
+                     "logo":"https://opensea.io/static/images/logos/opensea.svg",
+                     "url":"https://opensea.io/WorldNamesNFT"
+                  }
+               ]
+            }
          }
-         ]
-      ],
+      ]
+   ],
    "sections":[
       {
          "title":"Chat",
@@ -45,8 +45,10 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
@@ -68,8 +70,10 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
