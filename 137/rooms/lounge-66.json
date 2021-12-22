@@ -13,7 +13,7 @@
             "params":{
                "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
                "minBalance":"1",
-               "collection":"WorldNamesNFT"
+               "collection":"worldnamesnft"
             }
          }
       ]
@@ -80,7 +80,6 @@
       {
          "title":"WorldNamesNFT",
          "id":"embeddedpage",
-         "logo":"https://storage.googleapis.com/opensea-static/Logomark/Logomark-Transparent%20White.png",
          "url":"https://opensea.io/WorldNamesNFT?embed=true",
          "type":"external_url"
       }
