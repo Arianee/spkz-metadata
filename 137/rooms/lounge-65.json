@@ -7,57 +7,36 @@
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nft-morning.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nft-morning_logo.jpg",
    "strategies":[
-      [   
-         {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/thekillaz"
-            }],
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/Y7kPiyRI39EkZz8Bhp1_-QAVyjcih5jz7x-2VBwOHnHnmoEk5DeVju_o9001FbF2sBkMwiwVUfZTLwkBosPiguNl9FZlF_XDYmTe=s130",
-               "minBalance":"1",
-               
-               "tokens":[
-                {
-                  "chainId":"1",
-                  "networkId":"1",
-                  "address":"0x21850dCFe24874382B12d05c5B189F5A2ACF0E5b"
-                }                                          
-               ]
-            }
-         }],
-          [{
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/lady-killaz"
-            }],                        
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/KSYkPhDqUeiNfVEQqtW0bB9rx3PlVAYHUVPHG-tuhdh2AImIf99Prt130VnhVfwgco52lVM2nJOdyXKXWe03ytqWbEj_IHWMa63lZg=s130",
-               "minBalance":"1",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0xE4D0E33021476Ca05aB22C8BF992D3b013752B80"
-                  }
-               ]
-            }
-         }
-         ]        
-      ],
+      [
+         
+      ]
+   ],
    "sections":[
       {
-         "title":"Chat",
+         "title":"General Chat",
          "id":"chat"
       },
       {
-         "title":"About",
-         "id":"about",
+         "title":"VIP Chat",
+         "id":"vipchat",
          "writeStrategies":[
+            [
+               {
+                  "name":"opensea-collection-balance-of",
+                  "acquireURLs":[
+                     {
+                        "title":"Rarible",
+                        "logo":"https://opensea.io/static/images/logos/opensea.svg",
+                        "url":"https://rarible.com/token/0xf8f470728b795e2f365f0c17cc26c42712ce372d:2?tab=owners"
+                     }
+                  ],
+                   "params":{
+               "logo":"https://lh3.googleusercontent.com/IpKgo6o03Yxxm8T-31KFPvbPtY_o8hRRTPVdOQQSytsXMBkWhsab2vK9w0wW5TPnTsXLLm7lY8FzN8f_ELQ8zhs2xcMRyDpwa2GM=s130",
+               "minBalance":"1",
+               "collection":"nft-morning"
+            }
+               }
+            ],
             [
                {
                   "name":"room-owner",
@@ -65,52 +44,20 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
-                     ]
-                  }
                }
-            ]
-         ]
-      },
-      {
-         "title":"Announcement",
-         "id":"announcement",
-         "writeStrategies":[
+            ],
             [
                {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }],
-               [{
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x2075A822f54C568d70204B9cFf02A5bf4C4a707E"
+                        "0xDB23006712D9BA72D35c18a8827b5c0354297f68",
+                        "0xe0af6f8f3090687918212037508ffecbb924377f"
                      ]
                   }
                }
             ]
          ]
-      },
-      {
-         "title":"The Killaz",
-         "id":"embeddedpage",
-         "url":"https://opensea.io/collection/thekillaz",
-         "type":"external_url"
-      },
-      {
-         "title":"The Lady Killaz",
-         "id":"embeddedpage1",
-         "url":"https://opensea.io/collection/lady-killaz/",
-         "type":"external_url"
       }
    ]
 }
