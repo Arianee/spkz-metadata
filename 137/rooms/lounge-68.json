@@ -8,63 +8,33 @@
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/arianee_logo.jpg",
    "strategies":[
       [
-         
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/encryptas-1"
+            }],
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/gX7hudJ2A8bdlCGFhfLNW3Xy3rozLCQgCipuoayNI5lNzFlL5QOJx38ssFkliCvwHB_k6Lra_fKlz82lyQjA0L7CLc1aRobr3eDPwg=s130",
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"1",
+                     "networkId":"1",
+                     "address":"0x6391a41819c699972b75bf61db6b34ef940c96f0"
+                  }
+               ]
+            }
+         }
       ]
    ],
    "sections":[
       {
-         "title":"About",
-         "id":"about",
-         "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"17917"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x20b323e973ED96165113487af9deD3E1E1683a06",
-                        "0xE32e3bf0474DCB96C4A70b492d66Dc7042143449",
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
          "title":"Chat",
-         "id":"chat",
-         "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"17917"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"17917"
-                  }
-               }
-            ]
-         ]
+         "id":"chat"
       },
-      {
+ {
          "title":"Resources",
          "id":"embeddedpage",
          "url":"https://voices.arianee.org/generic",
