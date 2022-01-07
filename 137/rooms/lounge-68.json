@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"L'Oréal @ Arianee",
-   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for the attendees of our Web3 Introduction for L’Oréal.",
+   "description":"Welcome to web3! This is a special lounge exclusively created for the attendees of our Web3 Introduction for L’Oréal.",
    "external_url":"https://spkz.io/app/lounges/68",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/arianee_logo.jpg",
