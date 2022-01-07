@@ -2,32 +2,12 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"L'Oréal @ Arianee",
-   "description":"Welcome to web3! This is a special lounge exclusively created for the attendees of our Web3 Introduction for L’Oréal.",
+   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for the attendees of our Web3 Introduction for L’Oréal.",
    "external_url":"https://spkz.io/app/lounges/68",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/arianee_logo.jpg",
    "strategies":[
-      [
-         {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/encryptas-1"
-            }],
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/gX7hudJ2A8bdlCGFhfLNW3Xy3rozLCQgCipuoayNI5lNzFlL5QOJx38ssFkliCvwHB_k6Lra_fKlz82lyQjA0L7CLc1aRobr3eDPwg=s130",
-               "minBalance":"1",
-               "tokens":[
-                  {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0x6391a41819c699972b75bf61db6b34ef940c96f0"
-                  }
-               ]
-            }
-         }
-      ]
+      [    ]
    ],
    "sections":[
       {
