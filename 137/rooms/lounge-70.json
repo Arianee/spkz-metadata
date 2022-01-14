@@ -10,7 +10,10 @@
       [    ]
    ],
    "sections":[
-
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
  {
          "title":"Resources",
          "id":"embeddedpage",
