@@ -30,7 +30,8 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x918dd8c127d4580D267055af5f214584730a9848"
+                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
+                        "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79"
                      ]
                   }
                }
