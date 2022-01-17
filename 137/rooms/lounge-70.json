@@ -7,7 +7,9 @@
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/arianee_logo.jpg",
    "strategies":[
-      [    ]
+      [
+         
+      ]
    ],
    "sections":[
       {
@@ -21,8 +23,10 @@
                      "chainId":"137",
                      "networkId":"1"
                   }
-               }],
-               [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
@@ -33,28 +37,9 @@
             ]
          ]
       },
-          {
+      {
          "title":"Chat",
-         "id":"generalchat",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }],
-               [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x918dd8c127d4580D267055af5f214584730a9848"
-                     ]
-                  }
-               }
-            ]
-         ]
+         "id":"generalchat"
       },
       {
          "title":"POAP NFT Paris",
