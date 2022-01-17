@@ -1,7 +1,7 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Arianee @ NRF 2022",
+   "name":"NFT Paris 2022",
    "description":"Hello! Welcome to web3. This is a special lounge exclusively created to continue our discussion.",
    "external_url":"https://spkz.io/app/lounges/70",
    "image":"",
@@ -11,8 +11,31 @@
    ],
    "sections":[
       {
+         "title":"Info",
+         "id":"info",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }],
+               [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x918dd8c127d4580D267055af5f214584730a9848"
+                     ]
+                  }
+               }
+            ]
+         ]
+      },
+          {
          "title":"Chat",
-         "id":"chatt"
+         "id":"generalchat"
       },
  {
          "title":"Resources",
