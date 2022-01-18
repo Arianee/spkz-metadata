@@ -10,30 +10,7 @@
     []
   ],
   "sections":[
-    {
-      "title":"Welcome",
-      "id":"welcome",
-      "writeStrategies":[
-        [
-          {
-            "name":"room-owner",
-            "params":{
-              "chainId":"137",
-              "networkId":"1"
-            }
-          }
-        ],
-        [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC"
-                     ]
-                  }
-               }
-            ]
-      ]
-    },
+    { },
     {
       "title":"Chat",
       "id":"chat",
