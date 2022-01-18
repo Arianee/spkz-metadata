@@ -32,7 +32,8 @@
                      "addresses":[
                         "0x68b606a5172A91eC16E97620856Ff732455157bC",
                         "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79",
-                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa"
+                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa",
+                        "0x4894CCEC6a250c0860877BBBA4998EF404Cfdd72"
                      ]
                   }
                }
@@ -44,14 +45,14 @@
          "id":"generalchat"
       },
       {
-         "title":"POAP AMA",
+         "title":"POAP Calendrier de l'avent",
          "id":"poap",
          "readStrategies":[
             [
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"00000"
+                     "eventId":"21535"
                   }
                }
             ]
@@ -61,35 +62,23 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"00000"
+                     "eventId":"21535"
                   }
                }
             ]
          ]
       },
       {
-         "title":"VIP Section",
-         "id":"poap1",
-         "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"00000"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"0000"
-                  }
-               }
-            ]
-         ]
+         "title":"Website",
+         "id":"embeddedpage",
+         "url":"https://thediggers.co/?embed=true",
+         "type":"external_url"
+      },
+      {
+         "title":"Calendar",
+         "id":"calendar",
+         "url":"https://tockify.com/cryptopr/monthly?startms=1638313200000/?embed=true",
+         "type":"external_url"
       }
    ]
 }
