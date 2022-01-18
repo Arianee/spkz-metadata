@@ -69,12 +69,6 @@
          ]
       },
       {
-         "title":"Website",
-         "id":"embeddedpage",
-         "url":"https://thediggers.co/?embed=true",
-         "type":"external_url"
-      },
-      {
          "title":"Calendar",
          "id":"calendar",
          "url":"https://tockify.com/cryptopr/monthly?startms=1638313200000/?embed=true",
