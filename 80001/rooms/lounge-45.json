@@ -10,7 +10,10 @@
     []
   ],
   "sections":[
-    { },
+    { 
+         "title":"Welcome",
+         "id":"welcome"
+      },
     {
       "title":"Chat",
       "id":"chat",
