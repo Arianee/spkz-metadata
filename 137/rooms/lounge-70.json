@@ -90,6 +90,12 @@
                }
             ]
          ]
+      },
+       {
+         "title":"Website",
+         "id":"embeddedpage",
+         "url":"https://www.nftparis.xyz/?embed=true",
+         "type":"external_url"
       }
    ]
 }
