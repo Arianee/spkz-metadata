@@ -1,11 +1,11 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"NFT Paris 2022",
-   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for NFT Paris 2022.",
+   "name":"The Diggers",
+   "description":"SPKZ Lounge for The Diggers Community",
    "external_url":"https://spkz.io/app/lounges/70",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nftparis.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/thediggers.jpg",
    "strategies":[
       [
          
@@ -40,11 +40,11 @@
          ]
       },
       {
-         "title":"CoolKidz",
+         "title":"Chat",
          "id":"generalchat"
       },
       {
-         "title":"POAP NFT Paris",
+         "title":"POAP AMA",
          "id":"poap",
          "readStrategies":[
             [
@@ -75,7 +75,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"00000"
                   }
                }
             ]
@@ -85,7 +85,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"0000"
                   }
                }
             ]
