@@ -5,7 +5,7 @@
    "description":"Hello! Welcome to web3. This is a special lounge exclusively created for the Gucci Vault Demo",
    "external_url":"https://spkz.io/app/lounges/75",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo1.png",
    "strategies":[
       [    ]
    ],
@@ -17,7 +17,7 @@
  {
          "title":"Resources",
          "id":"embeddedpage",
-         "url":"",
+         "url":"https://voices.arianee.org/ressource",
          "type":"external_url"
       }
    ]
