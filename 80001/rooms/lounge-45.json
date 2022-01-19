@@ -53,26 +53,30 @@
                   "params":{
                      "eventId":"23293"
                   }
-               },
-               {
+               }
+             ],
+              [{
                   "name":"poap-holder-of",
                   "params":{
                      "eventId":"23074"
                   }
-               },
-               {
+               }
+             ],
+               [{
                   "name":"poap-holder-of",
                   "params":{
                      "eventId":"23296"
                   }
-               },
-               {
+               }
+             ],
+               [{
                   "name":"poap-holder-of",
                   "params":{
                      "eventId":"23298"
                   }
-               },
-               {
+               }
+             ],
+               [{
                   "name":"poap-holder-of",
                   "params":{
                      "eventId":"23299"
