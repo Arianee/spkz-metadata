@@ -11,7 +11,7 @@
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/kitten_logo.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo.png",
                "symbol":"NFT",
                "name":"Gucci Vault NFT",
                "minBalance":"1",
