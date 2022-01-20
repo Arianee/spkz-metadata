@@ -48,9 +48,12 @@
          "readStrategies":[
             [
                {
-                  "name":"poap-holder-of",
+                  "name":"issuerOf",
                   "params":{
-                     "eventId":"23293"
+                     "addresses":[
+                        "0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
+                        
+                     ]
                   }
                }
             ],
@@ -66,9 +69,12 @@
          "writeStrategies":[
             [
                {
-                  "name":"poap-holder-of",
+                  "name":"issuerOf",
                   "params":{
-                     "eventId":"23293"
+                     "addresses":[
+                        "0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
+                        
+                     ]
                   }
                }
             ],
