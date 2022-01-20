@@ -94,7 +94,7 @@
          "readStrategies":[
             [
                {
-                  "name":"erc-721-balance-of",
+                  "name":"issuerOf",
                   "acquireURLs":[
                      {
                         "title":"OpenSea",
@@ -107,9 +107,9 @@
                      "minBalance":"1",
                      "tokens":[
                         {
-                           "chainId":"137",
+                           "chainId":"77",
                            "networkId":"1",
-                           "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
+                           "address":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
                         }
                      ]
                   }
@@ -119,15 +119,15 @@
          "writeStrategies":[
             [
                {
-                  "name":"erc-721-balance-of",
+                  "name":"issuerOf",
                   "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
                   "params":{
                      "minBalance":"1",
                      "tokens":[
                         {
-                           "chainId":"137",
+                           "chainId":"77",
                            "networkId":"1",
-                           "address":"0xaF63e741713C5e7d9E30349c12b486B989d26fdD"
+                           "address":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
                         }
                      ]
                   }
