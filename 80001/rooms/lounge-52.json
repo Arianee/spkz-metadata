@@ -3,7 +3,7 @@
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
    "name":"Cryptonimals DAO",
    "description":"A place for Cryptonimals DAO members",
-   "external_url":"https://dev.spkz.io/app/lounges/51",
+   "external_url":"https://dev.spkz.io/app/lounges/52",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals_logo.png",
    "strategies":[
