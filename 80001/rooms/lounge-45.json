@@ -8,138 +8,35 @@
    "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
    "strategies":[
       [
-         
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/kitten_logo.png",
+               "symbol":"NFT",
+               "name":"Gucci Vault NFT",
+               "minBalance":"1",
+               "issuer":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8",
+               "tokens":[
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
       ]
    ],
    "sections":[
       {
-         "title":"Welcome",
-         "id":"welcome"
-      },
-      {
-         "title":"Infos",
-         "id":"info",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"issuerOf",
-                  "params":{
-                     "addresses":[
-                        "0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
-                        
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
-         "title":"POAP NFT Paris",
-         "id":"poap",
-         "readStrategies":[
-            [
-               {
-                  "name":"issuerOf",
-                  "params":{
-                     "addresses":[
-                        "0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
-                        
-                     ]
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"23074"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"issuerOf",
-                  "params":{
-                     "addresses":[
-                        "0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
-                        
-                     ]
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"23074"
-                  }
-               }
-            ]
-         ]
-      },
-      {
          "title":"Chat",
-         "id":"chat",
-         "readStrategies":[
-            [
-               {
-                  "name":"issuerOf",
-                  "acquireURLs":[
-                     {
-                        "title":"OpenSea",
-                        "logo":"https://opensea.io/static/images/logos/opensea.svg",
-                        "url":"https://dev.spkz.io/app/lounges/45/embeddedpage"
-                     }
-                  ],
-                  "params":{
-                     "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
-                     "minBalance":"1",
-                     "tokens":[
-                        {
-                           "chainId":"77",
-                           "networkId":"1",
-                           "address":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
-                        }
-                     ]
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"issuerOf",
-                  "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
-                  "params":{
-                     "minBalance":"1",
-                     "tokens":[
-                        {
-                           "chainId":"77",
-                           "networkId":"1",
-                           "address":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8"
-                        }
-                     ]
-                  }
-               }
-            ]
-         ]
+         "id":"chat"
       },
       {
-         "title":"",
+         "title":"Resources",
          "id":"embeddedpage",
-         "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fdev.spkz.io%2Fapp%2Flounges%2F45%2Fchat&paywallConfig=%7B%22locks%22%3A%7B%220xaF63e741713C5e7d9E30349c12b486B989d26fdD%22%3A%7B%22network%22%3A137%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xaF63e741713C5e7d9E30349c12b486B989d26fdD%2Ficon%22%7D",
+         "url":"https://voices.arianee.org/ressource",
          "type":"external_url"
       }
-   ]
+         ]
 }
