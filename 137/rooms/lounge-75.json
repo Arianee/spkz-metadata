@@ -1,8 +1,8 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Gucci Vault @ Arianee",
-   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for the Gucci Vault Demo",
+   "name":"Gucci Vault",
+   "description":"GM! This special lounge is exclusively created for the Gucci Vault Web3 experience",
    "external_url":"https://spkz.io/app/lounges/75",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo1.png",
