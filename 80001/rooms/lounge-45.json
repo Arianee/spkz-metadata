@@ -6,27 +6,7 @@
    "external_url":"https://dev.spkz.io/app/lounges/45/",
    "image":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
    "logo":"https://static-01.daraz.pk/p/12b6b6950f6fd0827c1921f56a26236e.jpg",
-   "strategies":[
-      [
-         {
-            "name":"erc-721-balance-of-issued-by",
-            "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo.png",
-               "symbol":"NFT",
-               "name":"Gucci Vault NFT",
-               "minBalance":"1",
-               "issuer":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8",
-               "tokens":[
-                  {
-                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
-                     "chainId":"99",
-                     "networkId":"1"
-                  }
-               ]
-            }
-         }
-      ]
-   ],
+   "strategies":[],
    "sections":[
       {
          "title":"Chat",
