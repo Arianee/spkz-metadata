@@ -1,0 +1,42 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Scotch & Sodas",
+   "description":"Gm! This special lounge is exclusively created for the Scotch & Sodas Web3 experience.",
+   "external_url":"https://spkz.io/app/lounges/76",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demoscotch.jpg",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demoscotch.jpg",
+               "symbol":"NFT",
+               "name":"Scotch & Sodas",
+               "minBalance":"1",
+               "issuer":"0x928D5899831FF75c8571a9aBb832021B3e6106E8",
+               "tokens":[
+                  {
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
+         "type":"external_url"
+      }
+         ]
+}
