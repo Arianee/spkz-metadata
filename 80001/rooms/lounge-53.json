@@ -1,7 +1,7 @@
 {
    "endpoint":"https://dev.node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://dev.node0-ws.spkz.io",
-   "name":"Cryptonimals DAO",
+   "name":"Room of Stéphane",
    "description":"A place for Cryptonimals DAO members",
    "external_url":"https://dev.spkz.io/app/lounges/52",
    "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/cryptonimals.jpg",
