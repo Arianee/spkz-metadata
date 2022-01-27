@@ -1,8 +1,8 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Scotch & Sodas",
-   "description":"Gm! This special lounge is exclusively created for the Scotch & Sodas Web3 experience.",
+   "name":"Scotch & Soda",
+   "description":"Gm! This special lounge is exclusively created for the Scotch & Soda Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/76",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demoscotch.jpg",
@@ -13,7 +13,7 @@
             "params":{
                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demoscotch.jpg",
                "symbol":"NFT",
-               "name":"Scotch & Sodas",
+               "name":"Scotch & Soda",
                "minBalance":"1",
                "issuer":"0x928D5899831FF75c8571a9aBb832021B3e6106E8",
                "tokens":[
