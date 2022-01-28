@@ -8,7 +8,23 @@
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo1.png",
    "strategies":[
       [
-         
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo1.png",
+               "symbol":"NFT",
+               "name":"Gucci Vault NFT",
+               "minBalance":"1",
+               "issuer":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8",
+               "tokens":[
+                  {
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
       ]
    ],
    "sections":[
