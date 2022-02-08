@@ -1,0 +1,42 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Balenciaga",
+   "description":"Gm! This special lounge is exclusively created for the Balenciaga Web3 experience.",
+   "external_url":"https://spkz.io/app/lounges/78",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo3.png",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo4.png",
+               "symbol":"NFT",
+               "name":"Balenciaga NFT",
+               "minBalance":"1",
+               "issuer":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8",
+               "tokens":[
+                  {
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
+         "type":"external_url"
+      }
+         ]
+}
