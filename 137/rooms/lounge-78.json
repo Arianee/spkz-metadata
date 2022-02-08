@@ -5,7 +5,7 @@
    "description":"Gm! This special lounge is exclusively created for the Balenciaga Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/78",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo3.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo4.png",
    "strategies":[
       [
          {
@@ -15,7 +15,7 @@
                "symbol":"NFT",
                "name":"Balenciaga NFT",
                "minBalance":"1",
-               "issuer":"0x3775ffA8dA771016c6b711C9d15C0495C93FE5b8",
+               "issuer":"0x190D04856C0B32EB8606C37d6C5ab1394b527cE9",
                "tokens":[
                   {
                      "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
