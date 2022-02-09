@@ -18,8 +18,8 @@
                "issuer":"0x6eEE2F6a0b6b49AD5a9B30f274104C34DeDfA6a8",
                "tokens":[
                   {
-                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
-                     "chainId":"77",
+                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
+                     "chainId":"137",
                      "networkId":"1"
                   }
                ]
