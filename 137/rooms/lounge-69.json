@@ -1,0 +1,45 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"DirtyPanties",
+   "description":"Lounge for DirtyPanties community",
+   "external_url":"https://spkz.io/app/lounges/76",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demoscotch.jpg",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/dirtypantiesseason0"
+            }],
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/h82qs9yU39Na0eIlyvEh86Nb67xb8kGKdKObu02WFSS9cyybL3nZuOfFFmYCvbOPHjBLuwF9BKsRV3lkChVLcYsv71Ro-PPhw3fJ270=s130",
+               "minBalance":"1",
+               
+               "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x2eddfb094f9a1acd98f2cd069bd6648a752735e7"
+                }                                          
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
+         "type":"external_url"
+      }
+         ]
+}
