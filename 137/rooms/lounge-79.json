@@ -12,9 +12,9 @@
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo4.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo6.png",
                "symbol":"NFT",
-               "name":"Balenciaga NFT",
+               "name":"Moncler NFT",
                "minBalance":"1",
                "issuer":"0x732c361AE7B0a9955627851b062b3e5D1C88d748",
                "tokens":[
