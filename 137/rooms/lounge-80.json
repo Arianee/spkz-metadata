@@ -1,18 +1,18 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Moncler",
-   "description":"Gm! This special lounge is exclusively created for the Moncler Web3 experience.",
-   "external_url":"https://spkz.io/app/lounges/79",
+   "name":"YSL Beauty",
+   "description":"Gm! This special lounge is exclusively created for the YSL Beauty Web3 experience.",
+   "external_url":"https://spkz.io/app/lounges/80",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo6.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo7.png",
    "strategies":[
       
       [
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo4.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo7.png",
                "symbol":"NFT",
                "name":"Balenciaga NFT",
                "minBalance":"1",
