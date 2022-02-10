@@ -27,27 +27,6 @@
             }
          }
       ],
-      [
-          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/thewynlambo"
-            }],
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/3f9e3XaOMxufUzKhSieQb970yIHnTa7NAqbW373OVM9SXzhMZkGVPYECyMZaq5H2UfPZbOrk888ca8pQP3el0sPqIIL2AKTM_DCt=s130",
-               "minBalance":"1",
-               
-               "tokens":[
-                {
-                  "chainId":"1",
-                  "networkId":"1",
-                  "address":"0x414c5e3716bcec4b2373108b187914215695627a"
-                }                                          
-               ]
-            }
-         }],
           [{
                   "name":"is-exact-address",
                   "params":{
