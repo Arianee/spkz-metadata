@@ -36,9 +36,17 @@
          "id":"chat"
       },
       {
-         "title":"Resources",
+         "title":"About",
+         "id":"about"
+      },
+      {
+         "title":"Announcement",
+         "id":"announcement"
+      },
+       {
+         "title":"DirtyPanties.xyz",
          "id":"embeddedpage",
-         "url":"https://voices.arianee.org/generic",
+         "url":"https://dirtypanties.xyz/",
          "type":"external_url"
       }
          ]
