@@ -14,9 +14,9 @@
             "params":{
                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo7.png",
                "symbol":"NFT",
-               "name":"Balenciaga NFT",
+               "name":"YSL Beauty NFT",
                "minBalance":"1",
-               "issuer":"0x732c361AE7B0a9955627851b062b3e5D1C88d748",
+               "issuer":"0xeC5A47b6c28016d7D451eb5D70ead773F09E92A2",
                "tokens":[
                   {
                      "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
@@ -33,17 +33,17 @@
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/thewynlambo"
+               "url":"https://opensea.io/collection/strawberrywtf"
             }],
             "params":{
-               "logo":"https://lh3.googleusercontent.com/3f9e3XaOMxufUzKhSieQb970yIHnTa7NAqbW373OVM9SXzhMZkGVPYECyMZaq5H2UfPZbOrk888ca8pQP3el0sPqIIL2AKTM_DCt=s130",
+               "logo":"https://lh3.googleusercontent.com/xQwJZ9xn_g55EB1db1oxtmzbbIL4pw70hHgatPFAmxdANqOZ16LDpNSVHMG5nyEvpKHCjOH3ji7mjHzRxd0riwgYaHoqBSB_VXpFaA=s130",
                "minBalance":"1",
                
                "tokens":[
                 {
                   "chainId":"1",
                   "networkId":"1",
-                  "address":"0x414c5e3716bcec4b2373108b187914215695627a"
+                  "address":"0xfc221ad0f3212c2967f7642cc320e67da13a2000"
                 }                                          
                ]
             }
