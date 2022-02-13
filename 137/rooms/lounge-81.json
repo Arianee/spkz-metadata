@@ -1,7 +1,7 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"La Roche Posay",
+   "name":"La Roche-Posay",
    "description":"Gm! This special lounge is exclusively created for La Roche-Posay Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/81",
    "image":"",
