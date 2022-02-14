@@ -31,7 +31,7 @@
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo5.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
                "symbol":"NFT",
                "name":"Attendance NFT",
                "minBalance":"1",
