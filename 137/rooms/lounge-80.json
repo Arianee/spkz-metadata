@@ -28,6 +28,25 @@
          }
       ],
       [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo5.png",
+               "symbol":"NFT",
+               "name":"Attendance NFT",
+               "minBalance":"1",
+               "issuer":"0x6eEE2F6a0b6b49AD5a9B30f274104C34DeDfA6a8",
+               "tokens":[
+                  {
+                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ],
+      [
           {
             "name":"erc-721-balance-of",
             "acquireURLs":[{
@@ -48,6 +67,7 @@
                ]
             }
          }],
+
           [{
                   "name":"is-exact-address",
                   "params":{
