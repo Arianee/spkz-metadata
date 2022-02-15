@@ -1,0 +1,96 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Louis Vuitton",
+   "description":"Gm! This special lounge is exclusively created for Louis Vuitton Web3 experience.",
+   "external_url":"https://spkz.io/app/lounges/82",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
+   "strategies":[
+      
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
+               "symbol":"NFT",
+               "name":"Louis Vuitton NFT",
+               "minBalance":"1",
+               "issuer":"0xeC5A47b6c28016d7D451eb5D70ead773F09E92A2",
+               "tokens":[
+                  {
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ],
+      [
+          {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/zodiacfriends"
+            }],
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/99vaNZiW4xGG6B2Ex6acbAgA67OEEn52JYAWdVD2dBwyfa9nAh8X3rpcnlA_hE89Fb9mugST_-Bvk0g9xP0R6cCqS6eRVIU42iY4DgI=s130",
+               "minBalance":"1",
+               
+               "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0xb6353e6753c857ec4961ac16df4a4094bb923d97"
+                }                                          
+               ]
+            }
+         }],
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
+               "symbol":"NFT",
+               "name":"Attendance NFT",
+               "minBalance":"1",
+               "issuer":"0x6eEE2F6a0b6b49AD5a9B30f274104C34DeDfA6a8",
+               "tokens":[
+                  {
+                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ],
+          [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
+                        "0x03D33D2524e6b0e3160Faaba22d7273163D1b154",
+                        "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
+                        "0x45b20dE79a74383e50f554069D501Cc46c594530",
+                        "0x1AC56F1A0c5E7f066C1dD6AE9893DdC58b703Be3",
+                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                     ]
+                  }
+               }        ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
+         "type":"external_url"
+      }
+         ]
+}
