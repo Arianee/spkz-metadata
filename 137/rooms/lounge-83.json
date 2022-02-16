@@ -1,22 +1,22 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Louis Vuitton",
-   "description":"Gm! This special lounge is exclusively created for Louis Vuitton Web3 experience.",
-   "external_url":"https://spkz.io/app/lounges/82",
+   "name":"Lacoste",
+   "description":"Gm! This special lounge is exclusively created for Lacoste Web3 experience.",
+   "external_url":"https://spkz.io/app/lounges/83",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo10.png",
    "strategies":[
       
       [
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo10.png",
                "symbol":"NFT",
-               "name":"Louis Vuitton NFT",
+               "name":"Lacoste NFT",
                "minBalance":"1",
-               "issuer":"0xf499ec3907209D66aefB04d5C564724a42F39228",
+               "issuer":"0x70b427a1D6C3fFAFe63DD94B248a0B1bE051C833",
                "tokens":[
                   {
                      "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
