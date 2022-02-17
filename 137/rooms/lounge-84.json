@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Breitling",
-   "description":"Gm! This special lounge is exclusively created for Breitling.",
+   "description":"Gm! This special lounge is exclusively created for Breitling web3 experience.",
    "external_url":"https://spkz.io/app/lounges/84",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo11.png",
@@ -43,7 +43,7 @@
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
+         "id":"gchat"
       },
       {
          "title":"Resources",
