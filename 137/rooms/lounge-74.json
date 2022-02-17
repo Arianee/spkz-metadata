@@ -1,0 +1,45 @@
+{
+   "endpoint":"https://node0.spkz.io/spkz/rpc",
+   "notificationEndpoint":"wss://node0-ws.spkz.io",
+   "name":"Ouvre-Boite",
+   "description":"Lounge for Ouvre-Boite members",
+   "external_url":"https://spkz.io/app/lounges/44",
+   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/Unlock.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
+   "strategies":[
+      [
+         {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[
+               {
+                  "title":"Julien",
+                  "url":"https://app.unlock-protocol.com/checkout?redirectUri=https%3A%2F%2Fouvre-boite.com&paywallConfig=%7B%22locks%22%3A%7B%220x18c39c5eD5c28681A1B44e31488a5639439419A1%22%3A%7B%22network%22%3A100%7D%7D%2C%22pessimistic%22%3Atrue%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0x18c39c5eD5c28681A1B44e31488a5639439419A1%2Ficon%22%7D"
+               }
+            ],
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/julien-logo.jpg",
+               "minBalance":"1",
+               "tokens":[
+                  {
+                     "chainId":"100",
+                     "networkId":"1",
+                     "address":"0x19f11E9D43260411b29e538c489426e73e365B4a"
+                  }
+               ]
+            }
+         }
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Chat",
+         "id":"chat"
+      },
+      {
+         "title":"Ouvre-Boite",
+         "id":"embeddedpage",
+         "url":"https://www.ouvre-boite.com/?embed=true",
+         "type":"external_url"
+      }
+   ]
+}
