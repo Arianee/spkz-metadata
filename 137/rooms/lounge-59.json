@@ -6,7 +6,7 @@
    "external_url":"https://spkz.io/app/lounges/59",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
-   "strategies":[],
+   "strategies":[[]],
    "sections":[
       {
          "title":"Chat",
