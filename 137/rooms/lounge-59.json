@@ -1,51 +1,22 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Sriram Krishnan X SPKZ",
-   "description":"Lounge for Sriram Krishnan",
+   "name":"Louis Vuitton",
+   "description":"Gm! This special lounge is exclusively created for Louis Vuitton Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/59",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/sriram_logo.png",
-   "strategies":[
-      [       
-      ]
-   ],
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo9.png",
+   "strategies":[],
    "sections":[
       {
          "title":"Chat",
-         "id":"chat",
-         "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"15895"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"15895"
-                  }
-               }
-            ]
-         ]
-      },
-       {
-         "title":"Lightpaper SPKZ",
-         "id":"embeddedpage",
-         "url":"https://lightpaperspkz.arianee.org/",
-         "type":"external_url"
+         "id":"chat"
       },
       {
-         "title":"Token Access",
-         "id":"welcome",
-         "url":"https://app.poap.xyz/claim-websites/sriramkrishnanxarianee",
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
          "type":"external_url"
       }
-   ]
+         ]
 }
