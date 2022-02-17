@@ -28,26 +28,15 @@
          }
       ],
       [
-          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/zodiacfriends"
-            }],
+         {
+            "name":"opensea-collection-balance-of",
             "params":{
-               "logo":"https://lh3.googleusercontent.com/99vaNZiW4xGG6B2Ex6acbAgA67OEEn52JYAWdVD2dBwyfa9nAh8X3rpcnlA_hE89Fb9mugST_-Bvk0g9xP0R6cCqS6eRVIU42iY4DgI=s130",
+               "logo":"https://lh3.googleusercontent.com/_7SSFM5rNRT5sOZNxb5AC1brmCucvELL7kM4ar4Vnh0ItSHHOH6mJVMZ0WcG5QIn1yneKo3u0UfzZ3PF0yK_9YgIexiPlWdjbdujO-0=s130",
                "minBalance":"1",
-               
-               "tokens":[
-                {
-                  "chainId":"1",
-                  "networkId":"1",
-                  "address":"0xb6353e6753c857ec4961ac16df4a4094bb923d97"
-                }                                          
-               ]
+               "collection":"eye-above-sky"
             }
-         }],
+         }
+      ],
       [
          {
             "name":"erc-721-balance-of-issued-by",
@@ -56,11 +45,11 @@
                "symbol":"NFT",
                "name":"Attendance NFT",
                "minBalance":"1",
-               "issuer":"0x6eEE2F6a0b6b49AD5a9B30f274104C34DeDfA6a8",
+               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
                   {
-                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
-                     "chainId":"137",
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
                      "networkId":"1"
                   }
                ]
