@@ -27,27 +27,7 @@
             }
          }
       ],
-      [
-          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/zodiacfriends"
-            }],
-            "params":{
-               "logo":"https://lh3.googleusercontent.com/99vaNZiW4xGG6B2Ex6acbAgA67OEEn52JYAWdVD2dBwyfa9nAh8X3rpcnlA_hE89Fb9mugST_-Bvk0g9xP0R6cCqS6eRVIU42iY4DgI=s130",
-               "minBalance":"1",
-               
-               "tokens":[
-                {
-                  "chainId":"1",
-                  "networkId":"1",
-                  "address":"0xb6353e6753c857ec4961ac16df4a4094bb923d97"
-                }                                          
-               ]
-            }
-         }],
+      
       [
          {
             "name":"erc-721-balance-of-issued-by",
