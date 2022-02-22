@@ -28,7 +28,16 @@
                ]
             }
          }
-      ]
+      ],
+      [{
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x14210914d6a65fa2c7747579a7aa287b027fd092",
+                        "0xfcfdf5cf7573cb8467a5d371419b024005bc70b2"
+                     ]
+                  }
+               }        ]
    ],
    "sections":[
       {
