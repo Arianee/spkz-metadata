@@ -17,7 +17,7 @@
                "symbol":"NFT",
                "name":"Attendance NFT",
                "minBalance":"1",
-               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
+               "issuer":"0x2583E3E2AB1cA68C076e299F35E5D2f610118901",
                "tokens":[
                   {
                      "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
