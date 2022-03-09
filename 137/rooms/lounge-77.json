@@ -7,46 +7,6 @@
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo12.png",
    "strategies":[
-
-      [
-         {
-            "name":"erc-721-balance-of-issued-by",
-            "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo12.png",
-               "symbol":"NFT",
-               "name":"L'Oréal NFT",
-               "minBalance":"1",
-               "issuer":"0xa705E35Aa74a07CE4E2ead4659C0E817bC7C2b10",
-               "tokens":[
-                  {
-                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
-                     "chainId":"77",
-                     "networkId":"1"
-                  }
-               ]
-            }
-         }
-      ],
-
-      [
-         {
-            "name":"erc-721-balance-of-issued-by",
-            "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
-               "symbol":"NFT",
-               "name":"Attendance NFT",
-               "minBalance":"1",
-               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
-               "tokens":[
-                  {
-                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
-                     "chainId":"77",
-                     "networkId":"1"
-                  }
-               ]
-            }
-         }
-      ],
       [
          {
             "name":"erc-721-balance-of",
@@ -85,7 +45,7 @@
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
+         "id":"chat2"
       },
       {
          "title":"Resources",
