@@ -18,7 +18,7 @@
                "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
                   {
-                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "address":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                      "chainId":"77",
                      "networkId":"1"
                   }
