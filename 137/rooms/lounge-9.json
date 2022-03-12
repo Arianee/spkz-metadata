@@ -7,27 +7,25 @@
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo12.png",
    "strategies":[
-      [
+       [
          {
-            "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/the-generative-electronic-museum-of-metaverse-art"
-            }],
+            "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://lh3.googleusercontent.com/FeqZQ2fAjaNqCrxpz2x9ZlNR9PXAP6Ok-lwnaX6ti-BomzyEKmnslCZorU1-aKWM_zq6Mop7RJHT_YqVEKBXh9PIOEciNlxnQYjl=s130",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo12.png",
+               "symbol":"NFT",
+               "name":" Morning L'Oréal Beauty Tech NFT",
                "minBalance":"1",
-
+               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
                   {
-                     "chainId":"1",
-                     "networkId":"1",
-                     "address":"0xc7d84b7d4a04abcb9ade97b8af212423f51d2aea"
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
                   }
                ]
             }
-         }],
+         }
+      ],
       [{
          "name":"is-exact-address",
          "params":{
