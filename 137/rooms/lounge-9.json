@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Morning Beauty Tech L'Oréal",
-   "description":"Gm! This special lounge is exclusively created for L'Oréal Web3 experience.",
+   "description":"Gm! This special lounge is exclusively created for Morning Beauty Tech L'Oréal Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/9",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo12.png",
