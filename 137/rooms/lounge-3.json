@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"Pomellato",
-   "description":"Gm! This special lounge is exclusively created for Pomello Web3 experience.",
+   "description":"Gm! This special lounge is exclusively created for Pomellato Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/3",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/pomellato-logo.jpg",
@@ -13,7 +13,7 @@
             "params":{
                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
                "symbol":"NFT",
-               "name":"Pomello Attendance Token",
+               "name":"Pomellato Attendance Token",
                "minBalance":"1",
                "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
