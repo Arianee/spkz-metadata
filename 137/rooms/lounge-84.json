@@ -13,8 +13,8 @@
    ],
    "sections":[
       {
-         "title":"Infos",
-         "id":"info",
+         "title":"Announcement",
+         "id":"announcement",
          "writeStrategies":[
             [
                {
@@ -30,9 +30,7 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
-                        "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79",
-                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa"
+                        "0x68b606a5172A91eC16E97620856Ff732455157bC"
                      ]
                   }
                }
@@ -40,18 +38,18 @@
          ]
       },
       {
-         "title":"CoolKidz",
-         "id":"generalchat"
+         "title":"Public Chat",
+         "id":"pchat"
       },
       {
-         "title":"POAP NFT Paris",
-         "id":"poap",
+         "title":"Private Chat",
+         "id":"pchat",
          "readStrategies":[
             [
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23293"
+                     "eventId":"2329300"
                   }
                }
             ],
@@ -59,7 +57,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"2307400"
                   }
                }
             ]
@@ -69,7 +67,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23293"
+                     "eventId":"2329300"
                   }
                }
             ],
@@ -77,21 +75,21 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"2307400"
                   }
                }
             ]
          ]
       },
       {
-         "title":"VIP Section",
-         "id":"poap1",
+         "title":"Party",
+         "id":"party",
          "readStrategies":[
             [
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"2307400"
                   }
                }
             ]
@@ -101,7 +99,7 @@
                {
                   "name":"poap-holder-of",
                   "params":{
-                     "eventId":"23074"
+                     "eventId":"2307400"
                   }
                }
             ]
@@ -110,7 +108,7 @@
        {
          "title":"Website",
          "id":"embeddedpage",
-         "url":"https://www.nftparis.xyz/?embed=true",
+         "url":"https://www.nonfungibleconference.com/?embed=true",
          "type":"external_url"
       }
    ]
