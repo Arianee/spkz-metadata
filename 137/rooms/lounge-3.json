@@ -1,7 +1,7 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Pomello",
+   "name":"Pomellato",
    "description":"Gm! This special lounge is exclusively created for Pomello Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/3",
    "image":"",
