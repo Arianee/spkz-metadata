@@ -13,7 +13,7 @@
             "params":{
                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
                "symbol":"NFT",
-               "name":"Pomellato Attendance Token",
+               "name":"Pomellato NFT",
                "minBalance":"1",
                "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[

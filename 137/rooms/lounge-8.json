@@ -5,7 +5,7 @@
    "description":"Gm! This special lounge is exclusively created for Stade Toulousain Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/8",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stadetoulousain.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/stadetoulousain-logo.jpg",
    "strategies":[
        [
          {
@@ -13,7 +13,7 @@
             "params":{
                "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
                "symbol":"NFT",
-               "name":" Stade Toulousain Attendance Token",
+               "name":" Stade Toulousain NFT",
                "minBalance":"1",
                "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
