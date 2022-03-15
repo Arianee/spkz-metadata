@@ -40,47 +40,33 @@
       },
       {
          "title":"Public Chat",
-         "id":"pchat"
+         "id":"publicchat"
       },
       {
          "title":"Private Chat",
-         "id":"pchat",
-         "readStrategies":[
+         "id":"privatechat",
+         "strategies":
             [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2329300"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2329300"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ]
+          {
+            "name":"erc-721-balance-of",
+            "acquireURLs":[{
+               "title":"OpenSea",
+               "logo":"https://opensea.io/static/images/logos/opensea.svg",
+               "url":"https://opensea.io/collection/partydegenerates"
+            }],
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
+               "minBalance":"1",
+               
+               "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x4be3223f8708ca6b30d1e8b8926cf281ec83e770"
+                }                                          
+               ]
+            }
+         }]
       },
       {
          "title":"Party",
@@ -105,12 +91,6 @@
                }
             ]
          ]
-      },
-       {
-         "title":"Website",
-         "id":"embeddedpage",
-         "url":"https://www.nonfungibleconference.com/?embed=true",
-         "type":"external_url"
       }
    ]
 }
