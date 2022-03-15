@@ -1,55 +1,117 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Breitling",
-   "description":"Gm! This special lounge is exclusively created for Breitling web3 experience.",
+   "name":"NFC Lisbon 2022",
+   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for NFC Lisbon 2022.",
    "external_url":"https://spkz.io/app/lounges/84",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/demo11.png",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nfc_logo.jpg",
    "strategies":[
-      
       [
-         {
-            "name":"erc-721-balance-of-issued-by",
-            "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
-               "symbol":"NFT",
-               "name":"Attendance NFT",
-               "minBalance":"1",
-               "issuer":"0x6eEE2F6a0b6b49AD5a9B30f274104C34DeDfA6a8",
-               "tokens":[
-                  {
-                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
+         
+      ]
+   ],
+   "sections":[
+      {
+         "title":"Infos",
+         "id":"info",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
                      "chainId":"137",
                      "networkId":"1"
                   }
-               ]
-            }
-         }
-      ],
-          [{
+               }
+            ],
+            [
+               {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
                         "0x68b606a5172A91eC16E97620856Ff732455157bC",
-                        "0x03D33D2524e6b0e3160Faaba22d7273163D1b154",
-                        "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
-                        "0x45b20dE79a74383e50f554069D501Cc46c594530",
-                        "0x20b323e973ed96165113487af9ded3e1e1683a06"
+                        "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79",
+                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa"
                      ]
                   }
-               }        ]
-   ],
-   "sections":[
-      {
-         "title":"Chat",
-         "id":"gchat"
+               }
+            ]
+         ]
       },
       {
-         "title":"Resources",
+         "title":"CoolKidz",
+         "id":"generalchat"
+      },
+      {
+         "title":"POAP NFT Paris",
+         "id":"poap",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23293"
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23074"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23293"
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23074"
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"VIP Section",
+         "id":"poap1",
+         "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23074"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"23074"
+                  }
+               }
+            ]
+         ]
+      },
+       {
+         "title":"Website",
          "id":"embeddedpage",
-         "url":"https://voices.arianee.org/generic",
+         "url":"https://www.nftparis.xyz/?embed=true",
          "type":"external_url"
       }
-         ]
+   ]
 }
