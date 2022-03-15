@@ -45,8 +45,7 @@
       {
          "title":"Private Chat",
          "id":"privatechat",
-         "writeStrategies":
-            [
+         "writeStrategies":[
           {
             "name":"erc-721-balance-of",
             "acquireURLs":[{
