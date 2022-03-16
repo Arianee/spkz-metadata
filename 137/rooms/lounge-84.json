@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"NFC Lisbon 2022",
-   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for NFC Lisbon 2022.",
+   "description":"Gm! This is a special lounge exclusively created for NFC Lisbon 2022.",
    "external_url":"https://spkz.io/app/lounges/84",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nfc_logo.jpg",
