@@ -54,7 +54,7 @@
             "logo":"https://opensea.io/static/images/logos/opensea.svg",
             "url":"https://opensea.io/collection/partydegenerates",          
             "params":{
-      "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
+               "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
               "minBalance":"1",
               "tokens":[
                 {
@@ -71,7 +71,8 @@
         [
           {
             "name":"erc-721-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "logo":"https://opensea.io/static/images/logos/opensea.svg",
+            "url":"https://opensea.io/collection/partydegenerates",             
             "params":{
       "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
               "minBalance":"1",
