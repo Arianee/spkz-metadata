@@ -43,31 +43,48 @@
          "id":"publicchat"
       },
       {
-         "title":"Private Chat",
-         "id":"privatechat",
-         "strategies":
-            [
+      "title":"Private Chat",
+      "id":"privatechat",
+      "readStrategies":[
+        [
           {
             "name":"erc-721-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/partydegenerates"
-            }],
+            "logo":"https://opensea.io/static/images/logos/opensea.svg",
+            "url":"https://opensea.io/collection/partydegenerates",          
             "params":{
-               "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
-               "minBalance":"1",
-               
-               "tokens":[
+      "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
+              "minBalance":"1",
+              "tokens":[
                 {
                   "chainId":"1",
                   "networkId":"1",
                   "address":"0x4be3223f8708ca6b30d1e8b8926cf281ec83e770"
-                }                                          
-               ]
+                }
+              ]
             }
-         }]
-      },
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "params":{
+      "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x4be3223f8708ca6b30d1e8b8926cf281ec83e770"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+    },
       {
          "title":"Party",
          "id":"party",
