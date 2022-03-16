@@ -46,7 +46,31 @@
       {
       "title":"Private Chat",
       "id":"privatechat",
-      "readStrategies":[
+       "readStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"2307400"
+                  }
+               }
+            ]
+         ],
+         "writeStrategies":[
+            [
+               {
+                  "name":"poap-holder-of",
+                  "params":{
+                     "eventId":"2307400"
+                  }
+               }
+            ]
+         ]
+    },
+      {
+         "title":"Party",
+         "id":"party",
+         "readStrategies":[
         [
           {
             "name":"erc-721-balance-of",
@@ -86,30 +110,6 @@
           }
         ]
       ]
-    },
-      {
-         "title":"Party",
-         "id":"party",
-         "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ]
       }
    ]
 }
