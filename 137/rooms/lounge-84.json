@@ -2,7 +2,7 @@
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
    "name":"NFC Lisbon 2022",
-   "description":"Hello! Welcome to web3. This is a special lounge exclusively created for NFC Lisbon 2022.",
+   "description":"Gm! This is a special lounge exclusively created for NFC Lisbon 2022.",
    "external_url":"https://spkz.io/app/lounges/84",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/nfc_logo.jpg",
@@ -30,7 +30,6 @@
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
                         "0x3b9b12234c6a295f72069275007b8420976d6b6a",
                         "0x38F1DfdcaF2F0d70c29D4AF6a4AA9E920efe8B18",
                         "0xa0b5bca3Ecc45AD165cF7F9Df6405053BD1fAB24"
@@ -54,7 +53,7 @@
             "logo":"https://opensea.io/static/images/logos/opensea.svg",
             "url":"https://opensea.io/collection/partydegenerates",          
             "params":{
-      "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
+               "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
               "minBalance":"1",
               "tokens":[
                 {
@@ -71,7 +70,8 @@
         [
           {
             "name":"erc-721-balance-of",
-            "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/SPKZ_Lounge_NFT.png",            
+            "logo":"https://opensea.io/static/images/logos/opensea.svg",
+            "url":"https://opensea.io/collection/partydegenerates",             
             "params":{
       "logo":"https://lh3.googleusercontent.com/so2WQ5_GY72dOEffETYPsjc5Z1gv35qHITyikSRdqhtxYWaXqH4mRuBmxz1m0fFe-qGCPoCLZrND3zlpTi2OWWJipln9P66vVIGr=s130",
               "minBalance":"1",
