@@ -10,8 +10,8 @@
        [
          {
             "name":"erc-721-balance-of-issued-by",
-            "params":{ken.
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/iwc-logo.jpg",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.jpg",
                "symbol":"NFT",
                "name":"IWC NFT",
                "minBalance":"1",
@@ -32,7 +32,10 @@
             "addresses":[
                "0x68b606a5172A91eC16E97620856Ff732455157bC",
                "0x03D33D2524e6b0e3160Faaba22d7273163D1b154",
-               "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3"
+               "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
+               "0x45b20dE79a74383e50f554069D501Cc46c594530",
+               "0x1AC56F1A0c5E7f066C1dD6AE9893DdC58b703Be3",
+               "0x20b323e973ed96165113487af9ded3e1e1683a06"
             ]
          }
       }        ]
