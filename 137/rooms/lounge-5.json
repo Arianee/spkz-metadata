@@ -5,13 +5,13 @@
    "description":"Gm! This special lounge is exclusively created for IWC.",
    "external_url":"https://spkz.io/app/lounges/5",
    "image":"",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.jpg",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
    "strategies":[
        [
          {
             "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.jpg",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
                "symbol":"NFT",
                "name":"IWC NFT",
                "minBalance":"1",
