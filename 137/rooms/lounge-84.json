@@ -32,7 +32,8 @@
                      "addresses":[
                         "0x3b9b12234c6a295f72069275007b8420976d6b6a",
                         "0x38F1DfdcaF2F0d70c29D4AF6a4AA9E920efe8B18",
-                        "0xa0b5bca3Ecc45AD165cF7F9Df6405053BD1fAB24"
+                        "0xa0b5bca3Ecc45AD165cF7F9Df6405053BD1fAB24",
+                        "0xce7e15acf3da916a4df4842c3350248ad74ffc79"
                      ]
                   }
                }
@@ -44,29 +45,49 @@
          "id":"publicchat"
       },
       {
-      "title":"Private Chat",
-      "id":"privatechat",
-       "readStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ],
-         "writeStrategies":[
-            [
-               {
-                  "name":"poap-holder-of",
-                  "params":{
-                     "eventId":"2307400"
-                  }
-               }
-            ]
-         ]
-    },
+         "title":"Private Chat",
+         "id":"privatechat",
+         "readStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://opensea.io/static/images/logos/opensea.svg",
+            "url":"https://opensea.io/collection/non-fungible-conference-genesis-ticket",          
+            "params":{
+               "logo":"https://lh3.googleusercontent.com/VEtSByi4KVPWWCYuzj859hUWPsgtdtim41ZS5QRKwuGgNXvvM0WHAVjs4WMCjOL3hx1cS8WRCSsvmG_2mSUpdCeGMFysO4Ve-h04vg=s130",
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x7A56a078da312bbfB5916CE118786f39cf6DF74f"
+                }
+              ]
+            }
+          }
+        ]
+      ],
+      "writeStrategies":[
+        [
+          {
+            "name":"erc-721-balance-of",
+            "logo":"https://opensea.io/static/images/logos/opensea.svg",
+            "url":"https://opensea.io/collection/non-fungible-conference-genesis-ticket",             
+            "params":{
+      "logo":"https://lh3.googleusercontent.com/VEtSByi4KVPWWCYuzj859hUWPsgtdtim41ZS5QRKwuGgNXvvM0WHAVjs4WMCjOL3hx1cS8WRCSsvmG_2mSUpdCeGMFysO4Ve-h04vg=s130",
+              "minBalance":"1",
+              "tokens":[
+                {
+                  "chainId":"1",
+                  "networkId":"1",
+                  "address":"0x7A56a078da312bbfB5916CE118786f39cf6DF74f"
+                }
+              ]
+            }
+          }
+        ]
+      ]
+      },
       {
          "title":"Party",
          "id":"party",
