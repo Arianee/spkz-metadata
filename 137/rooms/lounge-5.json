@@ -26,6 +26,25 @@
             }
          }
       ],
+          [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
+               "symbol":"NFT",
+               "name":"IWC NFT (test)",
+               "minBalance":"1",
+               "issuer":"0x3B74d1B9640923C0607d12A337fBe49EdCFf9C06",
+               "tokens":[
+                  {
+                     "address":"0x512C1FCF401133680f373a386F3f752b98070BC5",
+                     "chainId":"77",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
+      ],
       [{
          "name":"is-exact-address",
          "params":{
@@ -44,11 +63,11 @@
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
-      },
-       {
-         "title":"Chat-dev-to-delete",
          "id":"chat-dev"
+      },
+          {
+         "title":"Hans Zimmer Concert",
+         "id":"experiences-dev"
       },
       {
          "title":"Resources",
