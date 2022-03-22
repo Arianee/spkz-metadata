@@ -129,6 +129,16 @@
                      ]
                   }
                }
+            ],
+             [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x68b606a5172A91eC16E97620856Ff732455157bC"
+                     ]
+                  }
+               }
             ]
          ],
          "writeStrategies":[
