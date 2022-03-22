@@ -35,7 +35,8 @@
                "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
                "0x45b20dE79a74383e50f554069D501Cc46c594530",
                "0x1AC56F1A0c5E7f066C1dD6AE9893DdC58b703Be3",
-               "0x20b323e973ed96165113487af9ded3e1e1683a06"
+               "0x20b323e973ed96165113487af9ded3e1e1683a06",
+               "0x95A31e1d0145295315cb3db55a7367954102F3d0"
             ]
          }
       }        ]
@@ -44,6 +45,10 @@
       {
          "title":"Chat",
          "id":"chat"
+      },
+       {
+         "title":"Chat-dev-to-delete",
+         "id":"chat-dev"
       },
       {
          "title":"Resources",
