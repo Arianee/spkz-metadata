@@ -1,8 +1,8 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"IWC",
-   "description":"Gm! This special lounge is exclusively created for IWC.",
+   "name":"IWC Diamond Hand Club",
+   "description":"Be the first to learn about exclusive insights and unique experiences.",
    "external_url":"https://spkz.io/app/lounges/5",
    "image":"",
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
@@ -65,15 +65,22 @@
          "title":"Chat",
          "id":"chat-dev"
       },
+      {
+         "title":"About",
+         "id":"about"
+      },
+      {
+         "title":"Announcement",
+         "id":"about"
+      },
+         
           {
          "title":"Hans Zimmer Concert",
          "id":"experiences-dev"
       },
       {
-         "title":"Resources",
-         "id":"embeddedpage",
-         "url":"https://voices.arianee.org/generic",
-         "type":"external_url"
+         "title":"IWC <> Metaverse",
+         "id":"iwcmeta",
       }
    ]
 }
