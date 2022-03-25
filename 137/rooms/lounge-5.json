@@ -8,7 +8,32 @@
    "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
    "strategies":[
       [
-         
+         {
+            "name":"room-owner",
+            "params":{
+               "chainId":"137",
+               "networkId":"1"
+            }
+         }
+      ],
+      [
+         {
+            "name":"erc-721-balance-of-issued-by",
+            "params":{
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
+               "symbol":"NFT",
+               "name":"IWC NFT",
+               "minBalance":"1",
+               "issuer":"0x047A81aFB05D9B1f8844bf60fcA05DCCFbC584B9",
+               "tokens":[
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               ]
+            }
+         }
       ]
    ],
    "sections":[
