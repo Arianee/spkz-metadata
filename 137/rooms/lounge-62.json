@@ -1,105 +1,55 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"Polycat Finance",
-   "description":"Polycat DAO Lounge for holders of FISH",
+   "name":"Hugo Boss",
+   "description":"Gm! This special lounge is exclusively created for Hugo Boss Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/62",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/polycat.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/polycat_logo.jpg",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/boss-logo.png",
    "strategies":[
-      [   
+       [
          {
-            "name":"erc-20-balance-of",
-            "acquireURLs":[{
-               "title":"OpenSea",
-               "logo":"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/n2nu0mqwe23v2gfxwpoo",
-               "url":"https://paraswap.io/#/?network=polygon"
-            }],
+            "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://assets.coingecko.com/coins/images/15226/small/smallLogo.png?1620269393",
-               "minBalance":"1000000000000000000",
-               
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
+               "symbol":"NFT",
+               "name":"Hugo Boss NFT",
+               "minBalance":"1",
+               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
                "tokens":[
-                {
-                  "chainId":"137",
-                  "networkId":"1",
-                  "address":"0x3a3Df212b7AA91Aa0402B9035b098891d276572B"
-                }                                          
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
                ]
             }
-         }]   
+         }
       ],
+      [{
+         "name":"is-exact-address",
+         "params":{
+            "addresses":[
+               "0x68b606a5172A91eC16E97620856Ff732455157bC",
+               "0x03D33D2524e6b0e3160Faaba22d7273163D1b154",
+               "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
+               "0x45b20dE79a74383e50f554069D501Cc46c594530",
+               "0x1AC56F1A0c5E7f066C1dD6AE9893DdC58b703Be3",
+               "0x20b323e973ed96165113487af9ded3e1e1683a06"
+            ]
+         }
+      }        ]
+   ],
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
+         "id":"gchat"
       },
       {
-         "title":"About",
-         "id":"about",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }],
-               [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x918dd8c127d4580D267055af5f214584730a9848"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
-         "title":"Announcement",
-         "id":"announcement",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }],
-               [{
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x918dd8c127d4580D267055af5f214584730a9848"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
-         "title":"DAO Chat",
-         "id":"daochat",
-         "readStrategies":[
-            [
-               {
-                  "name":"erc-20-balance-of",
-                  "params":{
-                     "minBalance":"10000000000000000000000",
-                     "tokens":[
-                        {
-                           "chainId":"137",
-                           "networkId":"1",
-                           "address":"0x3a3Df212b7AA91Aa0402B9035b098891d276572B"
-                        }
-                     ]
-                  }
-               }
-            ]
-         ]
+         "title":"Resources",
+         "id":"embeddedpage",
+         "url":"https://voices.arianee.org/generic",
+         "type":"external_url"
       }
    ]
 }
