@@ -34,6 +34,20 @@
                ]
             }
          }
+      ],
+      [
+         {
+            "name":"is-exact-address",
+            "addresses":[
+               "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+            ],
+            "params":{
+               "addresses":[
+                  "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                  "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+               ]
+            }
+         }
       ]
    ],
    "sections":[
@@ -41,6 +55,20 @@
          "title":"Chat",
          "id":"chat",
          "writeStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
             [
                {
                   "name":"room-owner",
@@ -71,6 +99,20 @@
             ]
          ],
          "readStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
             [
                {
                   "name":"room-owner",
@@ -107,6 +149,20 @@
          "writeStrategies":[
             [
                {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
+            [
+               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -128,6 +184,20 @@
             ]
          ],
          "readStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
             [
                {
                   "name":"room-owner",
@@ -164,6 +234,20 @@
          "writeStrategies":[
             [
                {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
+            [
+               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -185,6 +269,20 @@
             ]
          ],
          "readStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
             [
                {
                   "name":"room-owner",
@@ -221,6 +319,20 @@
          "writeStrategies":[
             [
                {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
+            [
+               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -249,6 +361,20 @@
             ]
          ],
          "readStrategies":[
+            [
+               {
+                  "name":"is-exact-address",
+                  "addresses":[
+                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
+                  ],
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ],
             [
                {
                   "name":"room-owner",
