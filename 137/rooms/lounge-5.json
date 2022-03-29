@@ -38,9 +38,6 @@
       [
          {
             "name":"is-exact-address",
-            "addresses":[
-               "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-            ],
             "params":{
                "addresses":[
                   "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
@@ -52,47 +49,17 @@
    ],
    "sections":[
       {
-         "title":"Chat",
-         "id":"chat",
+         "title":"Start here",
+         "id":"start-here",
+         "type":"welcome",
          "writeStrategies":[
             [
                {
                   "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
                         "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"erc-721-balance-of-issued-by",
-                  "params":{
-                     "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
-                     "symbol":"NFT",
-                     "name":"IWC NFT",
-                     "minBalance":"1",
-                     "issuer":"0x047A81aFB05D9B1f8844bf60fcA05DCCFbC584B9",
-                     "tokens":[
-                        {
-                           "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
-                           "chainId":"99",
-                           "networkId":"1"
-                        }
                      ]
                   }
                }
@@ -101,20 +68,6 @@
          "readStrategies":[
             [
                {
-                  "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
-                  "params":{
-                     "addresses":[
-                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -140,19 +93,10 @@
                      ]
                   }
                }
-            ]
-         ]
-      },
-      {
-         "title":"About",
-         "id":"about",
-         "writeStrategies":[
+            ],
             [
                {
                   "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
@@ -160,24 +104,21 @@
                      ]
                   }
                }
-            ],
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
+            ]
+         ]
+      },
+      {
+         "title":"Frequently Asked Question",
+         "id":"faq",
+         "type":"welcome",
+         "writeStrategies":[
             [
                {
                   "name":"is-exact-address",
                   "params":{
                      "addresses":[
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
-                        "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79",
-                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa"
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
                      ]
                   }
                }
@@ -186,20 +127,6 @@
          "readStrategies":[
             [
                {
-                  "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
-                  "params":{
-                     "addresses":[
-                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -225,64 +152,37 @@
                      ]
                   }
                }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
             ]
          ]
       },
       {
-         "title":"Announcement",
+         "title":"Announcements",
          "id":"announcement",
          "writeStrategies":[
             [
                {
                   "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
                         "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x68b606a5172A91eC16E97620856Ff732455157bC",
-                        "0xce7E15Acf3DA916a4DF4842C3350248aD74FfC79",
-                        "0xB345d47A21B3Cf7E42C6ccd7FC659eE533261ECa"
                      ]
                   }
                }
             ]
          ],
          "readStrategies":[
-            [
-               {
-                  "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
-                  "params":{
-                     "addresses":[
-                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
             [
                {
                   "name":"room-owner",
@@ -310,29 +210,112 @@
                      ]
                   }
                }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
             ]
          ]
       },
       {
-         "title":"Hans Zimmer Concert",
+         "title":"General Chat",
+         "id":"chat",
+         "writeStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"erc-721-balance-of-issued-by",
+                  "params":{
+                     "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
+                     "symbol":"NFT",
+                     "name":"IWC NFT",
+                     "minBalance":"1",
+                     "issuer":"0x047A81aFB05D9B1f8844bf60fcA05DCCFbC584B9",
+                     "tokens":[
+                        {
+                           "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                           "chainId":"99",
+                           "networkId":"1"
+                        }
+                     ]
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ]
+         ],
+         "readStrategies":[
+            [
+               {
+                  "name":"room-owner",
+                  "params":{
+                     "chainId":"137",
+                     "networkId":"1"
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"erc-721-balance-of-issued-by",
+                  "params":{
+                     "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/iwc-logo.png",
+                     "symbol":"NFT",
+                     "name":"IWC NFT",
+                     "minBalance":"1",
+                     "issuer":"0x047A81aFB05D9B1f8844bf60fcA05DCCFbC584B9",
+                     "tokens":[
+                        {
+                           "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                           "chainId":"99",
+                           "networkId":"1"
+                        }
+                     ]
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
+            ]
+         ]
+      },
+      {
+         "title":"Concert",
          "id":"experiences",
          "writeStrategies":[
             [
                {
-                  "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
-                  "params":{
-                     "addresses":[
-                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -355,6 +338,17 @@
                            "chainId":"99",
                            "networkId":"1"
                         }
+                     ]
+                  }
+               }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
                      ]
                   }
                }
@@ -363,20 +357,6 @@
          "readStrategies":[
             [
                {
-                  "name":"is-exact-address",
-                  "addresses":[
-                     "0xF0245F6251Bef9447A08766b9DA2B07b28aD80B0"
-                  ],
-                  "params":{
-                     "addresses":[
-                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
-                     ]
-                  }
-               }
-            ],
-            [
-               {
                   "name":"room-owner",
                   "params":{
                      "chainId":"137",
@@ -402,12 +382,19 @@
                      ]
                   }
                }
+            ],
+            [
+               {
+                  "name":"is-exact-address",
+                  "params":{
+                     "addresses":[
+                        "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                     ]
+                  }
+               }
             ]
          ]
-      },
-      {
-         "title":"IWC <> Metaverse",
-         "id":"iwcmeta"
       }
    ]
 }
