@@ -15,11 +15,11 @@
                "symbol":"NFT",
                "name":"Agora NFT",
                "minBalance":"1",
-               "issuer":"0xf0F676f233cB8033CEDC614A99917aE3c7F09daa",
+               "issuer":"0x96C34B32fd49396FeCa62Ad2de241d5e81842BCd",
                "tokens":[
                   {
-                     "address":"0xc14Cc4d89116ec88Ebb63FDf497AaCE6Ff3745dA",
-                     "chainId":"137",
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
                      "networkId":"1"
                   }
                ]
