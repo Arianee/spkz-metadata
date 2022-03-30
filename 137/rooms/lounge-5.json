@@ -41,7 +41,11 @@
             "params":{
                "addresses":[
                   "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                  "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                  "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                  "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                  "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                  "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                  "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                ]
             }
          }
@@ -59,7 +63,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -100,7 +108,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -118,7 +130,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -159,7 +175,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -176,7 +196,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -217,7 +241,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -226,7 +254,7 @@
       },
       {
          "title":"General Chat",
-         "id":"chat",
+         "id":"general",
          "writeStrategies":[
             [
                {
@@ -262,7 +290,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
@@ -303,7 +335,11 @@
                   "params":{
                      "addresses":[
                         "0x30F84767630099cCDd5C1B39B74Aacbf1fE0588C",
-                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5"
+                        "0xBF5707EF1E6E32403D3e71b2C019611666c67ca5",
+                        "0xa1bDEa71b1E391B6742CFb1df63e9F41A4759197",
+                        "0x1637fEDa8Df1ca7d9844822466F351A1cacfFf61",
+                        "0x6eB6f27f3dA2b6CB213e197F08DA0976c49ADB5D",
+                        "0xaf2d20c51892Cf5e8374933bE6C3cb370B8d5E22"
                      ]
                   }
                }
