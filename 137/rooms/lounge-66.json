@@ -1,86 +1,54 @@
 {
    "endpoint":"https://node0.spkz.io/spkz/rpc",
    "notificationEndpoint":"wss://node0-ws.spkz.io",
-   "name":"WorldNamesNFT",
-   "description":"Lounge for owners of WorldNamesNFT in order to push the limits of this project",
+   "name":"Boticario",
+   "description":"Gm! This special lounge is exclusively created for Boticario Web3 experience.",
    "external_url":"https://spkz.io/app/lounges/66",
-   "image":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname.jpg",
-   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/worldname_logo.jpg",
+   "image":"",
+   "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/boticario_logo_square.png",
    "strategies":[
-      [
+       [
          {
-            "name":"opensea-collection-balance-of",
+            "name":"erc-721-balance-of-issued-by",
             "params":{
-               "logo":"https://lh3.googleusercontent.com/zDmLxeONskvro2pcBzxU5nsG7o_jM03DQ5Rd0PFF6I5vmyT3LkfK9Y_xEkUd6oJF15buY6cgW28hPBWVrPloWNGzw1UWPRSmdwEBFQ=s130",
+               "logo":"https://raw.githubusercontent.com/Arianee/spkz-metadata/main/assets/attendancetoken.png",
+               "symbol":"NFT",
+               "name":"Boticario NFT",
                "minBalance":"1",
-               "collection":"worldnamesnft"
+               "issuer":"0xb908B66915ecD1ec31e669adc9C71BDcE44EC601",
+               "tokens":[
+                  {
+                     "address":"0x363574E6C5C71c343d7348093D84320c76d5Dd29",
+                     "chainId":"99",
+                     "networkId":"1"
+                  }
+               ]
             }
          }
-      ]
+      ],
+      [{
+         "name":"is-exact-address",
+         "params":{
+            "addresses":[
+               "0x68b606a5172A91eC16E97620856Ff732455157bC",
+               "0x03D33D2524e6b0e3160Faaba22d7273163D1b154",
+               "0x85f9C5F28651a3c9328242B5A804732Eaa1Eb9A3",
+               "0x45b20dE79a74383e50f554069D501Cc46c594530",
+               "0x1AC56F1A0c5E7f066C1dD6AE9893DdC58b703Be3",
+               "0x20b323e973ed96165113487af9ded3e1e1683a06"
+            ]
+         }
+      }        ]
    ],
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
+         "id":"gchat"
       },
       {
-         "title":"Project",
-         "id":"project"
-      },
-      {
-         "title":"About",
-         "id":"about",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x9bee12AE73aD4d1DeBd5545D73653cd2ED118D5d"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
-         "title":"Announcement",
-         "id":"announcement",
-         "writeStrategies":[
-            [
-               {
-                  "name":"room-owner",
-                  "params":{
-                     "chainId":"137",
-                     "networkId":"1"
-                  }
-               }
-            ],
-            [
-               {
-                  "name":"is-exact-address",
-                  "params":{
-                     "addresses":[
-                        "0x9bee12AE73aD4d1DeBd5545D73653cd2ED118D5d"
-                     ]
-                  }
-               }
-            ]
-         ]
-      },
-      {
-         "title":"WorldNamesNFT",
+         "title":"Resources",
          "id":"embeddedpage",
-         "url":"https://opensea.io/WorldNamesNFT?embed=true",
+         "url":"https://voices.arianee.org/generic",
          "type":"external_url"
       }
    ]
