@@ -51,17 +51,17 @@
             "acquireURLs":[{
                "title":"OpenSea",
                "logo":"https://opensea.io/static/images/logos/opensea.svg",
-               "url":"https://opensea.io/collection/thewynlambo"
+               "url":"https://opensea.io/collection/encryptas-1"
             }],
             "params":{
-               "logo":"https://lh3.googleusercontent.com/3f9e3XaOMxufUzKhSieQb970yIHnTa7NAqbW373OVM9SXzhMZkGVPYECyMZaq5H2UfPZbOrk888ca8pQP3el0sPqIIL2AKTM_DCt=s130",
+               "logo":"https://lh3.googleusercontent.com/gX7hudJ2A8bdlCGFhfLNW3Xy3rozLCQgCipuoayNI5lNzFlL5QOJx38ssFkliCvwHB_k6Lra_fKlz82lyQjA0L7CLc1aRobr3eDPwg=s130",
                "minBalance":"1",
                
                "tokens":[
                 {
                   "chainId":"1",
                   "networkId":"1",
-                  "address":"0x414c5e3716bcec4b2373108b187914215695627a"
+                  "address":"0x6391a41819c699972b75bf61db6b34ef940c96f0"
                 }                                          
                ]
             }
@@ -81,7 +81,7 @@
    "sections":[
       {
          "title":"Chat",
-         "id":"chat"
+         "id":"gchat"
       },
       {
          "title":"Resources",
